@@ -145,6 +145,14 @@ LANG_LIST_RE = re.compile(
     r'\["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID"(?:(?:,"zh-CN")|(?:,"zh-TW")|(?:,"zh-HK"))*\]'
 )
 BASE_LANGUAGE_LIST = '["en-US","de-DE","fr-FR","ko-KR","ja-JP","es-419","es-ES","it-IT","hi-IN","pt-BR","id-ID"'
+# 桌面壳层（顶部菜单、原生对话框）只随包提供官方的 zh-Hans / zh-Hant 语言包，
+# 没有 zh-CN / zh-TW / zh-HK。前端用 zh-CN 请求时主进程查不到语言包，回退 en-US，
+# 顶部菜单就一直是 File / Edit / View……，所以请求和用户配置都要映射成官方代码。
+DESKTOP_SHELL_LOCALES = {"zh-CN": "zh-Hans", "zh-TW": "zh-Hant", "zh-HK": "zh-Hant"}
+SHELL_LOCALE_REQUEST_RE = re.compile(
+    r"requestLocaleChange\?\s*\.\s*\(\s*(?P<argument>[A-Za-z_$][A-Za-z0-9_$.]*)\s*\)"
+)
+SHELL_LOCALE_PATCH_MARKER = "__claudeZhShellLocale"
 
 
 def get_language_config(lang_code: str) -> dict[str, Any]:
@@ -315,6 +323,59 @@ def patch_language_display_names(app: Path) -> None:
             continue
         path.write_text(text + patch, encoding="utf-8")
         print(f"Patched language display names: {path.name}")
+
+
+def desktop_shell_locale(lang_code: str) -> str:
+    """Return the desktop shell catalog code Claude ships for *lang_code*."""
+    return DESKTOP_SHELL_LOCALES.get(lang_code, lang_code)
+
+
+def replace_shell_locale_request(text: str) -> tuple[str, int]:
+    if SHELL_LOCALE_PATCH_MARKER in text:
+        return text, 0
+
+    def map_locale(match: re.Match[str]) -> str:
+        return (
+            "requestLocaleChange?.(/*"
+            + SHELL_LOCALE_PATCH_MARKER
+            + "*/("
+            'l=>l==="zh-CN"?"zh-Hans":l==="zh-TW"||l==="zh-HK"?"zh-Hant":l'
+            ")("
+            + match.group("argument")
+            + "))"
+        )
+
+    return SHELL_LOCALE_REQUEST_RE.subn(map_locale, text)
+
+
+def patch_desktop_shell_locale(app: Path, lang_code: str) -> None:
+    """Make the renderer request a shell locale whose catalog exists in Claude."""
+    if desktop_shell_locale(lang_code) == lang_code:
+        return
+    assets_dir = find_frontend_assets_dir(app)
+    if assets_dir is None:
+        raise SystemExit(
+            f"Cannot find frontend JS bundle under {app / 'Contents/Resources/ion-dist'}"
+        )
+    patched = 0
+    already = 0
+    for path in sorted(assets_dir.glob("*.js")):
+        text = path.read_text(encoding="utf-8")
+        if SHELL_LOCALE_PATCH_MARKER in text:
+            already += 1
+            continue
+        updated, occurrences = replace_shell_locale_request(text)
+        if not occurrences:
+            continue
+        path.write_text(updated, encoding="utf-8")
+        log(f"Patched desktop shell locale request: {path.name} ({occurrences} occurrence(s))")
+        patched += 1
+    if patched:
+        return
+    if already:
+        log(f"Desktop shell locale request already patched ({already} file(s))")
+        return
+    log("WARNING: Desktop shell locale request not found; top-level menus may stay English")
 
 
 def load_frontend_hardcoded_replacements(lang_code: str) -> list[tuple[str, str]]:
@@ -1258,7 +1319,8 @@ def clear_quarantine(app: Path) -> None:
 
 
 def set_user_locale(user_home: Path, lang_code: str) -> None:
-    """Write locale into Claude (+ Claude-3p if present) user config."""
+    """Write the desktop shell locale into Claude (+ Claude-3p if present) user config."""
+    shell_locale = desktop_shell_locale(lang_code)
     targets = [
         user_home / "Library/Application Support/Claude/config.json",
         user_home / "Library/Application Support/Claude-3p/config.json",
@@ -1286,15 +1348,15 @@ def set_user_locale(user_home: Path, lang_code: str) -> None:
                 shutil.copy2(config, backup)
                 print(f"Existing config was not valid JSON; backed up to {backup}")
                 data = {}
-        if data.get("locale") == lang_code:
-            print(f"Claude config locale already {lang_code}: {config}")
+        if data.get("locale") == shell_locale:
+            print(f"Claude config locale already {shell_locale}: {config}")
             continue
-        data["locale"] = lang_code
+        data["locale"] = shell_locale
         save_json(config, data)
         os.chmod(config, 0o600)
         if sudo_uid and sudo_gid:
             os.chown(config, int(sudo_uid), int(sudo_gid))
-        print(f"Set Claude config locale: {config} -> {lang_code}")
+        print(f"Set Claude config locale: {config} -> {shell_locale}")
 
 
 
@@ -2044,6 +2106,7 @@ def main() -> int:
         patch_hardcoded_frontend_strings(patched_app, lang_code)
         patch_slash_command_menu(patched_app, lang_code)
         patch_language_display_names(patched_app)
+        patch_desktop_shell_locale(patched_app, lang_code)
         merge_frontend_locale(patched_app, lang_code)
         install_desktop_locale(patched_app, lang_code)
         install_statsig_locale(patched_app, lang_code)

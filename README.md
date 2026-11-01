@@ -190,7 +190,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File tests/Test-AsarRoundTrip.ps1
 - Claude `4.29+` 的前端改为 `Contents/Resources/ion-dist.asar`：脚本会先备份原包，解包到临时 `ion-dist` 目录执行汉化，再按 ASAR 格式重打包并校验结构；重打包后同步 `Info.plist` 中 `ElectronAsarIntegrity` 的 `Resources/ion-dist.asar` 头哈希，避免应用因完整性校验失败无法加载前端。`4.29` 之前的目录布局保持原有逻辑。
 - 合并当前 Claude 版本的 `en-US.json` 和随包中文翻译：
   当前版本已有中文翻译的 key 会变中文，新版本新增但本包没有的 key 会保留英文，避免应用缺字段。
-- 写入 `~/Library/Application Support/Claude/config.json`，设置 `"locale"` 为所选语言代码（`zh-CN`、`zh-TW` 或 `zh-HK`）。
+- 写入 `~/Library/Application Support/Claude/config.json`，将 `"locale"` 设为桌面壳层实际随包提供的 `zh-Hans` / `zh-Hant`（对应 `zh-CN` / `zh-TW` / `zh-HK`），让顶部菜单和原生对话框命中中文语言包；同时把前端 `requestLocaleChange` 的请求代码映射到同一套语言包。
 - 对修改后的 Claude.app 及其内部 app/framework/原生二进制做一致的本机 ad-hoc 重签名，并清除 `com.apple.quarantine` 隔离属性。
 - 重新启动 Claude。
 - 可选菜单项 `5` 用 `y/n` 控制 Claude Desktop 自动更新：`y` 禁止自动更新，`n` 允许自动更新。若当前存在有效的 Claude-3p `configLibrary`，脚本会写入当前 applied 配置；否则写入 Claude Desktop enterprise policy。

@@ -248,10 +248,6 @@
     "网关凭据"
   ],
   [
-    "网关 credentials",
-    "网关凭据"
-  ],
-  [
     "{provider} credentials",
     "{provider} 凭据"
   ],
@@ -453,10 +449,6 @@
   ],
   [
     "Domains Cowork's tools may reach during a turn. Also surfaced under Egress Requirements.",
-    "Cowork 的工具在一次任务中可以访问的域名。也会显示在出站要求中。"
-  ],
-  [
-    "Domains Cowork's tools may reach during a turn. Also surfaced under 出站要求.",
     "Cowork 的工具在一次任务中可以访问的域名。也会显示在出站要求中。"
   ],
   [
@@ -15674,5 +15666,2765 @@
   [
     "If unset, the app uses the organization of your Anthropic sign-in, where the connection has one. Otherwise, telemetry is tagged with a value the app derives from your connection settings. Where it cannot derive one, telemetry is tagged with a placeholder UUID shared with other unconfigured deployments. In the last two cases, local data is stored under the placeholder. **Changing this value orphans data** stored under the previous value (sessions, skills, plugins).",
     "未设置时，应用会使用你 Anthropic 登录所属的组织（若该连接有组织）。否则，诊断数据会打上应用从你的连接设置推导出的值。若无法推导，则打上与其他未配置部署共用的占位 UUID。后两种情况下，本地数据都存储在占位符下。**修改此值会使**先前值下存储的数据（会话、技能、插件）**成为孤立数据**。"
+  ],
+  [
+    "$0 blocks every request this limit applies to.",
+    "$0 会阻止此限额适用的所有请求。"
+  ],
+  [
+    ".zip from claude.ai or Claude Desktop",
+    "来自 claude.ai 或 Claude Desktop 的 .zip 文件"
+  ],
+  [
+    "A 15-second opener for the all-hands",
+    "为全员大会准备的 15 秒开场"
+  ],
+  [
+    "A 20-second launch clip for LinkedIn",
+    "为 LinkedIn 准备的 20 秒发布短片"
+  ],
+  [
+    "A confirmation went unanswered, so Reset and Remove are paused for up to 10 minutes. Try again later.",
+    "确认请求未获回应，因此“重置”和“移除”将暂停最多 10 分钟。请稍后重试。"
+  ],
+  [
+    "A group’s pooled budget can differ from its row here: it counts only what this group’s pooled budget paid this month, and it counts today too.",
+    "群组的共享预算可能与此处的行不同：它只统计本月该群组共享预算支付的金额，今天的用量也计入。"
+  ],
+  [
+    "A limit keeps its period. Set another limit for another period.",
+    "限额与其周期绑定。如需其他周期，请另设一条限额。"
+  ],
+  [
+    "A pooled budget is one monthly amount the whole group shares. Members are blocked when their own limit runs out, or when all their groups’ pooled budgets do.",
+    "共享预算是一个由整个群组共用的每月额度。当成员自身的限额用尽，或其所有群组的共享预算用尽时，成员会被阻止。"
+  ],
+  [
+    "A standalone design system can’t be your default.",
+    "独立的设计系统不能设为默认。"
+  ],
+  [
+    "API keys lose Compliance API access, and compliance event logging stops.",
+    "API 密钥将失去 Compliance API 访问权限，合规事件日志记录也会停止。"
+  ],
+  [
+    "Access by role",
+    "按角色访问"
+  ],
+  [
+    "Access by role sections",
+    "按角色访问分区"
+  ],
+  [
+    "Access to Centralized Management for this parent organization will no longer be limited to the list.",
+    "此父组织的集中管理访问权限将不再仅限于该列表。"
+  ],
+  [
+    "Add a custom role",
+    "添加自定义角色"
+  ],
+  [
+    "Add a range that includes it before restricting access to this allowlist.",
+    "在限制访问此允许列表之前，请先添加包含该地址的范围。"
+  ],
+  [
+    "Add a role to see its admin permissions here.",
+    "添加角色后即可在此查看其管理员权限。"
+  ],
+  [
+    "Add a role to see what it can access here.",
+    "添加角色后即可在此查看其可访问的内容。"
+  ],
+  [
+    "Add at least one topic.",
+    "请至少添加一个主题。"
+  ],
+  [
+    "Add browser shortcut",
+    "添加浏览器快捷方式"
+  ],
+  [
+    "Add shortcut",
+    "添加快捷方式"
+  ],
+  [
+    "Add your photo",
+    "添加你的照片"
+  ],
+  [
+    "Add-in features turned off for everyone, on every file.",
+    "已对所有人和所有文件关闭加载项功能。"
+  ],
+  [
+    "Admin permissions by role",
+    "按角色划分的管理员权限"
+  ],
+  [
+    "Admin roles don’t apply to them until their role type is Custom.",
+    "在其角色类型改为“自定义”之前，管理员角色不会对其生效。"
+  ],
+  [
+    "All custom roles that can be given access here already have it.",
+    "所有可在此授予访问权限的自定义角色都已获得访问权限。"
+  ],
+  [
+    "Allow all tasks",
+    "允许所有任务"
+  ],
+  [
+    "Allow edits",
+    "允许编辑"
+  ],
+  [
+    "Allow for this project",
+    "允许用于此项目"
+  ],
+  [
+    "Allow managed hooks only",
+    "仅允许托管钩子"
+  ],
+  [
+    "Allow parent organization owners and admins to access this allowlist from any IP address",
+    "允许父组织的所有者和管理员从任意 IP 地址访问此允许列表"
+  ],
+  [
+    "Allow public and non-public repositories in one fix session?",
+    "允许在同一个修复会话中处理公开和非公开仓库？"
+  ],
+  [
+    "Allow session",
+    "允许会话"
+  ],
+  [
+    "Allow ssh.exe, or ask your IT team to allow it, then try again.",
+    "请允许 ssh.exe，或请 IT 团队放行，然后重试。"
+  ],
+  [
+    "Allow the Claude add-in",
+    "允许 Claude 加载项"
+  ],
+  [
+    "Allowing this may also let Claude start future workflows without asking you.",
+    "允许此操作后，Claude 之后启动工作流时可能不再询问你。"
+  ],
+  [
+    "Already added and open in its own window.",
+    "已添加，并已在独立窗口中打开。"
+  ],
+  [
+    "Already has a limit for this period.",
+    "此周期已有额度限制。"
+  ],
+  [
+    "Always included.",
+    "始终包含。"
+  ],
+  [
+    "An organization owner can create an endpoint for all shared projects.",
+    "组织所有者可为所有共享项目创建端点。"
+  ],
+  [
+    "Angle only works with a device frame.",
+    "角度仅适用于设备边框。"
+  ],
+  [
+    "Another admin has set a pooled budget for this group meanwhile. Nothing was saved.",
+    "在此期间另一位管理员已为此群组设置了共享预算。未保存任何更改。"
+  ],
+  [
+    "Another download or send is already in progress for this artifact. Try again in a moment.",
+    "此 Artifact 已有另一项下载或发送正在进行。请稍后重试。"
+  ],
+  [
+    "Answer Claude’s request first",
+    "请先回答 Claude 的请求"
+  ],
+  [
+    "Answer the questions again",
+    "重新回答问题"
+  ],
+  [
+    "Answer this study’s questions to begin.",
+    "回答本研究的问题即可开始。"
+  ],
+  [
+    "Any capability",
+    "任意能力"
+  ],
+  [
+    "Any other imported data, such as memory, stays on this computer.",
+    "其他导入的数据（如记忆）会留在本机。"
+  ],
+  [
+    "Anyone it covered falls back to the next limit that applies to them, if any.",
+    "受其约束的人将回退到适用于他们的下一条限额（如有）。"
+  ],
+  [
+    "Anyone it covered will have no limit for that period.",
+    "受其约束的人在该周期将没有限额。"
+  ],
+  [
+    "Anyone who can comment on this artifact may have written these comments, and Claude acts on them in this session.",
+    "任何能评论此 Artifact 的人都可能写过这些评论，Claude 会在本次会话中依据它们执行操作。"
+  ],
+  [
+    "Anyone who can open this artifact may have written its documents, and Claude uses them in this session.",
+    "任何能打开此 Artifact 的人都可能写过其中的文档，Claude 会在本次会话中使用它们。"
+  ],
+  [
+    "Anyone who can open this artifact may have written its documents, and approving lets Claude read them for the rest of this session.",
+    "任何能打开此 Artifact 的人都可能写过其中的文档，批准后 Claude 可在本次会话剩余时间内读取它们。"
+  ],
+  [
+    "Anyone who can open this artifact may have written the documents saved to the folder below.",
+    "任何能打开此 Artifact 的人都可能写过保存到下方文件夹中的文档。"
+  ],
+  [
+    "Anyone who opens this file can read what’s in it. Keep it private, and delete it when you no longer need it.",
+    "任何打开此文件的人都能看到其中的内容。请妥善保管，并在不再需要时删除。"
+  ],
+  [
+    "App preferences",
+    "应用偏好设置"
+  ],
+  [
+    "Applies now",
+    "立即生效"
+  ],
+  [
+    "Applies to each member separately. It isn’t the group’s total.",
+    "分别适用于每个成员，不是群组总额。"
+  ],
+  [
+    "Applies to each member, not to the group’s total. Your gateway’s configuration decides which limit a member of several groups gets.",
+    "分别适用于每个成员，而非群组总额。成员属于多个群组时适用哪条限额，由网关配置决定。"
+  ],
+  [
+    "Applies to each user separately, in each period where they have no limit of their own or from a group.",
+    "分别适用于每个用户，且仅在其自身或群组均无限额的周期内生效。"
+  ],
+  [
+    "Applies to each user separately. It isn’t your organization’s total.",
+    "分别适用于每个用户，不是组织总额。"
+  ],
+  [
+    "Applies to that user alone, ahead of their groups’ limits and the organization limit. Can be set before a user’s first request.",
+    "仅适用于该用户，优先于其群组限额和组织限额。可在用户首次请求前设置。"
+  ],
+  [
+    "Applies to this user alone.",
+    "仅适用于此用户。"
+  ],
+  [
+    "Apps gateway admin",
+    "Apps 网关管理员"
+  ],
+  [
+    "Apps gateway admin closed: your gateway didn’t confirm you as a spend admin.",
+    "Apps 网关管理员窗口已关闭：你的网关未确认你是支出管理员。"
+  ],
+  [
+    "Archive this project before you delete it.",
+    "请先归档此项目，再删除。"
+  ],
+  [
+    "Ask admin",
+    "询问管理员"
+  ],
+  [
+    "Ask your GitHub admin to check that this project’s GitHub repositories haven’t been moved or deleted and that the Claude GitHub App can access them.",
+    "请让 GitHub 管理员确认此项目的 GitHub 仓库未被移动或删除，且 Claude GitHub App 可以访问它们。"
+  ],
+  [
+    "Ask your admin to raise this limit.",
+    "请让管理员提高此限额。"
+  ],
+  [
+    "Asking Claude to copy this presentation into Claude Slides",
+    "正在让 Claude 将此演示文稿复制到 Claude Slides"
+  ],
+  [
+    "Attach role",
+    "附加角色"
+  ],
+  [
+    "Attached files from chats and Cowork tasks, if under 100 MB per session",
+    "来自聊天和 Cowork 任务的附件，每个会话不超过 100 MB"
+  ],
+  [
+    "Auto-fix is on for this pull request.",
+    "此拉取请求已开启自动修复。"
+  ],
+  [
+    "Available once Xcode is set up.",
+    "设置好 Xcode 后可用。"
+  ],
+  [
+    "Available once all roles have loaded.",
+    "所有角色加载完成后可用。"
+  ],
+  [
+    "Back to the interview",
+    "返回访谈"
+  ],
+  [
+    "Billing isn’t set up for this organization. Contact support.",
+    "此组织尚未设置账单。请联系支持人员。"
+  ],
+  [
+    "Built-in role",
+    "内置角色"
+  ],
+  [
+    "Built-in roles",
+    "内置角色"
+  ],
+  [
+    "Built-in roles (Primary owner, Owner, Admin, User)",
+    "内置角色（主所有者、所有者、管理员、用户）"
+  ],
+  [
+    "Capabilities by role",
+    "按角色划分的能力"
+  ],
+  [
+    "Captured page",
+    "已捕获页面"
+  ],
+  [
+    "Captured screen",
+    "已捕获屏幕"
+  ],
+  [
+    "Chat hidden behind the panel",
+    "聊天被面板遮挡"
+  ],
+  [
+    "Check status",
+    "检查状态"
+  ],
+  [
+    "Checking Xcode’s setup…",
+    "正在检查 Xcode 设置…"
+  ],
+  [
+    "Checking whether this browser can add a shortcut for this artifact",
+    "正在检查此浏览器能否为此 Artifact 添加快捷方式"
+  ],
+  [
+    "Checking your answers",
+    "正在检查你的答案"
+  ],
+  [
+    "Choose From and To dates within the limits.",
+    "请在限额范围内选择起止日期。"
+  ],
+  [
+    "Choose the .mobileconfig profile or XML .plist that your device management deploys.",
+    "请选择设备管理下发的 .mobileconfig 配置文件或 XML .plist。"
+  ],
+  [
+    "Choose today (UTC) or earlier.",
+    "请选择今天（UTC）或更早的日期。"
+  ],
+  [
+    "Choose which roles have access.",
+    "选择哪些角色可以访问。"
+  ],
+  [
+    "Claude Code can’t read a configuration file",
+    "Claude Code 无法读取配置文件"
+  ],
+  [
+    "Claude Code can’t read a configuration file, so automatic restarts are paused for this session. Fix the file, then send a message to try again.",
+    "Claude Code 无法读取配置文件，因此本次会话已暂停自动重启。请修正该文件，然后发送消息重试。"
+  ],
+  [
+    "Claude Code couldn’t check this session’s worktree, so automatic restarts are paused for this session. Send a message to try again.",
+    "Claude Code 无法检查此会话的工作树，因此本次会话已暂停自动重启。请发送消息重试。"
+  ],
+  [
+    "Claude Code couldn’t renew this sign-in. If trying again doesn’t work, signing in to Claude again won’t help. Ask your admin.",
+    "Claude Code 无法续订此次登录。如果重试无效，重新登录 Claude 也不会有帮助。请询问管理员。"
+  ],
+  [
+    "Claude Code couldn’t renew this sign-in. Signing in to Claude again won’t help. Ask your admin.",
+    "Claude Code 无法续订此次登录。重新登录 Claude 也不会有帮助。请询问管理员。"
+  ],
+  [
+    "Claude Code scheduled tasks",
+    "Claude Code 计划任务"
+  ],
+  [
+    "Claude Code won’t start until you fix that file.",
+    "在你修正该文件之前，Claude Code 不会启动。"
+  ],
+  [
+    "Claude Code won’t start until you fix that file. Then send a message to start it.",
+    "在你修正该文件之前，Claude Code 不会启动。修正后请发送消息启动它。"
+  ],
+  [
+    "Claude Code won’t start until you fix that file. Then try again.",
+    "在你修正该文件之前，Claude Code 不会启动。修正后请重试。"
+  ],
+  [
+    "Claude Docs is off in your connectors, so Claude can’t send this Doc from a task. Turn it on, or open the Doc beside a chat.",
+    "你的连接器中已关闭 Claude Docs，因此 Claude 无法从任务中发送此文档。请开启它，或在聊天旁打开该文档。"
+  ],
+  [
+    "Claude Docs isn’t available right now.",
+    "Claude Docs 目前不可用。"
+  ],
+  [
+    "Claude Motion isn’t available right now.",
+    "Claude Motion 目前不可用。"
+  ],
+  [
+    "Claude activity is never recorded while compliance event logging is off.",
+    "关闭合规事件日志记录期间，不会记录任何 Claude 活动。"
+  ],
+  [
+    "Claude can fix failing checks and address review comments on this pull request.",
+    "Claude 可以修复失败的检查，并处理此拉取请求上的评审意见。"
+  ],
+  [
+    "Claude can fix failing checks on this pull request.",
+    "Claude 可以修复此拉取请求上失败的检查。"
+  ],
+  [
+    "Claude can’t send this artifact to other apps.",
+    "Claude 无法将此 Artifact 发送到其他应用。"
+  ],
+  [
+    "Claude couldn’t open the window that verifies this device.",
+    "Claude 无法打开用于验证此设备的窗口。"
+  ],
+  [
+    "Claude picks up where you left off, so this computer can sleep.",
+    "Claude 会从你中断的地方继续，因此这台计算机可以休眠。"
+  ],
+  [
+    "Claude pressed Power",
+    "Claude 按下了电源键"
+  ],
+  [
+    "Claude signs in again to set up file transfer. If you’re asked for a one-time code, wait for a new one.",
+    "Claude 正在重新登录以设置文件传输。如果系统要求输入一次性验证码，请等待新的验证码。"
+  ],
+  [
+    "Claude signs in once more to transfer files. If you’re asked for a one-time code, wait for a new one.",
+    "Claude 正在再次登录以传输文件。如果系统要求输入一次性验证码，请等待新的验证码。"
+  ],
+  [
+    "Claude uses it to run code and unzip files. Try again later, or send your IT administrator the line below.",
+    "Claude 用它运行代码和解压文件。请稍后重试，或将下面这行内容发送给 IT 管理员。"
+  ],
+  [
+    "Claude uses what this artifact says in this session.",
+    "Claude 会在本次会话中采用此 Artifact 中所述的内容。"
+  ],
+  [
+    "Claude’s access to it couldn’t be removed from the settings file, so nothing was deleted. If it was running, it is now shut down. Try again.",
+    "无法从设置文件中移除 Claude 对它的访问权限，因此未删除任何内容。如果它之前正在运行，现已关闭。请重试。"
+  ],
+  [
+    "Claude’s still answering. Send this when Claude finishes.",
+    "Claude 仍在回答。请在 Claude 完成后发送此内容。"
+  ],
+  [
+    "Clear your draft first, then select Edit and retry.",
+    "请先清除草稿，然后选择“编辑”并重试。"
+  ],
+  [
+    "Close this dialog to see why.",
+    "关闭此对话框即可查看原因。"
+  ],
+  [
+    "Close this window, then click or press a key in Claude in Chrome to refresh it. If Claude hasn’t continued, send your message or make your choice again.",
+    "请关闭此窗口，然后在 Chrome 中的 Claude 中点击或按键以刷新它。如果 Claude 尚未继续，请重新发送消息或重新选择。"
+  ],
+  [
+    "Code execution is off for you, and Claude needs it to send this to an app. Ask your admin to turn it on.",
+    "你的代码执行功能已关闭，而 Claude 需要它才能将此内容发送到应用。请让管理员开启。"
+  ],
+  [
+    "Collapse held messages",
+    "折叠暂存的消息"
+  ],
+  [
+    "Collapse others",
+    "折叠其他"
+  ],
+  [
+    "Compare admin permissions across your admin roles.",
+    "比较你各管理员角色的管理员权限。"
+  ],
+  [
+    "Compare admin permissions across your admin roles. To change a role, open the role.",
+    "比较你各管理员角色的管理员权限。要更改某个角色，请打开该角色。"
+  ],
+  [
+    "Compare roles",
+    "比较角色"
+  ],
+  [
+    "Compare your custom roles side by side. To see a role’s other settings, open the role.",
+    "并排比较你的自定义角色。要查看某个角色的其他设置，请打开该角色。"
+  ],
+  [
+    "Configuration text",
+    "配置文本"
+  ],
+  [
+    "Connect more destinations",
+    "连接更多目标位置"
+  ],
+  [
+    "Connect to a supported host",
+    "连接到受支持的主机"
+  ],
+  [
+    "Connecting to this task…",
+    "正在连接到此任务…"
+  ],
+  [
+    "Connector access by role",
+    "按角色划分的连接器访问权限"
+  ],
+  [
+    "Connector icons, hosted artifact previews, MCP Apps widgets and the Linux spellcheck dictionary. A blocked widget shows an error.",
+    "连接器图标、托管的 Artifact 预览、MCP Apps 小组件和 Linux 拼写检查词典。被阻止的小组件会显示错误。"
+  ],
+  [
+    "Connectors your organization adds appear here.",
+    "你的组织添加的连接器会显示在此处。"
+  ],
+  [
+    "Continue to claude.ai",
+    "继续前往 claude.ai"
+  ],
+  [
+    "Continued after an interruption",
+    "中断后已继续"
+  ],
+  [
+    "Copy link for an admin",
+    "复制链接给管理员"
+  ],
+  [
+    "Copy this presentation into Claude Slides, slide for slide, and tell me what didn’t carry over.",
+    "将此演示文稿逐页复制到 Claude Slides，并告诉我哪些内容没有带过去。"
+  ],
+  [
+    "Copying other data…",
+    "正在复制其他数据…"
+  ],
+  [
+    "Could not give access.",
+    "无法授予访问权限。"
+  ],
+  [
+    "Could not load roles. Close this dialog and open it again.",
+    "无法加载角色。请关闭此对话框后重新打开。"
+  ],
+  [
+    "Could not remove access.",
+    "无法移除访问权限。"
+  ],
+  [
+    "Couldn’t check this artifact.",
+    "无法检查此 Artifact。"
+  ],
+  [
+    "Couldn’t check whether this organization can upgrade. Try again later.",
+    "无法检查此组织能否升级。请稍后重试。"
+  ],
+  [
+    "Couldn’t confirm auto-fix is on for this pull request. Try again.",
+    "无法确认此拉取请求已开启自动修复。请重试。"
+  ],
+  [
+    "Couldn’t confirm this computer’s identity, so Claude can’t use the files and apps on it in this session. To use them, start a new session later.",
+    "无法确认此计算机的身份，因此 Claude 无法在本次会话中使用其中的文件和应用。如需使用，请稍后启动新会话。"
+  ],
+  [
+    "Couldn’t confirm this computer’s identity, so Claude can’t use the files and apps on it. Try again later.",
+    "无法确认此计算机的身份，因此 Claude 无法使用其中的文件和应用。请稍后重试。"
+  ],
+  [
+    "Couldn’t confirm this computer’s identity, so the folder wasn’t added. Add the folder again later.",
+    "无法确认此计算机的身份，因此未添加该文件夹。请稍后重新添加该文件夹。"
+  ],
+  [
+    "Couldn’t confirm this computer’s identity. Try again later.",
+    "无法确认此计算机的身份。请稍后重试。"
+  ],
+  [
+    "Couldn’t confirm whether the artifact was deleted. Check the list before trying again.",
+    "无法确认该 Artifact 是否已删除。请检查列表后再重试。"
+  ],
+  [
+    "Couldn’t delete this project.",
+    "无法删除此项目。"
+  ],
+  [
+    "Couldn’t download the file. Try again, or choose a shorter range.",
+    "无法下载该文件。请重试，或选择较短的范围。"
+  ],
+  [
+    "Couldn’t download the file. Try again.",
+    "无法下载该文件。请重试。"
+  ],
+  [
+    "Couldn’t draw the preview. Change a setting to try again, or restart Claude.",
+    "无法绘制预览。请更改一项设置后重试，或重启 Claude。"
+  ],
+  [
+    "Couldn’t export spend by group. Try again.",
+    "无法按群组导出支出。请重试。"
+  ],
+  [
+    "Couldn’t export the audit log. Try again.",
+    "无法导出审核日志。请重试。"
+  ],
+  [
+    "Couldn’t find the proxy command’s program on this computer.",
+    "在此计算机上找不到代理命令所需的程序。"
+  ],
+  [
+    "Couldn’t find this file at that path. Ask Claude for the full path.",
+    "无法在该路径找到此文件。请让 Claude 提供完整路径。"
+  ],
+  [
+    "Couldn’t get a link for the file, so nothing was sent. Try again.",
+    "无法获取该文件的链接，因此未发送任何内容。请重试。"
+  ],
+  [
+    "Couldn’t load every member and their roles, so no one was selected.",
+    "无法加载所有成员及其角色，因此未选择任何人。"
+  ],
+  [
+    "Couldn’t load spend by group from your gateway.",
+    "无法从你的网关加载按群组划分的支出。"
+  ],
+  [
+    "Couldn’t load spend limits from your gateway.",
+    "无法从你的网关加载支出限额。"
+  ],
+  [
+    "Couldn’t load the app list.",
+    "无法加载应用列表。"
+  ],
+  [
+    "Couldn’t load this setting. Reload the page to try again.",
+    "无法加载此设置。请重新加载页面重试。"
+  ],
+  [
+    "Couldn’t load this user’s limits from your gateway.",
+    "无法从你的网关加载此用户的限额。"
+  ],
+  [
+    "Couldn’t load this. Try again later.",
+    "无法加载此内容。请稍后重试。"
+  ],
+  [
+    "Couldn’t load usage from your gateway.",
+    "无法从你的网关加载用量。"
+  ],
+  [
+    "Couldn’t load your connectors.",
+    "无法加载你的连接器。"
+  ],
+  [
+    "Couldn’t resume scanning.",
+    "无法恢复扫描。"
+  ],
+  [
+    "Couldn’t save the pooled budget. Try again.",
+    "无法保存共享预算。请重试。"
+  ],
+  [
+    "Couldn’t save the spend limit. Try again.",
+    "无法保存支出限额。请重试。"
+  ],
+  [
+    "Couldn’t search inside folders shared with you, so some results may be missing.",
+    "无法在与你共享的文件夹中搜索，因此部分结果可能缺失。"
+  ],
+  [
+    "Couldn’t send to Claude. Wait for Claude to finish, or respond to Claude, then try again.",
+    "无法发送给 Claude。请等 Claude 完成或回复 Claude，然后重试。"
+  ],
+  [
+    "Couldn’t send your message. Try again.",
+    "无法发送你的消息。请重试。"
+  ],
+  [
+    "Couldn’t turn the pooled budget on. It’s saved as Paused. Try again.",
+    "无法开启共享预算。它已保存为“已暂停”。请重试。"
+  ],
+  [
+    "Couldn’t unpack this export. Make sure this computer has enough free disk space, then try again. If it keeps failing, send your IT administrator the code below.",
+    "无法解压此导出文件。请确认此计算机有足够的可用磁盘空间，然后重试。如果持续失败，请将下方代码发送给 IT 管理员。"
+  ],
+  [
+    "Create in Claude Slides",
+    "在 Claude Slides 中创建"
+  ],
+  [
+    "Custom roles added on the Roles page appear here.",
+    "在“角色”页面添加的自定义角色会显示在此处。"
+  ],
+  [
+    "Custom roles don’t apply to them until their role type is Custom.",
+    "在其角色类型改为“自定义”之前，自定义角色不会对其生效。"
+  ],
+  [
+    "Custom roles let you choose who in your organization has access.",
+    "自定义角色让你选择组织中谁可以访问。"
+  ],
+  [
+    "Custom: set tool by tool",
+    "自定义：逐个工具设置"
+  ],
+  [
+    "Days and months end at 00:00 UTC. Weeks end Monday 00:00 UTC.",
+    "日和月在 UTC 00:00 结束。周在周一 UTC 00:00 结束。"
+  ],
+  [
+    "Delete this project?",
+    "删除此项目？"
+  ],
+  [
+    "Deleting a chat also deletes any artifacts made in it.",
+    "删除聊天也会删除其中创建的所有 Artifact。"
+  ],
+  [
+    "Disable the Compliance API?",
+    "停用 Compliance API？"
+  ],
+  [
+    "Dismiss the Claude Slides offer",
+    "关闭 Claude Slides 推荐"
+  ],
+  [
+    "Download code review costs",
+    "下载代码评审费用"
+  ],
+  [
+    "Downloading the program that converts your chats…",
+    "正在下载用于转换聊天的程序…"
+  ],
+  [
+    "Draft documents, analyze data, and build presentations with Claude alongside you in Docs, Sheets, and Slides.",
+    "在 Docs、Sheets 和 Slides 中与 Claude 协作，起草文档、分析数据并构建演示文稿。"
+  ],
+  [
+    "Drop the file to read it",
+    "拖入文件即可读取"
+  ],
+  [
+    "Each period is enforced separately.",
+    "每个周期分别执行。"
+  ],
+  [
+    "Each user’s spend by group",
+    "每个用户按群组划分的支出"
+  ],
+  [
+    "Edit by hand in Claude Slides, highlight to ask for changes, and invite others to edit.",
+    "在 Claude Slides 中手动编辑，选中内容请求修改，并邀请他人编辑。"
+  ],
+  [
+    "Edit doc",
+    "编辑文档"
+  ],
+  [
+    "Edit role access",
+    "编辑角色访问权限"
+  ],
+  [
+    "Editable copy in your Google Drive",
+    "Google Drive 中的可编辑副本"
+  ],
+  [
+    "Enable export",
+    "启用导出"
+  ],
+  [
+    "Enter a date of birth between 1900 and today.",
+    "请输入 1900 年至今天的出生日期。"
+  ],
+  [
+    "Enter a dollar amount.",
+    "请输入美元金额。"
+  ],
+  [
+    "Enter a group.",
+    "请输入群组。"
+  ],
+  [
+    "Enter a ratio",
+    "输入比例"
+  ],
+  [
+    "Enter a ratio in whole numbers, from 1:3 to 3:1.",
+    "请输入整数比，范围从 1:3 到 3:1。"
+  ],
+  [
+    "Enter a user ID.",
+    "请输入用户 ID。"
+  ],
+  [
+    "Enter your full date of birth to continue.",
+    "请输入完整的出生日期以继续。"
+  ],
+  [
+    "Enterprise upgrades aren’t available in your billing region yet. To upgrade, contact sales.",
+    "你的账单地区尚不支持企业版升级。如需升级，请联系销售。"
+  ],
+  [
+    "Every Office application is disabled below, so no one can use the add-in.",
+    "下方所有 Office 应用均已停用，因此无人能使用加载项。"
+  ],
+  [
+    "Everyone in your organization keeps their chats and projects.",
+    "你组织中的所有成员都保留其聊天和项目。"
+  ],
+  [
+    "Everyone who can see this artifact’s comments will see the change, and no comments are deleted.",
+    "所有能查看此 Artifact 评论的人都将看到此更改，且不会删除任何评论。"
+  ],
+  [
+    "Everyone who can see this artifact’s comments will see the reply below.",
+    "所有能查看此 Artifact 评论的人都将看到下方的回复。"
+  ],
+  [
+    "Everyone who has spent in the chosen period, highest first, against the limit that applies to them.",
+    "所有在所选周期内有支出的人，按支出从高到低，对照其适用的限额。"
+  ],
+  [
+    "Everyone who has this artifact open sees the edits below right away.",
+    "所有打开此 Artifact 的人都会立即看到下方的编辑。"
+  ],
+  [
+    "Everything except sessions, because your organization’s settings changed",
+    "除会话以外的全部内容，因为你的组织设置已更改"
+  ],
+  [
+    "Exporting the audit log",
+    "正在导出审核日志"
+  ],
+  [
+    "Failed to rotate device",
+    "旋转设备失败"
+  ],
+  [
+    "Feed posts",
+    "动态帖子"
+  ],
+  [
+    "File Claude wrote",
+    "Claude 写入的文件"
+  ],
+  [
+    "Finish now and skip the rest",
+    "立即完成并跳过其余部分"
+  ],
+  [
+    "Finish setting up Xcode",
+    "完成 Xcode 设置"
+  ],
+  [
+    "Fix sessions",
+    "修复会话"
+  ],
+  [
+    "Folders to add again",
+    "需要重新添加的文件夹"
+  ],
+  [
+    "Follow me is off.",
+    "“跟随我”已关闭。"
+  ],
+  [
+    "For help, please contact support.",
+    "如需帮助，请联系支持人员。"
+  ],
+  [
+    "For importing into the Admin Console. API keys, tokens, and header values are masked. Check URLs, arguments, and text fields before sharing.",
+    "用于导入管理控制台。API 密钥、令牌和请求头值已掩码。分享前请检查 URL、参数和文本字段。"
+  ],
+  [
+    "For now it is saved as Paused, which blocks nobody.",
+    "目前它保存为“已暂停”，不会阻止任何人。"
+  ],
+  [
+    "Generate memory from chat history",
+    "从聊天历史生成记忆"
+  ],
+  [
+    "Gets it once your organization turns it on",
+    "你的组织开启后即可获得"
+  ],
+  [
+    "GitLab or other",
+    "GitLab 或其他"
+  ],
+  [
+    "Give access",
+    "授予访问权限"
+  ],
+  [
+    "Go to usage",
+    "前往用量"
+  ],
+  [
+    "Goodbye, download and reupload",
+    "再见，下载并重新上传"
+  ],
+  [
+    "Google Drive, Notion, Linear…",
+    "Google Drive、Notion、Linear…"
+  ],
+  [
+    "Group (as your identity provider sends it)",
+    "群组（按身份提供商发送的值）"
+  ],
+  [
+    "Held message actions",
+    "暂存消息操作"
+  ],
+  [
+    "Held messages",
+    "暂存的消息"
+  ],
+  [
+    "Help me plan my first week using Claude at work",
+    "帮我规划在工作中使用 Claude 的第一周"
+  ],
+  [
+    "Hide unavailable organizations",
+    "隐藏不可用的组织"
+  ],
+  [
+    "Hide widgets from this connector",
+    "隐藏此连接器的小组件"
+  ],
+  [
+    "Host closed the connection",
+    "主机关闭了连接"
+  ],
+  [
+    "How our onboarding works, for phones",
+    "我们的入门流程如何运作（手机版）"
+  ],
+  [
+    "I don’t live in the United States",
+    "我不住在美国"
+  ],
+  [
+    "If Access Transparency is on, its events are still recorded but cannot be viewed until the Compliance API is back on.",
+    "如果开启了访问透明度，其事件仍会被记录，但在 Compliance API 重新开启前无法查看。"
+  ],
+  [
+    "If the limit has been raised or has reset, resume.",
+    "如果限额已提高或已重置，请继续。"
+  ],
+  [
+    "If the limit was just raised, try again in a minute.",
+    "如果限额刚刚提高，请稍等一分钟再试。"
+  ],
+  [
+    "If you came here from Claude in Chrome, close this window and try again there.",
+    "如果你是Chrome 中的 Claude 来到此处，请关闭此窗口并在那里重试。"
+  ],
+  [
+    "If you just signed in, open the link in your invitation email again.",
+    "如果你刚刚登录，请重新打开邀请邮件中的链接。"
+  ],
+  [
+    "If you set the policy per user, change HKLM to HKCU in the command. Delete claude-policy.reg afterward. It can contain credentials.",
+    "如果按用户设置策略，请在命令中将 HKLM 改为 HKCU。之后删除 claude-policy.reg，它可能包含凭据。"
+  ],
+  [
+    "Import not finished",
+    "导入未完成"
+  ],
+  [
+    "Import this export again to add the rest.",
+    "请再次导入此导出文件以添加其余内容。"
+  ],
+  [
+    "Import this export again to try this item once more.",
+    "请再次导入此导出文件以重试此项目。"
+  ],
+  [
+    "Imported and turned off",
+    "已导入并关闭"
+  ],
+  [
+    "In reply to message",
+    "回复消息"
+  ],
+  [
+    "Installed locally",
+    "本地安装"
+  ],
+  [
+    "Interrupted session",
+    "中断的会话"
+  ],
+  [
+    "It can take up to an hour to show in the directory.",
+    "可能需要长达一小时才会显示在目录中。"
+  ],
+  [
+    "It may now be shut down, and Claude may have to ask for access to it again. Try again, or use Xcode’s Devices window.",
+    "它现在可能已关闭，Claude 可能需重新申请访问权限。请重试，或使用 Xcode 的“设备”窗口。"
+  ],
+  [
+    "Items that were not imported",
+    "未导入的项目"
+  ],
+  [
+    "Its folder isn’t on this computer, or isn’t trusted here. Open the folder in the Code tab, then import this export again.",
+    "其文件夹不在此计算机上，或在此处不受信任。请在“代码”标签页中打开该文件夹，然后再次导入此导出文件。"
+  ],
+  [
+    "JSON config (redacted)",
+    "JSON 配置（已脱敏）"
+  ],
+  [
+    "Keeping the Compliance API on is strongly recommended. Disabling it affects every organization under your parent organization:",
+    "强烈建议保持 Compliance API 开启。停用会影响你父组织下的每个组织："
+  ],
+  [
+    "Lets users export their Claude data on this device as a zip file, to import on another device. No effect unless Enable import is on.",
+    "允许用户将此设备上的 Claude 数据导出为 zip 文件，以便在另一台设备上导入。除非开启“启用导入”，否则无效。"
+  ],
+  [
+    "Lets users import a Claude.ai data export, earlier sessions here, or another device’s Claude Desktop export, in Settings → Import & export.",
+    "允许用户在“设置 → 导入和导出”中导入 Claude.ai 数据导出、此处较早的会话，或另一台设备的 Claude Desktop 导出。"
+  ],
+  [
+    "Lifts when raised",
+    "提高后解除"
+  ],
+  [
+    "Listed environments",
+    "已列出的环境"
+  ],
+  [
+    "Listed repositories",
+    "已列出的仓库"
+  ],
+  [
+    "Listed sessions",
+    "已列出的会话"
+  ],
+  [
+    "Loaded tools",
+    "已加载的工具"
+  ],
+  [
+    "Loading roles",
+    "正在加载角色"
+  ],
+  [
+    "Local MCP servers not imported yet",
+    "尚未导入的本地 MCP 服务器"
+  ],
+  [
+    "Local MCP servers that can’t be imported",
+    "无法导入的本地 MCP 服务器"
+  ],
+  [
+    "Local MCP servers you added, with their commands and arguments, if your organization allows them",
+    "你添加的本地 MCP 服务器及其命令和参数（如果你的组织允许）"
+  ],
+  [
+    "Log controls",
+    "日志控制"
+  ],
+  [
+    "Make changes to the doc, then export.",
+    "对文档进行更改，然后导出。"
+  ],
+  [
+    "Make new designs from this doc. Leave the doc as it is.",
+    "基于此文档创建新设计。保持文档不变。"
+  ],
+  [
+    "Make new slides from this doc. Leave the doc as it is.",
+    "基于此文档创建新幻灯片。保持文档不变。"
+  ],
+  [
+    "Make sure every network your parent organization owners and admins connect from, such as offices, VPNs, and proxies, is covered first.",
+    "请先确保覆盖你父组织的所有者和管理员使用的所有网络，例如办公室、VPN 和代理。"
+  ],
+  [
+    "Managed authorization works only with Okta. If your organization uses Okta single sign-on (SSO), sign out, then sign back in to Claude through it.",
+    "托管授权仅适用于 Okta。如果你的组织使用 Okta 单点登录（SSO），请先退出登录，然后通过它重新登录 Claude。"
+  ],
+  [
+    "Match interface",
+    "匹配界面"
+  ],
+  [
+    "Matching connectors",
+    "匹配的连接器"
+  ],
+  [
+    "May also change line endings.",
+    "也可能更改行尾格式。"
+  ],
+  [
+    "Members on Custom have only the access their custom roles give.",
+    "“自定义”类型的成员仅有其自定义角色授予的访问权限。"
+  ],
+  [
+    "Memory and scheduled tasks",
+    "记忆与计划任务"
+  ],
+  [
+    "Metadata is shown for sessions only.",
+    "仅为会话显示元数据。"
+  ],
+  [
+    "More formats and apps",
+    "更多格式和应用"
+  ],
+  [
+    "More info about AWS region",
+    "有关 AWS 区域的更多信息"
+  ],
+  [
+    "More info about workspace geo",
+    "有关工作区地理位置的更多信息"
+  ],
+  [
+    "More options for Pinned",
+    "“已固定”的更多选项"
+  ],
+  [
+    "Must match the name your identity provider sends exactly, capitals included. A limit for a name it never sends applies to nobody.",
+    "必须与身份提供商发送的名称完全一致，包括大小写。针对其从未发送的名称设置的限额不会对任何人生效。"
+  ],
+  [
+    "Needs another capability",
+    "需要另一项能力"
+  ],
+  [
+    "Needs another capability first.",
+    "需要先具备另一项能力。"
+  ],
+  [
+    "New conversations return to the default instead of the member’s last-used model. Members can still switch models within a conversation.",
+    "新对话会恢复使用默认模型，而不是成员上次使用的模型。成员仍可在对话内切换模型。"
+  ],
+  [
+    "New page in your Notion workspace",
+    "Notion 工作区中的新页面"
+  ],
+  [
+    "Next, finish setting up your Team plan.",
+    "接下来，完成 Team 套餐的设置。"
+  ],
+  [
+    "No cap for anyone without a limit of their own or from a group.",
+    "对自身及群组均无限额的人不设上限。"
+  ],
+  [
+    "No cap from this group. Overrides the organization limit for its members.",
+    "此群组不设上限。对其成员覆盖组织限额。"
+  ],
+  [
+    "No custom roles will change.",
+    "不会更改任何自定义角色。"
+  ],
+  [
+    "No custom roles will get access.",
+    "不会授予任何自定义角色访问权限。"
+  ],
+  [
+    "No group limit matches.",
+    "没有匹配的群组限额。"
+  ],
+  [
+    "No group matches.",
+    "没有匹配的群组。"
+  ],
+  [
+    "No group on record",
+    "没有群组记录"
+  ],
+  [
+    "No next question",
+    "没有下一个问题"
+  ],
+  [
+    "No previous question",
+    "没有上一个问题"
+  ],
+  [
+    "No recent record of this ID",
+    "此 ID 没有近期记录"
+  ],
+  [
+    "No roles match.",
+    "没有匹配的角色。"
+  ],
+  [
+    "No spend on record for this month.",
+    "本月没有支出记录。"
+  ],
+  [
+    "No spend on this month’s finished days (UTC) yet.",
+    "本月已结束的日期（UTC）尚无支出。"
+  ],
+  [
+    "No usage in this period yet.",
+    "此周期尚无用量。"
+  ],
+  [
+    "No user limit matches. Open the person under Usage to give them one, or set it by ID.",
+    "没有匹配的用户限额。请在“用量”中打开该用户为其设置，或按 ID 设置。"
+  ],
+  [
+    "No users match this search.",
+    "没有匹配此搜索的用户。"
+  ],
+  [
+    "Not finished",
+    "未完成"
+  ],
+  [
+    "Not finished yet?",
+    "还没有完成？"
+  ],
+  [
+    "Not in effect yet: off for your organization, or needs another capability",
+    "尚未生效：对你的组织已关闭，或需要另一项能力"
+  ],
+  [
+    "Not included: memory, scheduled tasks, skills, settings, and terminal sessions.",
+    "不包含：记忆、计划任务、技能、设置和终端会话。"
+  ],
+  [
+    "Not signed in to your organization’s Cloud gateway",
+    "未登录你组织的 Cloud 网关"
+  ],
+  [
+    "Nothing sent yet",
+    "尚未发送任何内容"
+  ],
+  [
+    "Nothing to verify here",
+    "此处没有需要验证的内容"
+  ],
+  [
+    "Nothing was added to the message box. Try again in a few seconds.",
+    "未向消息框添加任何内容。请几秒后重试。"
+  ],
+  [
+    "Nothing was imported",
+    "未导入任何内容"
+  ],
+  [
+    "Now in the cloud",
+    "现已在云端"
+  ],
+  [
+    "Off for you",
+    "已对你关闭"
+  ],
+  [
+    "Older items aren’t shown here",
+    "较早的项目不在此处显示"
+  ],
+  [
+    "On a self-hosted session host, stop hooks from repositories, uploaded plugins and users’ own skills.",
+    "在自托管的会话主机上，阻止来自仓库、上传的插件和用户自有技能的钩子。"
+  ],
+  [
+    "On your other computer, these plugins were turned on. Check them under Customize › Plugins, then turn them on here.",
+    "在另一台计算机上，这些插件已开启。请在“自定义 › 插件”中检查它们，然后在此处开启。"
+  ],
+  [
+    "On your other computer, these scheduled tasks were turned on. Cowork tasks are under Scheduled. Code tasks are under Routines in the Code tab.",
+    "在另一台计算机上，这些计划任务已开启。Cowork 任务位于“计划”下。Code 任务位于“代码”标签页的“例行程序”下。"
+  ],
+  [
+    "On your other computer, these skills were turned on. Check them under Customize › Skills, then turn them on here.",
+    "在另一台计算机上，这些技能已开启。请在“自定义 › 技能”中检查它们，然后在此处开启。"
+  ],
+  [
+    "Only allow access to Centralized Management for this parent organization from the IP ranges listed below. Your organizations’ own allowlists aren’t affected.",
+    "仅允许从下方列出的 IP 范围访问此父组织的集中管理。你各组织自己的允许列表不受影响。"
+  ],
+  [
+    "Only an owner or someone with the Billing role can add credits.",
+    "只有所有者或具有“账单”角色的人才能添加额度。"
+  ],
+  [
+    "Only an owner or someone with the Billing role can raise this limit.",
+    "只有所有者或具有“账单”角色的人才能提高此限额。"
+  ],
+  [
+    "Only organization owners can choose All shared projects. Ask one to create the endpoint.",
+    "只有组织所有者才能选择“所有共享项目”。请让所有者创建端点。"
+  ],
+  [
+    "Open Team plan",
+    "打开 Team 套餐"
+  ],
+  [
+    "Open browser in side panel",
+    "在侧边面板中打开浏览器"
+  ],
+  [
+    "Open it to read the whole text.",
+    "打开它以阅读全文。"
+  ],
+  [
+    "Open project settings",
+    "打开项目设置"
+  ],
+  [
+    "Or add a custom connector by URL",
+    "或通过 URL 添加自定义连接器"
+  ],
+  [
+    "Org default turned back on for you.",
+    "已为你重新开启组织默认值。"
+  ],
+  [
+    "Org default turned off for you from now on.",
+    "已为你关闭组织默认值，即刻生效。"
+  ],
+  [
+    "Org members will lose access to Cowork right away.",
+    "组织成员将立即失去 Cowork 访问权限。"
+  ],
+  [
+    "Organization limit",
+    "组织限额"
+  ],
+  [
+    "Other data, if any",
+    "其他数据（如有）"
+  ],
+  [
+    "Own limit",
+    "自身限额"
+  ],
+  [
+    "Paint bucket",
+    "油漆桶"
+  ],
+  [
+    "Parent organization owner and admin access from any IP is off",
+    "父组织所有者和管理员的任意 IP 访问已关闭"
+  ],
+  [
+    "Parent organization owners and admins can use this allowlist from any IP",
+    "父组织所有者和管理员可从任意 IP 使用此允许列表"
+  ],
+  [
+    "Part of this card didn’t load, so this request can’t be allowed yet. Reload the page to try again, or deny it to continue.",
+    "此卡片的一部分未能加载，因此暂时无法批准此请求。请重新加载页面重试，或拒绝以继续。"
+  ],
+  [
+    "Paste the file’s text here, or drop the file on this box",
+    "在此处粘贴文件文本，或将文件拖到此框"
+  ],
+  [
+    "People using this artifact’s page may have typed its data, and Claude uses it in this session.",
+    "使用此 Artifact 页面的人可能输入过其中的数据，Claude 会在本次会话中使用它们。"
+  ],
+  [
+    "People with the link can open it.",
+    "拥有链接的人可以打开它。"
+  ],
+  [
+    "Prefer not to answer",
+    "不愿回答"
+  ],
+  [
+    "Presentations, all-hands",
+    "演示文稿、全员大会"
+  ],
+  [
+    "Project names and instructions",
+    "项目名称和说明"
+  ],
+  [
+    "Projects, which couldn’t be loaded. Try exporting again.",
+    "项目（无法加载）。请重新导出。"
+  ],
+  [
+    "Projects, with their instructions and memory, and the files in each project’s own folder if they total under 100 MB",
+    "项目及其说明和记忆，以及每个项目自身文件夹中的文件（总计不超过 100 MB 时）"
+  ],
+  [
+    "Proxy program not found",
+    "找不到代理程序"
+  ],
+  [
+    "Public and non-public repositories in one fix session",
+    "在同一修复会话中处理公开和非公开仓库"
+  ],
+  [
+    "Ratio height",
+    "比例高度"
+  ],
+  [
+    "Ratio width",
+    "比例宽度"
+  ],
+  [
+    "Read or delete your general memory under Settings › General. Read a project’s memory on the project’s page, under Memory.",
+    "在“设置 › 通用”中阅读或删除你的通用记忆。在项目页面“记忆”下阅读项目记忆。"
+  ],
+  [
+    "Read this animation as it is now, then make a new doc from what it shows. Leave the animation as it is.",
+    "按当前状态阅读此动画，然后根据其展示的内容创建新文档。保持动画不变。"
+  ],
+  [
+    "Read this animation as it is now, then make new designs from what it shows. Leave the animation as it is.",
+    "按当前状态阅读此动画，然后根据其展示的内容创建新设计。保持动画不变。"
+  ],
+  [
+    "Read this animation as it is now, then make new slides from what it shows. Leave the animation as it is.",
+    "按当前状态阅读此动画，然后根据其展示的内容创建新幻灯片。保持动画不变。"
+  ],
+  [
+    "Read this deck as it is now, then make a new animation from what it says. Leave the deck as it is.",
+    "按当前状态阅读此演示文稿，然后根据其内容创建新动画。保持演示文稿不变。"
+  ],
+  [
+    "Read this deck as it is now, then make a new animation from what it says. Leave the deck as it is. If this chat has more than one deck, ask me which one.",
+    "按当前状态阅读此演示文稿，然后根据其内容创建新动画。保持演示文稿不变。如果此聊天中有多个演示文稿，请询问我是哪一个。"
+  ],
+  [
+    "Read this deck as it is now, then make a new doc from what it says. Leave the deck as it is.",
+    "按当前状态阅读此演示文稿，然后根据其内容创建新文档。保持演示文稿不变。"
+  ],
+  [
+    "Read this deck as it is now, then make a new doc from what it says. Leave the deck as it is. If this chat has more than one deck, ask me which one.",
+    "按当前状态阅读此演示文稿，然后根据其内容创建新文档。保持演示文稿不变。如果此聊天中有多个演示文稿，请询问我是哪一个。"
+  ],
+  [
+    "Read this deck as it is now, then make new designs from what it says. Leave the deck as it is.",
+    "按当前状态阅读此演示文稿，然后根据其内容创建新设计。保持演示文稿不变。"
+  ],
+  [
+    "Read this deck as it is now, then make new designs from what it says. Leave the deck as it is. If this chat has more than one deck, ask me which one.",
+    "按当前状态阅读此演示文稿，然后根据其内容创建新设计。保持演示文稿不变。如果此聊天中有多个演示文稿，请询问我是哪一个。"
+  ],
+  [
+    "Read this design as it is now, then make a new animation from what it shows. Leave the design as it is.",
+    "按当前状态阅读此设计，然后根据其展示的内容创建新动画。保持设计不变。"
+  ],
+  [
+    "Read this design as it is now, then make a new animation from what it shows. Leave the design as it is. If this chat has more than one design, ask me which one.",
+    "按当前状态阅读此设计，然后根据其展示的内容创建新动画。保持设计不变。如果此聊天中有多个设计，请询问我是哪一个。"
+  ],
+  [
+    "Read this design as it is now, then make a new doc from what it shows. Leave the design as it is.",
+    "按当前状态阅读此设计，然后根据其展示的内容创建新文档。保持设计不变。"
+  ],
+  [
+    "Read this design as it is now, then make a new doc from what it shows. Leave the design as it is. If this chat has more than one design, ask me which one.",
+    "按当前状态阅读此设计，然后根据其展示的内容创建新文档。保持设计不变。如果此聊天中有多个设计，请询问我是哪一个。"
+  ],
+  [
+    "Read this design as it is now, then make new slides from what it shows. Leave the design as it is.",
+    "按当前状态阅读此设计，然后根据其展示的内容创建新幻灯片。保持设计不变。"
+  ],
+  [
+    "Read this design as it is now, then make new slides from what it shows. Leave the design as it is. If this chat has more than one design, ask me which one.",
+    "按当前状态阅读此设计，然后根据其展示的内容创建新幻灯片。保持设计不变。如果此聊天中有多个设计，请询问我是哪一个。"
+  ],
+  [
+    "Read this doc as it is now, then make a new animation from what it says. Leave the doc as it is.",
+    "按当前状态阅读此文档，然后根据其内容创建新动画。保持文档不变。"
+  ],
+  [
+    "Read this doc as it is now, then make a new animation from what it says. Leave the doc as it is. If this chat has more than one doc, ask me which one.",
+    "按当前状态阅读此文档，然后根据其内容创建新动画。保持文档不变。如果此聊天中有多个文档，请询问我是哪一个。"
+  ],
+  [
+    "Read this doc, then make new designs from it. Leave the doc as it is. If this chat has more than one doc, ask me which one.",
+    "阅读此文档，然后基于它创建新设计。保持文档不变。如果此聊天中有多个文档，请询问我是哪一个。"
+  ],
+  [
+    "Read this doc, then make new slides from it. Leave the doc as it is. If this chat has more than one doc, ask me which one.",
+    "阅读此文档，然后基于它创建新幻灯片。保持文档不变。如果此聊天中有多个文档，请询问我是哪一个。"
+  ],
+  [
+    "Reading aloud…",
+    "正在朗读…"
+  ],
+  [
+    "Reading paused",
+    "朗读已暂停"
+  ],
+  [
+    "Reading your export. A large one can take a few minutes.",
+    "正在读取你的导出文件。文件较大时可能需要几分钟。"
+  ],
+  [
+    "Recommended tools",
+    "推荐的工具"
+  ],
+  [
+    "Reconnected, and you’re caught up",
+    "已重新连接，内容已同步"
+  ],
+  [
+    "Refresh usage",
+    "刷新用量"
+  ],
+  [
+    "Refreshing usage",
+    "正在刷新用量"
+  ],
+  [
+    "Remove as organization default",
+    "取消组织默认设置"
+  ],
+  [
+    "Remove as your default",
+    "取消你的默认设置"
+  ],
+  [
+    "Remove monthly limit and budget",
+    "移除每月限额和预算"
+  ],
+  [
+    "Removing the limit",
+    "正在移除限额"
+  ],
+  [
+    "Report photo",
+    "举报照片"
+  ],
+  [
+    "Reported progress",
+    "已报告的进度"
+  ],
+  [
+    "Repository address",
+    "仓库地址"
+  ],
+  [
+    "Reset from here",
+    "从此处重置"
+  ],
+  [
+    "Response font",
+    "回复字体"
+  ],
+  [
+    "Restrict access to this allowlist?",
+    "限制对此允许列表的访问？"
+  ],
+  [
+    "Restricted by policy",
+    "受策略限制"
+  ],
+  [
+    "Review access",
+    "审查访问权限"
+  ],
+  [
+    "Review limit",
+    "审查限额"
+  ],
+  [
+    "Roles added on the Admin roles page appear here with their admin permissions.",
+    "在“管理员角色”页面添加的角色会连同其管理员权限显示在此处。"
+  ],
+  [
+    "Roles given access also get access to templates you have enabled for your organization.",
+    "被授予访问权限的角色还会获得你为组织启用的模板的访问权限。"
+  ],
+  [
+    "Rotated device",
+    "已旋转设备"
+  ],
+  [
+    "Rotating device",
+    "正在旋转设备"
+  ],
+  [
+    "Running on another computer",
+    "正在另一台计算机上运行"
+  ],
+  [
+    "Saved the newest 50,000 changes. Older ones aren’t in this file.",
+    "已保存最新的 50,000 项更改。较早的更改不在此文件中。"
+  ],
+  [
+    "Saving the limit",
+    "正在保存限额"
+  ],
+  [
+    "Saving the pooled budget",
+    "正在保存共享预算"
+  ],
+  [
+    "Screener ending",
+    "筛选即将结束"
+  ],
+  [
+    "Search by name, email, or ID",
+    "按姓名、邮箱或 ID 搜索"
+  ],
+  [
+    "Search group limits",
+    "搜索群组限额"
+  ],
+  [
+    "Search spend by group",
+    "搜索按群组划分的支出"
+  ],
+  [
+    "Search usage",
+    "搜索用量"
+  ],
+  [
+    "Search user limits",
+    "搜索用户限额"
+  ],
+  [
+    "See all matches in the directory",
+    "查看目录中的所有匹配项"
+  ],
+  [
+    "Select at least one role.",
+    "请至少选择一个角色。"
+  ],
+  [
+    "Send cancelled.",
+    "发送已取消。"
+  ],
+  [
+    "Send to",
+    "发送到"
+  ],
+  [
+    "Sending to apps isn’t available right now.",
+    "目前无法发送到应用。"
+  ],
+  [
+    "Sending to apps isn’t turned on for your organization yet.",
+    "你的组织尚未开启发送到应用。"
+  ],
+  [
+    "Sending to other apps isn’t available right now. Try again later.",
+    "目前无法发送到其他应用。请稍后重试。"
+  ],
+  [
+    "Sending your request",
+    "正在发送你的请求"
+  ],
+  [
+    "Sent file",
+    "已发送的文件"
+  ],
+  [
+    "Sessions, with up to 100 MB of attached files and 100 MB of output files per session",
+    "会话，每个会话最多 100 MB 附件和 100 MB 输出文件"
+  ],
+  [
+    "Set as organization default",
+    "设为组织默认"
+  ],
+  [
+    "Set as your default",
+    "设为你的默认"
+  ],
+  [
+    "Set to false to turn off the workspace VM, and with it Cowork tasks on this computer. True is the same as unset.",
+    "设为 false 可关闭工作区 VM，同时也会关闭此计算机上的 Cowork 任务。true 与未设置相同。"
+  ],
+  [
+    "Set user limit",
+    "设置用户限额"
+  ],
+  [
+    "Shared. People with the link can open it.",
+    "已共享。拥有链接的人可以打开它。"
+  ],
+  [
+    "Shorten date range",
+    "缩短日期范围"
+  ],
+  [
+    "Show all roles",
+    "显示所有角色"
+  ],
+  [
+    "Show unavailable organizations",
+    "显示不可用的组织"
+  ],
+  [
+    "Show widgets from this connector",
+    "显示此连接器的小组件"
+  ],
+  [
+    "Side chat doesn’t accept files. Drop them in the main session instead.",
+    "侧边聊天不接受文件。请将它们拖到主会话中。"
+  ],
+  [
+    "Sign in so Claude in Chrome can use your computer.",
+    "登录后，Chrome 中的 Claude 才能使用你的计算机。"
+  ],
+  [
+    "Sign in to the account you want to delete, then try again.",
+    "请登录你要删除的账号，然后重试。"
+  ],
+  [
+    "Sign in to your gateway again or ask its operator, then reopen it from the menu.",
+    "请重新登录你的网关或询问其运营方，然后从菜单中重新打开。"
+  ],
+  [
+    "Sign out, then sign in to Claude through the single sign-on (SSO) provider you want to set up.",
+    "请退出登录，然后通过你要设置的单点登录（SSO）提供商登录 Claude。"
+  ],
+  [
+    "Skills you add here are kept by your organization’s session host and are available to Claude in your sessions there.",
+    "你在此处添加的技能由组织的会话主机保存，Claude 在其中的会话中可以使用。"
+  ],
+  [
+    "Skills you saved and plugins you uploaded",
+    "你保存的技能和上传的插件"
+  ],
+  [
+    "Skip role list",
+    "跳过角色列表"
+  ],
+  [
+    "Some app preferences, such as keep-awake settings and prompt suggestions",
+    "部分应用偏好设置，例如保持唤醒设置和提示建议"
+  ],
+  [
+    "Some items were left out because they’re too large, couldn’t be read, or have a name that can’t be imported.",
+    "部分项目未被包含，因为它们过大、无法读取，或名称无法导入。"
+  ],
+  [
+    "Some values in this file are redacted. Choose a file with the full values.",
+    "此文件中的部分值已脱敏。请选择包含完整值的文件。"
+  ],
+  [
+    "Someone else may have made this artifact, and Claude uses what it says in this session.",
+    "此 Artifact 可能由他人创建，Claude 会在本次会话中采用其所述内容。"
+  ],
+  [
+    "Someone else may have made this artifact, and approving lets Claude read it for the rest of this session.",
+    "此 Artifact 可能由他人创建，批准后 Claude 可在本次会话剩余时间内读取它。"
+  ],
+  [
+    "Someone else may have uploaded this artifact’s files, and Claude sees their names.",
+    "此 Artifact 的文件可能由他人上传，Claude 会看到它们的名称。"
+  ],
+  [
+    "Someone else may have written this artifact’s files, and Claude sees their names.",
+    "此 Artifact 的文件可能由他人写入，Claude 会看到它们的名称。"
+  ],
+  [
+    "Something on this computer blocked ssh.exe",
+    "此计算机上的某些内容阻止了 ssh.exe"
+  ],
+  [
+    "Something open or selected is near the end of this list.",
+    "打开或选中的内容接近此列表末尾。"
+  ],
+  [
+    "Something went wrong checking your answers. Try again.",
+    "检查你的答案时出错。请重试。"
+  ],
+  [
+    "Something went wrong while sending. Check your connection and try again.",
+    "发送时出错。请检查网络连接后重试。"
+  ],
+  [
+    "Spend by group",
+    "按群组划分的支出"
+  ],
+  [
+    "Spend limit increase requested",
+    "已请求提高支出限额"
+  ],
+  [
+    "Start anyway",
+    "仍然开始"
+  ],
+  [
+    "Still couldn’t search inside folders shared with you.",
+    "仍无法在与你共享的文件夹中搜索。"
+  ],
+  [
+    "Stop asking everyone to follow",
+    "不再要求所有人跟随"
+  ],
+  [
+    "Stop reading aloud",
+    "停止朗读"
+  ],
+  [
+    "Submitting this report will send the entire current conversation to Anthropic for future improvements to our products and models.",
+    "提交此报告会将当前整个对话发送给 Anthropic，用于未来改进我们的产品和模型。"
+  ],
+  [
+    "Supported: Linux, macOS, or Windows on x86_64 or arm64.",
+    "支持：Linux、macOS 或 Windows，架构为 x86_64 或 arm64。"
+  ],
+  [
+    "Suspended by your admin",
+    "已被管理员暂停"
+  ],
+  [
+    "Switch to the organization that owns this artifact to send it to an app.",
+    "请切换到拥有此 Artifact 的组织，以便将其发送到应用。"
+  ],
+  [
+    "Switch to this window to add this.",
+    "请切换到此窗口以添加。"
+  ],
+  [
+    "Table controls",
+    "表格控件"
+  ],
+  [
+    "Taller feed posts",
+    "更高的动态帖子"
+  ],
+  [
+    "Test tools",
+    "测试工具"
+  ],
+  [
+    "Thanks. This photo will be reviewed.",
+    "谢谢。此照片将会被审核。"
+  ],
+  [
+    "That .reg file is in the older REGEDIT4 format. Export the policy with the Windows policy command below.",
+    "该 .reg 文件为较旧的 REGEDIT4 格式。请使用下方的 Windows 策略命令导出策略。"
+  ],
+  [
+    "That export was made in another organization. Choose an export made in this organization.",
+    "该导出是在另一个组织中进行的。请选择在此组织中创建的导出。"
+  ],
+  [
+    "That file type isn’t supported. See “Where do I get this file?” below.",
+    "不支持该文件类型。请参阅下方的“我从哪里获取此文件？”。"
+  ],
+  [
+    "That is not valid JSON. See “Where do I get this file?”",
+    "该内容不是有效的 JSON。请参阅“我从哪里获取此文件？”。"
+  ],
+  [
+    "That profile has more than one Claude Desktop payload. Combine them into one payload, then choose the file again.",
+    "该配置文件包含多个 Claude Desktop 载荷。请将它们合并为一个载荷，然后重新选择文件。"
+  ],
+  [
+    "That zip isn’t a Claude Desktop export. Choose a Claude Desktop export, or the app’s data folder (its name starts with “Claude”).",
+    "该 zip 不是 Claude Desktop 导出文件。请选择 Claude Desktop 导出文件，或应用的数据文件夹（名称以“Claude”开头）。"
+  ],
+  [
+    "The ID your gateway knows the user by, which is usually not their email. A user’s details under Usage show theirs.",
+    "网关识别该用户所用的 ID，通常不是其邮箱。用户在“用量”下的详情会显示其 ID。"
+  ],
+  [
+    "The artifact couldn’t produce a file to send. Refresh it and try again.",
+    "该 Artifact 未能生成可发送的文件。请刷新后重试。"
+  ],
+  [
+    "The connector does not list the tools below, but a role has its own setting for them.",
+    "该连接器未列出下方工具，但某个角色对它们有单独设置。"
+  ],
+  [
+    "The connector’s message is too long to show in full.",
+    "该连接器的消息过长，无法完整显示。"
+  ],
+  [
+    "The date range applies only to sessions.",
+    "日期范围仅适用于会话。"
+  ],
+  [
+    "The dialog closed, and some of your changes were not saved. Open it again to check the roles.",
+    "对话框已关闭，部分更改未保存。请重新打开以检查角色。"
+  ],
+  [
+    "The directory didn’t load. You can still add a custom connector below.",
+    "目录未能加载。你仍可在下方添加自定义连接器。"
+  ],
+  [
+    "The export stopped before it finished, and no file was saved.",
+    "导出在完成前停止，未保存任何文件。"
+  ],
+  [
+    "The file also includes any passwords or API keys in these items, for example in the arguments of a local MCP server.",
+    "该文件还包含这些条目中的任何密码或 API 密钥，例如本地 MCP 服务器的参数中。"
+  ],
+  [
+    "The full error is in the details.",
+    "完整错误见详情。"
+  ],
+  [
+    "The jump host couldn’t connect",
+    "跳板机无法连接"
+  ],
+  [
+    "The limit for imported tasks was reached.",
+    "已达到导入任务的限额。"
+  ],
+  [
+    "The server said:",
+    "服务器返回："
+  ],
+  [
+    "The simulator won’t run until Xcode installs its components. Open Xcode to install them. It may ask for your Mac password.",
+    "在 Xcode 安装其组件之前，模拟器无法运行。请打开 Xcode 进行安装，可能会要求输入 Mac 密码。"
+  ],
+  [
+    "The “Instructions for Claude” and “Global instructions” settings aren’t included. To keep them, copy their text to your other computer.",
+    "不包含“Claude 的说明”和“全局说明”设置。如需保留，请将其文本复制到另一台计算机。"
+  ],
+  [
+    "There’s no usage available.",
+    "没有可用的用量数据。"
+  ],
+  [
+    "There’s nothing to export in this date range.",
+    "此日期范围内没有可导出的内容。"
+  ],
+  [
+    "These scheduled tasks used folders or files on your other computer. Choose the folders and files again under Scheduled.",
+    "这些计划任务使用了另一台计算机上的文件夹或文件。请在“计划”下重新选择文件夹和文件。"
+  ],
+  [
+    "This also removes any file not listed here.",
+    "这也会移除此处未列出的任何文件。"
+  ],
+  [
+    "This artifact can’t be sent right now. Refresh it and try again.",
+    "此 Artifact 目前无法发送。请刷新后重试。"
+  ],
+  [
+    "This artifact can’t be sent to other apps.",
+    "此 Artifact 无法发送到其他应用。"
+  ],
+  [
+    "This artifact is reading aloud",
+    "此 Artifact 正在朗读"
+  ],
+  [
+    "This artifact paused reading aloud",
+    "此 Artifact 已暂停朗读"
+  ],
+  [
+    "This artifact’s label limits who can see it, so Claude can’t send it to other apps.",
+    "此 Artifact 的标签限制了谁能看到它，因此 Claude 无法将其发送到其他应用。"
+  ],
+  [
+    "This browser can’t make an MP4 video. To send this to an app, try opening it in Chrome.",
+    "此浏览器无法生成 MP4 视频。要将此内容发送到应用，请尝试在 Chrome 中打开。"
+  ],
+  [
+    "This browser couldn’t draw the artifact’s icon, and a shortcut needs one. If a privacy setting or extension blocks it, turn that off, or try another browser.",
+    "此浏览器无法绘制该 Artifact 的图标，而快捷方式需要一个图标。如果有隐私设置或扩展程序阻止了它，请关闭该限制，或换一个浏览器。"
+  ],
+  [
+    "This browser doesn’t offer to add shortcuts for artifacts. Try Chrome or Edge.",
+    "此浏览器不支持为 Artifact 添加快捷方式。请尝试 Chrome 或 Edge。"
+  ],
+  [
+    "This chat has ended, so Claude can’t send this artifact to an app from here.",
+    "此聊天已结束，因此 Claude 无法从此处将此 Artifact 发送到应用。"
+  ],
+  [
+    "This chat is too long to continue, and compacting it automatically didn’t help. You can rewind to an earlier point or start a new chat.",
+    "此聊天过长，无法继续，且自动压缩未能解决。你可以回退到较早的位置，或开始新聊天。"
+  ],
+  [
+    "This chat is too long to continue. Rewind to an earlier point or start a new chat.",
+    "此聊天过长，无法继续。请回退到较早的位置，或开始新聊天。"
+  ],
+  [
+    "This connector uses managed authorization, which isn’t supported for agents yet.",
+    "此连接器使用托管授权，代理目前尚不支持。"
+  ],
+  [
+    "This deletes the chat and any artifacts made in it.",
+    "这将删除该聊天及其中创建的所有 Artifact。"
+  ],
+  [
+    "This design system can’t be your default. It may no longer be shared with you. Choose another one.",
+    "此设计系统不能设为默认。它可能已不再与你共享。请选择其他设计系统。"
+  ],
+  [
+    "This device couldn’t be verified. You can sign in again, or use Claude Desktop instead.",
+    "无法验证此设备。你可以重新登录，或改用 Claude Desktop。"
+  ],
+  [
+    "This export is over the import limit of 20 GB or 5,000,000 files.",
+    "此导出超过 20 GB 或 5,000,000 个文件的导入上限。"
+  ],
+  [
+    "This export is over the import limit of 20 GB or 5,000,000 files. Delete sessions that you no longer need, then export again.",
+    "此导出超过 20 GB 或 5,000,000 个文件的导入上限。请删除不再需要的会话，然后重新导出。"
+  ],
+  [
+    "This file has nothing to import. Choose another file.",
+    "此文件没有可导入的内容。请选择其他文件。"
+  ],
+  [
+    "This file is too large to send. Download it from Export instead.",
+    "此文件过大，无法发送。请改用“导出”下载。"
+  ],
+  [
+    "This group’s monthly limit is Unlimited, and a pooled budget needs a limit for each member. Set the monthly limit first; it can equal the budget.",
+    "此群组的每月限额为“不限”，而共享预算需要每个成员都有限额。请先设置每月限额，它可以等于预算金额。"
+  ],
+  [
+    "This group’s pooled budget needs a limit for each member. Pause or remove the budget first.",
+    "此群组的共享预算需要每个成员都有限额。请先暂停或移除该预算。"
+  ],
+  [
+    "This is also your default. Remove it as your default first.",
+    "这也是你的默认设置。请先取消将其设为默认。"
+  ],
+  [
+    "This is only available in a test interview.",
+    "此功能仅在测试访谈中可用。"
+  ],
+  [
+    "This is taking longer than usual. You can keep waiting here, or close this window and try again from Claude in Chrome.",
+    "这比平时耗时更长。你可以继续在此等待，或关闭此窗口并从 Chrome 中的 Claude 重试。"
+  ],
+  [
+    "This item can’t be imported.",
+    "此项目无法导入。"
+  ],
+  [
+    "This key is tied to a parent organization this organization has left, so it cannot be re-enabled. Create a new key instead.",
+    "此密钥关联的父组织已被此组织退出，因此无法重新启用。请改为创建新密钥。"
+  ],
+  [
+    "This limit has already been set. Close this and edit it in the table.",
+    "此限额已设置。请关闭此窗口并在表格中编辑。"
+  ],
+  [
+    "This only checks the browser you’re using now; other parent organization owners and admins connect from their own addresses.",
+    "这仅检查你当前使用的浏览器；其他父组织所有者和管理员会从各自的地址连接。"
+  ],
+  [
+    "This organization can’t use an IP allowlist because we can’t enforce it here. No changes were saved.",
+    "此组织无法使用 IP 允许列表，因为我们无法在此处强制执行。未保存任何更改。"
+  ],
+  [
+    "This page is out of date. Reload it and answer again.",
+    "此页面已过期。请重新加载后重新回答。"
+  ],
+  [
+    "This preview doesn’t load anything from the web, so parts may be missing.",
+    "此预览不会从网络加载任何内容，因此部分内容可能缺失。"
+  ],
+  [
+    "This preview doesn’t load anything from the web, so parts may be missing. Export the file to open it in a browser, where content from the web will load.",
+    "此预览不会从网络加载任何内容，因此部分内容可能缺失。请导出文件并在浏览器中打开，网络内容将会加载。"
+  ],
+  [
+    "This project is being deleted, so it can’t be unarchived.",
+    "此项目正在被删除，因此无法取消归档。"
+  ],
+  [
+    "This project is being deleted, so its findings aren’t available.",
+    "此项目正在被删除，因此其发现项不可用。"
+  ],
+  [
+    "This project was unarchived, so it wasn’t deleted.",
+    "此项目已取消归档，因此未被删除。"
+  ],
+  [
+    "This session can’t run here",
+    "此会话无法在此处运行"
+  ],
+  [
+    "This shows the first part of what Claude wrote at the time, and later edits to the file won’t appear.",
+    "此处显示 Claude 当时写入内容的第一部分，之后对文件的编辑不会显示。"
+  ],
+  [
+    "This shows what Claude wrote at the time, so later edits to the file won’t appear.",
+    "此处显示 Claude 当时写入的内容，因此之后对文件的编辑不会显示。"
+  ],
+  [
+    "This study is looking for a specific group of participants, and based on your answers it isn’t a match.",
+    "本研究在寻找特定群体参与者，根据你的回答并不匹配。"
+  ],
+  [
+    "This study was just updated, so check your answers and try again.",
+    "本研究刚刚更新，请检查你的答案后重试。"
+  ],
+  [
+    "This text is no longer available. Ask Claude to show you the file.",
+    "此文本已不可用。请让 Claude 显示该文件。"
+  ],
+  [
+    "This version of Claude Code is too old to start a session, so automatic restarts are paused for this session. Update Claude, then send a message to try again.",
+    "此版本的 Claude Code 过旧，无法启动会话，因此本次会话已暂停自动重启。请更新 Claude，然后发送消息重试。"
+  ],
+  [
+    "Tilt only works with a device frame.",
+    "倾斜仅适用于设备边框。"
+  ],
+  [
+    "To add local MCP servers, import this export again, then choose “Add.”",
+    "要添加本地 MCP 服务器，请再次导入此导出文件，然后选择“添加”。"
+  ],
+  [
+    "To open WorkOS setup, sign out, then sign in to Claude through the single sign-on (SSO) provider you want to set up, and return to this step.",
+    "要打开 WorkOS 设置，请退出登录，然后通过你要设置的单点登录（SSO）提供商登录 Claude，并返回此步骤。"
+  ],
+  [
+    "To set up a different identity provider, sign out and sign in again through it.",
+    "要设置其他身份提供商，请退出登录并通过它重新登录。"
+  ],
+  [
+    "To use local MCP servers, contact your IT administrator.",
+    "要使用本地 MCP 服务器，请联系 IT 管理员。"
+  ],
+  [
+    "Too many downloads in a short time. Try again in a minute.",
+    "短时间内下载次数过多。请等一分钟再试。"
+  ],
+  [
+    "Tools and data sources this plugin connects to. Select one to connect it.",
+    "此插件连接的工具和数据源。选择一个即可连接。"
+  ],
+  [
+    "Totals by group",
+    "按群组统计的合计"
+  ],
+  [
+    "Try again, or give access on the Roles page.",
+    "请重试，或在“角色”页面授予访问权限。"
+  ],
+  [
+    "Try again, or reopen this dialog to change your choices.",
+    "请重试，或重新打开此对话框更改你的选择。"
+  ],
+  [
+    "Try it out in the Browser tab.",
+    "在“浏览器”标签页中试用。"
+  ],
+  [
+    "Turn back on for you",
+    "重新为你开启"
+  ],
+  [
+    "Turn each task off on your other computer before you turn it on here, or it runs on both.",
+    "在此处开启之前，请先在另一台计算机上关闭每个任务，否则它会在两边同时运行。"
+  ],
+  [
+    "Turn into",
+    "转换为"
+  ],
+  [
+    "Turn off Code sessions that run on the device, WSL included, so Code offers only remote environments such as SSH.",
+    "关闭在此设备（包括 WSL）上运行的 Code 会话，这样 Code 只提供 SSH 等远程环境。"
+  ],
+  [
+    "Turn off Follow me",
+    "关闭“跟随我”"
+  ],
+  [
+    "Turn off for you",
+    "对你关闭"
+  ],
+  [
+    "Turn on auto-fix",
+    "开启自动修复"
+  ],
+  [
+    "Turn these notes into a one-page brief",
+    "将这些笔记整理成一页简报"
+  ],
+  [
+    "Turning on auto-fix",
+    "正在开启自动修复"
+  ],
+  [
+    "Typically blocks listing",
+    "通常会阻止列出"
+  ],
+  [
+    "Unsent message",
+    "未发送的消息"
+  ],
+  [
+    "Updating roles",
+    "正在更新角色"
+  ],
+  [
+    "Upload a .zip or .plugin archive. It’s stored on your organization’s infrastructure, not this computer, and loads in your tasks and sessions.",
+    "上传 .zip 或 .plugin 归档文件。它将存储在组织的服务器基础设施上，而不是此计算机上，并会在你的任务和会话中加载。"
+  ],
+  [
+    "Usage is paused for your organization",
+    "你的组织用量已暂停"
+  ],
+  [
+    "Usage period",
+    "用量周期"
+  ],
+  [
+    "Use auto mode",
+    "使用自动模式"
+  ],
+  [
+    "User ID (from your identity provider)",
+    "用户 ID（来自你的身份提供商）"
+  ],
+  [
+    "User limit",
+    "用户限额"
+  ],
+  [
+    "User limits",
+    "用户限额"
+  ],
+  [
+    "Uses managed authorization. Not yet supported for agents.",
+    "使用托管授权。代理尚不支持。"
+  ],
+  [
+    "Video unavailable",
+    "视频不可用"
+  ],
+  [
+    "Wait for Claude to finish, or respond to Claude, then try again.",
+    "请等 Claude 完成或回复 Claude，然后重试。"
+  ],
+  [
+    "Wait for Claude to finish, then try again.",
+    "请等 Claude 完成后重试。"
+  ],
+  [
+    "Wait until the app finishes reading your export.",
+    "请等应用读取完你的导出文件。"
+  ],
+  [
+    "Waiting for your admin",
+    "正在等待你的管理员"
+  ],
+  [
+    "We couldn’t check this organization’s IP allowlist settings just now, so nothing was saved. Try again in a few seconds.",
+    "我们刚才无法检查此组织的 IP 允许列表设置，因此未保存任何内容。请几秒后重试。"
+  ],
+  [
+    "Webhook endpoints used only by this project are also deleted, so they’ll stop sending events.",
+    "仅供此项目使用的 Webhook 端点也会被删除，因此它们将停止发送事件。"
+  ],
+  [
+    "Webinar: Prepare for unified Claude",
+    "网络研讨会：为统一的 Claude 做好准备"
+  ],
+  [
+    "Welcome to Enterprise",
+    "欢迎使用企业版"
+  ],
+  [
+    "What is your date of birth?",
+    "你的出生日期是？"
+  ],
+  [
+    "What members with each role can use. Built-in roles (User, Admin, Owner, Primary owner) get every capability your organization has turned on.",
+    "各角色成员可以使用的内容。内置角色（用户、管理员、所有者、主所有者）可获得你组织已开启的所有能力。"
+  ],
+  [
+    "What to include",
+    "包含内容"
+  ],
+  [
+    "What’s wrong with this photo?",
+    "此照片有什么问题？"
+  ],
+  [
+    "When off, the Claude add-in is turned off for everyone, in every Office application.",
+    "关闭后，Claude 加载项将在所有 Office 应用中对所有关闭。"
+  ],
+  [
+    "When this is on, non-public code or a finding’s details could end up in a public repository.",
+    "开启后，非公开代码或发现项详情可能会进入公开仓库。"
+  ],
+  [
+    "Which US state or territory do you live in?",
+    "你居住在美国哪个州或地区？"
+  ],
+  [
+    "Why are you reporting this photo?",
+    "你为什么要举报此照片？"
+  ],
+  [
+    "Windows policy",
+    "Windows 策略"
+  ],
+  [
+    "With access to",
+    "可访问"
+  ],
+  [
+    "With this on, each device that connects to your computer can ask you to sign in again about once a day.",
+    "开启后，每台连接到你计算机的设备大约每天可要求你重新登录一次。"
+  ],
+  [
+    "You can keep working in Claude Code on your computer, or start a new session.",
+    "你可以继续在计算机上的 Claude Code 中工作，或启动新会话。"
+  ],
+  [
+    "You can only add members of your organization. Fix or remove this address to continue.",
+    "你只能添加组织的成员。请修正或移除此地址以继续。"
+  ],
+  [
+    "You can try again when the countdown ends.",
+    "倒计时结束后可以重试。"
+  ],
+  [
+    "You can try again, or use Claude Desktop instead.",
+    "你可以重试，或改用 Claude Desktop。"
+  ],
+  [
+    "You can’t upgrade this organization. Ask your admin to upgrade it.",
+    "你无法升级此组织。请让管理员进行升级。"
+  ],
+  [
+    "You choose after you press Import",
+    "按下“导入”后由你选择"
+  ],
+  [
+    "You closed the browser’s dialog. Reload the page to add the shortcut.",
+    "你关闭了浏览器的对话框。请重新加载页面以添加快捷方式。"
+  ],
+  [
+    "You don’t need to pay again",
+    "你无需再次付款"
+  ],
+  [
+    "You turned off the Claude Security connector. To use it again, open Claude Security, go to API access, and turn the connector on.",
+    "你关闭了 Claude Security 连接器。要再次使用它，请打开 Claude Security，前往 API 访问，然后开启该连接器。"
+  ],
+  [
+    "Your Claude Console sign-in isn’t tied to an organization. Sign out from your account menu, then sign in with one your IT team allows.",
+    "你的 Claude Console 登录未关联组织。请从账号菜单退出登录，然后使用 IT 团队允许的组织登录。"
+  ],
+  [
+    "Your Claude Console sign-in needs renewing. Sign out from your account menu, then sign in with an organization your IT team allows.",
+    "你的 Claude Console 登录需要续订。请从账号菜单退出登录，然后使用 IT 团队允许的组织登录。"
+  ],
+  [
+    "Your Claude Console sign-in will stop working after a future update",
+    "你的 Claude Console 登录将在未来的更新后停止工作"
+  ],
+  [
+    "Your Cloud gateway sign-in has expired",
+    "你的 Cloud 网关登录已过期"
+  ],
+  [
+    "Your account wasn’t deleted because the account in use changed.",
+    "由于使用的账号发生了变化，你的账号未被删除。"
+  ],
+  [
+    "Your admin suspended this. Only they can resume it.",
+    "你的管理员暂停了此功能。只有他们可以恢复。"
+  ],
+  [
+    "Your app is running",
+    "你的应用正在运行"
+  ],
+  [
+    "Your computer is no longer connected to this session",
+    "你的计算机已不再连接到此会话"
+  ],
+  [
+    "Your default",
+    "你的默认"
+  ],
+  [
+    "Your document couldn’t be uploaded. You can check your internet connection and try again, or choose a smaller file.",
+    "你的文档无法上传。你可以检查网络连接后重试，或选择较小的文件。"
+  ],
+  [
+    "Your first project. I’ll keep what you add here in mind in every chat inside it.",
+    "你的第一个项目。你在其中添加的内容，我会在其中的每次聊天中考虑。"
+  ],
+  [
+    "Your network blocked this sign-in",
+    "你的网络阻止了此次登录"
+  ],
+  [
+    "Your organization has turned off Code sessions on this computer, so terminal sessions can’t be resumed here. Ask your IT team to turn on Code sessions.",
+    "你的组织已关闭此计算机上的 Code 会话，因此终端会话无法在此处恢复。请让 IT 团队开启 Code 会话。"
+  ],
+  [
+    "Your organization has turned off Code sessions on this computer. Ask your IT team to turn them on.",
+    "你的组织已关闭此计算机上的 Code 会话。请让 IT 团队开启。"
+  ],
+  [
+    "Your organization is still at its usage limit.",
+    "你的组织仍处于用量限额。"
+  ],
+  [
+    "Your organization is still out of credits.",
+    "你的组织仍无可用额度。"
+  ],
+  [
+    "Your organization requires a Cloud gateway sign-in, which isn’t available in this app. Signing in to Claude again won’t help. Ask your admin.",
+    "你的组织要求登录 Cloud 网关，而此应用不支持。重新登录 Claude 也不会有帮助。请询问管理员。"
+  ],
+  [
+    "Your organization’s data policies don’t allow Claude to send artifacts to other apps.",
+    "你组织的数据策略不允许 Claude 将 Artifact 发送到其他应用。"
+  ],
+  [
+    "Your organization’s usage is paused.",
+    "你组织的用量已暂停。"
+  ],
+  [
+    "Your reply was added to the message box instead of being sent. Claude continues once you send it.",
+    "你的回复已添加到消息框，而不是直接发送。发送后 Claude 会继续。"
+  ],
+  [
+    "Your reply was added to the message box. Claude continues once you send it.",
+    "你的回复已添加到消息框。发送后 Claude 会继续。"
+  ],
+  [
+    "Your reseller manages this limit. Contact them to raise it.",
+    "你的经销商管理此限额。请联系他们提高。"
+  ],
+  [
+    "Your reseller manages your credits. Contact them to add more.",
+    "你的经销商管理你的额度。请联系他们添加更多。"
+  ],
+  [
+    "Your task was updated, but it may still use a folder or file you removed. Save again before you close the editor.",
+    "你的任务已更新，但可能仍在使用你已移除的文件夹或文件。请在关闭编辑器前再次保存。"
+  ],
+  [
+    "Your “Help improve our AI models” choice may not have been saved. You can review it in privacy settings.",
+    "你的“帮助改进我们的 AI 模型”选择可能未保存。你可以在隐私设置中查看。"
+  ],
+  [
+    "You’re caught up on seat and usage limit requests",
+    "你已处理完所有席位和用量限额请求"
+  ],
+  [
+    "You’re on Pro for the year",
+    "你已按年订阅 Pro"
+  ],
+  [
+    "You’re reporting this person’s profile photo.",
+    "你正在举报此人的个人资料照片。"
+  ],
+  [
+    "You’ve answered these questions too many times. Ask the study’s team to let you try again.",
+    "你回答这些问题的次数过多。请让研究团队允许你重试。"
+  ],
+  [
+    "You’ve sent a lot of files in a short time. Wait a minute and try again.",
+    "你在短时间内发送了大量文件。请等一分钟再试。"
+  ],
+  [
+    "someone’s photo: options",
+    "某人的照片：选项"
+  ],
+  [
+    "ssh.exe was blocked",
+    "ssh.exe 被阻止"
+  ],
+  [
+    "“Launches, hiring, and risks for the Platform team”",
+    "“Platform 团队的发布、招聘和风险”"
+  ],
+  [
+    "“No group on record” is spend by people in no group that day, or on days your gateway keeps no groups for.",
+    "“没有群组记录”指当天不属于任何群组的人，或在你的网关不保留群组信息的日子产生的支出。"
+  ],
+  [
+    "“Use memory in sessions” was turned off on your other computer when you made this export. To import memory, turn it on there, then make a new export.",
+    "你制作此导出时，另一台计算机上的“在会话中使用记忆”已关闭。要导入记忆，请在那里开启，然后重新导出。"
+  ],
+  [
+    "Available once this chat is ready for your next message",
+    "此聊天准备好接收你的下一条消息后即可使用"
+  ],
+  [
+    "Bypass permissions",
+    "绕过权限"
+  ],
+  [
+    "Couldn’t load connectors.",
+    "无法加载连接器。"
+  ],
+  [
+    "Couldn’t load organization settings.",
+    "无法加载组织设置。"
+  ],
+  [
+    "Couldn’t load roles.",
+    "无法加载角色。"
+  ],
+  [
+    "Couldn’t save this setting. Try again.",
+    "无法保存此设置。请重试。"
+  ],
+  [
+    "Couldn’t send your request. Try again.",
+    "无法发送你的请求。请重试。"
+  ],
+  [
+    "Delete project",
+    "删除项目"
+  ],
+  [
+    "Loading connectors",
+    "正在加载连接器"
+  ],
+  [
+    "No access",
+    "无访问权限"
+  ],
+  [
+    "No changes",
+    "无变化"
+  ],
+  [
+    "No preview to show",
+    "没有可显示的预览"
+  ],
+  [
+    "Not available for this account.",
+    "此账户不可用。"
+  ],
+  [
+    "Not imported",
+    "未导入"
+  ],
+  [
+    "Not now",
+    "以后再说"
+  ],
+  [
+    "Nothing here yet",
+    "这里还没有内容"
+  ],
+  [
+    "Opening Claude Code…",
+    "正在打开 Claude Code…"
+  ],
+  [
+    "Org default",
+    "组织默认值"
+  ],
+  [
+    "Project ID",
+    "项目 ID"
+  ],
+  [
+    "Pull request",
+    "拉取请求"
+  ],
+  [
+    "Raise spend limit",
+    "提高支出限额"
+  ],
+  [
+    "Read artifact",
+    "读取 Artifact"
+  ],
+  [
+    "Remove message",
+    "移除消息"
+  ],
+  [
+    "Request sent",
+    "请求已发送"
+  ],
+  [
+    "Search connectors",
+    "搜索连接器"
+  ],
+  [
+    "Sent to Claude",
+    "已发送给 Claude"
+  ],
+  [
+    "Shared artifact",
+    "共享的 Artifact"
+  ],
+  [
+    "Show in another pane",
+    "在另一个窗格中显示"
+  ],
+  [
+    "Something else",
+    "其他"
+  ],
+  [
+    "Try again",
+    "重试"
+  ],
+  [
+    "Trying again",
+    "正在重试"
+  ],
+  [
+    "Turn on",
+    "开启"
+  ],
+  [
+    "Your organization has turned off connectors for artifacts.",
+    "你的组织已关闭 Artifacts 的连接器。"
+  ],
+  [
+    "Your request has been sent to your admin.",
+    "你的请求已发送给你的管理员。"
+  ],
+  [
+    "Admin permission",
+    "管理员权限"
+  ],
+  [
+    "Any Claude Code sessions started to fix its findings keep their own copy of the findings’ details.",
+    "为修复其发现项而启动的任何 Claude Code 会话都会保留自己的一份发现项详情副本。"
+  ],
+  [
+    "Archived session",
+    "已归档的会话"
+  ],
+  [
+    "Blocked by your organization’s policy.",
+    "被你组织的策略阻止。"
+  ],
+  [
+    "Check that the WSL distribution is installed and uses WSL 2, then send a message to try again. The full error is in the details.",
+    "请检查 WSL 发行版已安装并使用 WSL 2，然后发送消息重试。完整错误见“查看详情”。"
+  ],
+  [
+    "Check that the WSL distribution is installed and uses WSL 2, then try again. The full error is in the details.",
+    "请检查 WSL 发行版已安装且使用 WSL 2，然后重试。完整错误见“查看详情”。"
+  ],
+  [
+    "Check that the WSL distribution is installed and uses WSL 2. The full error is in the details.",
+    "请检查 WSL 发行版是否已安装并使用 WSL 2。完整错误见“查看详情”。"
+  ],
+  [
+    "Claude couldn’t give ssh the user name another way. Try again. If it keeps failing, send your admin the lines in the details.",
+    "Claude 无法通过其他方式将用户名提供给 ssh。请重试。如果持续失败，请将“查看详情”下的内容发送给管理员。"
+  ],
+  [
+    "Couldn’t remove the simulator",
+    "无法移除模拟器"
+  ],
+  [
+    "Couldn’t update your default design system. Try again.",
+    "无法更新你的默认设计系统。请重试。"
+  ],
+  [
+    "Deleted artifact",
+    "已删除的 Artifact"
+  ],
+  [
+    "Export audit log",
+    "导出审核日志"
+  ],
+  [
+    "Group limits",
+    "群组限额"
+  ],
+  [
+    "No limit set.",
+    "未设置限额"
+  ],
+  [
+    "Read session transcript",
+    "读取会话记录"
+  ],
+  [
+    "Reconnect to try again. If it keeps failing, the details say what stopped it. Fix that, or ask your admin to.",
+    "重新连接以重试。如果持续失败，“查看详情”会说明是什么阻止了它。请修复该问题，或让管理员处理。"
+  ],
+  [
+    "Remove was pressed too soon after the confirmation appeared, so nothing was changed. Try again.",
+    "确认提示出现后过早按下了“移除”，因此未做任何更改。请重试。"
+  ],
+  [
+    "Saved skills",
+    "已保存的技能"
+  ],
+  [
+    "Thank you for your interest",
+    "感谢你的关注"
+  ],
+  [
+    "The artifact didn’t produce a file in time. Try again.",
+    "Artifact 未能及时生成文件。请重试。"
+  ],
+  [
+    "The full error is in the details. Fix it, then ask Claude in the session that started this one to start it again.",
+    "完整错误见“查看详情”。修复后，请在启动此会话的会话中让 Claude 重新启动它。"
+  ],
+  [
+    "The full error is in the details. Fix it, then send a message to try again.",
+    "完整错误见“查看详情”。请修复后发送消息重试。"
+  ],
+  [
+    "The full error is in the details. Fix it.",
+    "完整错误见“查看详情”。请修复。"
+  ],
+  [
+    "The request couldn’t be verified. Try again.",
+    "无法验证该请求。请重试。"
+  ],
+  [
+    "This device is verified",
+    "此设备已验证"
+  ],
+  [
+    "This rule applies only to Anthropic staff accounts. Signing in again won’t help. See the details for the API’s explanation.",
+    "此规则仅适用于 Anthropic 员工账号。重新登录没有帮助。请查看“详情”了解 API 的说明。"
+  ],
+  [
+    "Turning on",
+    "正在开启"
+  ],
+  [
+    "Uploaded plugins",
+    "已上传的插件"
+  ],
+  [
+    "Which admin areas members with each role can view or manage.",
+    "拥有各角色的成员可以查看或管理哪些管理区域。"
+  ],
+  [
+    "Without it, Claude can’t ask for your password or code. If trying again doesn’t help, send your admin the lines in the details.",
+    "没有它，Claude 无法请求你的密码或验证码。如果重试无效，请将“查看详情”下的各行内容发送给管理员。"
+  ],
+  [
+    "Without it, Claude can’t ask for your password or code. Send your admin the lines in the details. Once they’ve allowed it, try again.",
+    "没有它，Claude 无法请求你的密码或验证码。请将“查看详情”下的行发送给管理员。他们允许后，请重试。"
+  ],
+  [
+    "opens in a new tab",
+    "在新选项卡中打开"
+  ],
+  [
+    "the Claude Security spend limit",
+    "Claude Security 支出限额"
   ]
 ]

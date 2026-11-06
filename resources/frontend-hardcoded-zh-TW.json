@@ -352,10 +352,6 @@
     "message:z?`歸檔 ${_.items.length} 個${1===_.items.length?b.noun:b.nouns}？你可以在「已封存」分頁中找到${1===_.items.length?\"它\":\"它們\"}。`"
   ],
   [
-    "message:F?`歸檔 ${j.items.length} ${1===j.items.length?b.noun:b.nouns}？你可以在「已封存」分頁中找到${1===j.items.length?\"它\":\"它們\"}。`",
-    "message:F?`歸檔 ${j.items.length} 個${1===j.items.length?b.noun:b.nouns}？你可以在「已封存」分頁中找到${1===j.items.length?\"它\":\"它們\"}。`"
-  ],
-  [
     "confirmText:F?\"Archive\":\"Delete\"",
     "confirmText:F?\"歸檔\":\"Delete\""
   ],
@@ -3544,10 +3540,6 @@
     "閘道器憑據"
   ],
   [
-    "网关 credentials",
-    "閘道器憑據"
-  ],
-  [
     "{provider} credentials",
     "{provider} 憑據"
   ],
@@ -3673,10 +3665,6 @@
   ],
   [
     "Domains Cowork's tools may reach during a turn. Also surfaced under Egress Requirements.",
-    "Cowork 的工具在一次任務中可以存取的域名。也會顯示在出站要求中。"
-  ],
-  [
-    "Domains Cowork's tools may reach during a turn. Also surfaced under 出站要求.",
     "Cowork 的工具在一次任務中可以存取的域名。也會顯示在出站要求中。"
   ],
   [
@@ -15678,5 +15666,2765 @@
   [
     "If unset, the app uses the organization of your Anthropic sign-in, where the connection has one. Otherwise, telemetry is tagged with a value the app derives from your connection settings. Where it cannot derive one, telemetry is tagged with a placeholder UUID shared with other unconfigured deployments. In the last two cases, local data is stored under the placeholder. **Changing this value orphans data** stored under the previous value (sessions, skills, plugins).",
     "未設定時，應用會使用你 Anthropic 登入所屬的組織（若該連線有組織）。否則，診斷資料會打上應用從你的連線設定推匯出的值。若無法推導，則打上與其他未配置部署共用的佔位 UUID。後兩種情況下，本地資料都儲存在佔位符下。**修改此值會使**先前值下儲存的資料（會話、技能、外掛）**成為孤立資料**。"
+  ],
+  [
+    "$0 blocks every request this limit applies to.",
+    "$0 會阻止此限額適用的所有請求。"
+  ],
+  [
+    ".zip from claude.ai or Claude Desktop",
+    "來自 claude.ai 或 Claude Desktop 的 .zip 檔案"
+  ],
+  [
+    "A 15-second opener for the all-hands",
+    "為全員大會準備的 15 秒開場"
+  ],
+  [
+    "A 20-second launch clip for LinkedIn",
+    "為 LinkedIn 準備的 20 秒發佈短片"
+  ],
+  [
+    "A confirmation went unanswered, so Reset and Remove are paused for up to 10 minutes. Try again later.",
+    "確認請求未獲回應，因此“重置”和“移除”將暫停最多 10 分鐘。請稍後重試。"
+  ],
+  [
+    "A group’s pooled budget can differ from its row here: it counts only what this group’s pooled budget paid this month, and it counts today too.",
+    "群組的共享預算可能與此處的行不同：它只統計本月該群組共享預算支付的金額，今天的用量也計入。"
+  ],
+  [
+    "A limit keeps its period. Set another limit for another period.",
+    "限額與其週期繫結。如需其他週期，請另設一條限額。"
+  ],
+  [
+    "A pooled budget is one monthly amount the whole group shares. Members are blocked when their own limit runs out, or when all their groups’ pooled budgets do.",
+    "共享預算是一個由整個群組共用的每月額度。當成員自身的限額用盡，或其所有群組的共享預算用盡時，成員會被阻止。"
+  ],
+  [
+    "A standalone design system can’t be your default.",
+    "獨立的設計系統不能設為預設。"
+  ],
+  [
+    "API keys lose Compliance API access, and compliance event logging stops.",
+    "API 金鑰將失去 Compliance API 存取權限，合規事件日誌記錄也會停止。"
+  ],
+  [
+    "Access by role",
+    "按角色存取"
+  ],
+  [
+    "Access by role sections",
+    "按角色存取分割槽"
+  ],
+  [
+    "Access to Centralized Management for this parent organization will no longer be limited to the list.",
+    "此父組織的集中管理存取權限將不再僅限於該列表。"
+  ],
+  [
+    "Add a custom role",
+    "新增自定義角色"
+  ],
+  [
+    "Add a range that includes it before restricting access to this allowlist.",
+    "在限制存取此允許列表之前，請先新增包含該地址的範圍。"
+  ],
+  [
+    "Add a role to see its admin permissions here.",
+    "新增角色後即可在此查看其管理員權限。"
+  ],
+  [
+    "Add a role to see what it can access here.",
+    "新增角色後即可在此查看其可存取的內容。"
+  ],
+  [
+    "Add at least one topic.",
+    "請至少新增一個主題。"
+  ],
+  [
+    "Add browser shortcut",
+    "新增瀏覽器快捷方式"
+  ],
+  [
+    "Add shortcut",
+    "新增快捷方式"
+  ],
+  [
+    "Add your photo",
+    "新增你的照片"
+  ],
+  [
+    "Add-in features turned off for everyone, on every file.",
+    "已對所有人和所有檔案關閉載入項功能。"
+  ],
+  [
+    "Admin permissions by role",
+    "按角色劃分的管理員權限"
+  ],
+  [
+    "Admin roles don’t apply to them until their role type is Custom.",
+    "在其角色型別改為“自定義”之前，管理員角色不會對其生效。"
+  ],
+  [
+    "All custom roles that can be given access here already have it.",
+    "所有可在此授予存取權限的自定義角色都已獲得存取權限。"
+  ],
+  [
+    "Allow all tasks",
+    "允許所有任務"
+  ],
+  [
+    "Allow edits",
+    "允許編輯"
+  ],
+  [
+    "Allow for this project",
+    "允許用於此項目"
+  ],
+  [
+    "Allow managed hooks only",
+    "僅允許託管鉤子"
+  ],
+  [
+    "Allow parent organization owners and admins to access this allowlist from any IP address",
+    "允許父組織的所有者和管理員從任意 IP 地址存取此允許列表"
+  ],
+  [
+    "Allow public and non-public repositories in one fix session?",
+    "允許在同一個修復會話中處理公開和非公開倉庫？"
+  ],
+  [
+    "Allow session",
+    "允許會話"
+  ],
+  [
+    "Allow ssh.exe, or ask your IT team to allow it, then try again.",
+    "請允許 ssh.exe，或請 IT 團隊放行，然後重試。"
+  ],
+  [
+    "Allow the Claude add-in",
+    "允許 Claude 載入項"
+  ],
+  [
+    "Allowing this may also let Claude start future workflows without asking you.",
+    "允許此操作後，Claude 之後啟動工作流時可能不再詢問你。"
+  ],
+  [
+    "Already added and open in its own window.",
+    "已新增，並已在獨立視窗中開啟。"
+  ],
+  [
+    "Already has a limit for this period.",
+    "此週期已有額度限制。"
+  ],
+  [
+    "Always included.",
+    "始終包含。"
+  ],
+  [
+    "An organization owner can create an endpoint for all shared projects.",
+    "組織所有者可為所有共享項目建立端點。"
+  ],
+  [
+    "Angle only works with a device frame.",
+    "角度僅適用於裝置邊框。"
+  ],
+  [
+    "Another admin has set a pooled budget for this group meanwhile. Nothing was saved.",
+    "在此期間另一位管理員已為此群組設定了共享預算。未儲存任何更改。"
+  ],
+  [
+    "Another download or send is already in progress for this artifact. Try again in a moment.",
+    "此 Artifact 已有另一項下載或傳送正在進行。請稍後重試。"
+  ],
+  [
+    "Answer Claude’s request first",
+    "請先回答 Claude 的請求"
+  ],
+  [
+    "Answer the questions again",
+    "重新回答問題"
+  ],
+  [
+    "Answer this study’s questions to begin.",
+    "回答本研究的問題即可開始。"
+  ],
+  [
+    "Any capability",
+    "任意能力"
+  ],
+  [
+    "Any other imported data, such as memory, stays on this computer.",
+    "其他匯入的資料（如記憶）會留在本機。"
+  ],
+  [
+    "Anyone it covered falls back to the next limit that applies to them, if any.",
+    "受其約束的人將回退到適用於他們的下一條限額（如有）。"
+  ],
+  [
+    "Anyone it covered will have no limit for that period.",
+    "受其約束的人在該週期將沒有限額。"
+  ],
+  [
+    "Anyone who can comment on this artifact may have written these comments, and Claude acts on them in this session.",
+    "任何能評論此 Artifact 的人都可能寫過這些評論，Claude 會在本次會話中依據它們執行操作。"
+  ],
+  [
+    "Anyone who can open this artifact may have written its documents, and Claude uses them in this session.",
+    "任何能開啟此 Artifact 的人都可能寫過其中的文檔，Claude 會在本次會話中使用它們。"
+  ],
+  [
+    "Anyone who can open this artifact may have written its documents, and approving lets Claude read them for the rest of this session.",
+    "任何能開啟此 Artifact 的人都可能寫過其中的文檔，批准後 Claude 可在本次會話剩餘時間內讀取它們。"
+  ],
+  [
+    "Anyone who can open this artifact may have written the documents saved to the folder below.",
+    "任何能開啟此 Artifact 的人都可能寫過儲存到下方資料夾中的文檔。"
+  ],
+  [
+    "Anyone who opens this file can read what’s in it. Keep it private, and delete it when you no longer need it.",
+    "任何開啟此檔案的人都能看到其中的內容。請妥善保管，並在不再需要時刪除。"
+  ],
+  [
+    "App preferences",
+    "應用偏好設定"
+  ],
+  [
+    "Applies now",
+    "立即生效"
+  ],
+  [
+    "Applies to each member separately. It isn’t the group’s total.",
+    "分別適用於每個成員，不是群組總額。"
+  ],
+  [
+    "Applies to each member, not to the group’s total. Your gateway’s configuration decides which limit a member of several groups gets.",
+    "分別適用於每個成員，而非群組總額。成員屬於多個群組時適用哪條限額，由閘道器配置決定。"
+  ],
+  [
+    "Applies to each user separately, in each period where they have no limit of their own or from a group.",
+    "分別適用於每個使用者，且僅在其自身或群組均無限額的週期內生效。"
+  ],
+  [
+    "Applies to each user separately. It isn’t your organization’s total.",
+    "分別適用於每個使用者，不是組織總額。"
+  ],
+  [
+    "Applies to that user alone, ahead of their groups’ limits and the organization limit. Can be set before a user’s first request.",
+    "僅適用於該使用者，優先於其群組限額和組織限額。可在使用者首次請求前設定。"
+  ],
+  [
+    "Applies to this user alone.",
+    "僅適用於此使用者。"
+  ],
+  [
+    "Apps gateway admin",
+    "Apps 閘道器管理員"
+  ],
+  [
+    "Apps gateway admin closed: your gateway didn’t confirm you as a spend admin.",
+    "Apps 閘道器管理員視窗已關閉：你的閘道器未確認你是支出管理員。"
+  ],
+  [
+    "Archive this project before you delete it.",
+    "請先歸檔此項目，再刪除。"
+  ],
+  [
+    "Ask admin",
+    "詢問管理員"
+  ],
+  [
+    "Ask your GitHub admin to check that this project’s GitHub repositories haven’t been moved or deleted and that the Claude GitHub App can access them.",
+    "請讓 GitHub 管理員確認此項目的 GitHub 倉庫未被移動或刪除，且 Claude GitHub App 可以存取它們。"
+  ],
+  [
+    "Ask your admin to raise this limit.",
+    "請讓管理員提高此限額。"
+  ],
+  [
+    "Asking Claude to copy this presentation into Claude Slides",
+    "正在讓 Claude 將此演示文稿複製到 Claude Slides"
+  ],
+  [
+    "Attach role",
+    "附加角色"
+  ],
+  [
+    "Attached files from chats and Cowork tasks, if under 100 MB per session",
+    "來自聊天和 Cowork 任務的附件，每個會話不超過 100 MB"
+  ],
+  [
+    "Auto-fix is on for this pull request.",
+    "此拉取請求已開啟自動修復。"
+  ],
+  [
+    "Available once Xcode is set up.",
+    "設定好 Xcode 後可用。"
+  ],
+  [
+    "Available once all roles have loaded.",
+    "所有角色載入完成後可用。"
+  ],
+  [
+    "Back to the interview",
+    "返回訪談"
+  ],
+  [
+    "Billing isn’t set up for this organization. Contact support.",
+    "此組織尚未設定賬單。請聯繫支援人員。"
+  ],
+  [
+    "Built-in role",
+    "內建角色"
+  ],
+  [
+    "Built-in roles",
+    "內建角色"
+  ],
+  [
+    "Built-in roles (Primary owner, Owner, Admin, User)",
+    "內建角色（主所有者、所有者、管理員、使用者）"
+  ],
+  [
+    "Capabilities by role",
+    "按角色劃分的能力"
+  ],
+  [
+    "Captured page",
+    "已捕獲頁面"
+  ],
+  [
+    "Captured screen",
+    "已捕獲螢幕"
+  ],
+  [
+    "Chat hidden behind the panel",
+    "聊天被面板遮擋"
+  ],
+  [
+    "Check status",
+    "檢查狀態"
+  ],
+  [
+    "Checking Xcode’s setup…",
+    "正在檢查 Xcode 設定…"
+  ],
+  [
+    "Checking whether this browser can add a shortcut for this artifact",
+    "正在檢查此瀏覽器能否為此 Artifact 新增快捷方式"
+  ],
+  [
+    "Checking your answers",
+    "正在檢查你的答案"
+  ],
+  [
+    "Choose From and To dates within the limits.",
+    "請在限額範圍內選擇起止日期。"
+  ],
+  [
+    "Choose the .mobileconfig profile or XML .plist that your device management deploys.",
+    "請選擇裝置管理下發的 .mobileconfig 配置檔案或 XML .plist。"
+  ],
+  [
+    "Choose today (UTC) or earlier.",
+    "請選擇今天（UTC）或更早的日期。"
+  ],
+  [
+    "Choose which roles have access.",
+    "選擇哪些角色可以存取。"
+  ],
+  [
+    "Claude Code can’t read a configuration file",
+    "Claude Code 無法讀取配置檔案"
+  ],
+  [
+    "Claude Code can’t read a configuration file, so automatic restarts are paused for this session. Fix the file, then send a message to try again.",
+    "Claude Code 無法讀取配置檔案，因此本次會話已暫停自動重啟。請修正該檔案，然後傳送訊息重試。"
+  ],
+  [
+    "Claude Code couldn’t check this session’s worktree, so automatic restarts are paused for this session. Send a message to try again.",
+    "Claude Code 無法檢查此會話的工作樹，因此本次會話已暫停自動重啟。請傳送訊息重試。"
+  ],
+  [
+    "Claude Code couldn’t renew this sign-in. If trying again doesn’t work, signing in to Claude again won’t help. Ask your admin.",
+    "Claude Code 無法續訂此次登入。如果重試無效，重新登入 Claude 也不會有幫助。請詢問管理員。"
+  ],
+  [
+    "Claude Code couldn’t renew this sign-in. Signing in to Claude again won’t help. Ask your admin.",
+    "Claude Code 無法續訂此次登入。重新登入 Claude 也不會有幫助。請詢問管理員。"
+  ],
+  [
+    "Claude Code scheduled tasks",
+    "Claude Code 計劃任務"
+  ],
+  [
+    "Claude Code won’t start until you fix that file.",
+    "在你修正該檔案之前，Claude Code 不會啟動。"
+  ],
+  [
+    "Claude Code won’t start until you fix that file. Then send a message to start it.",
+    "在你修正該檔案之前，Claude Code 不會啟動。修正後請傳送訊息啟動它。"
+  ],
+  [
+    "Claude Code won’t start until you fix that file. Then try again.",
+    "在你修正該檔案之前，Claude Code 不會啟動。修正後請重試。"
+  ],
+  [
+    "Claude Docs is off in your connectors, so Claude can’t send this Doc from a task. Turn it on, or open the Doc beside a chat.",
+    "你的連接器中已關閉 Claude Docs，因此 Claude 無法從任務中傳送此文檔。請開啟它，或在聊天旁開啟該文檔。"
+  ],
+  [
+    "Claude Docs isn’t available right now.",
+    "Claude Docs 目前不可用。"
+  ],
+  [
+    "Claude Motion isn’t available right now.",
+    "Claude Motion 目前不可用。"
+  ],
+  [
+    "Claude activity is never recorded while compliance event logging is off.",
+    "關閉合規事件日誌記錄期間，不會記錄任何 Claude 活動。"
+  ],
+  [
+    "Claude can fix failing checks and address review comments on this pull request.",
+    "Claude 可以修復失敗的檢查，並處理此拉取請求上的評審意見。"
+  ],
+  [
+    "Claude can fix failing checks on this pull request.",
+    "Claude 可以修復此拉取請求上失敗的檢查。"
+  ],
+  [
+    "Claude can’t send this artifact to other apps.",
+    "Claude 無法將此 Artifact 傳送到其他應用。"
+  ],
+  [
+    "Claude couldn’t open the window that verifies this device.",
+    "Claude 無法開啟用於驗證此裝置的視窗。"
+  ],
+  [
+    "Claude picks up where you left off, so this computer can sleep.",
+    "Claude 會從你中斷的地方繼續，因此這臺計算機可以休眠。"
+  ],
+  [
+    "Claude pressed Power",
+    "Claude 按下了電源鍵"
+  ],
+  [
+    "Claude signs in again to set up file transfer. If you’re asked for a one-time code, wait for a new one.",
+    "Claude 正在重新登入以設定檔案傳輸。如果系統要求輸入一次性驗證碼，請等待新的驗證碼。"
+  ],
+  [
+    "Claude signs in once more to transfer files. If you’re asked for a one-time code, wait for a new one.",
+    "Claude 正在再次登入以傳輸檔案。如果系統要求輸入一次性驗證碼，請等待新的驗證碼。"
+  ],
+  [
+    "Claude uses it to run code and unzip files. Try again later, or send your IT administrator the line below.",
+    "Claude 用它執行程式碼和解壓檔案。請稍後重試，或將下面這行內容傳送給 IT 管理員。"
+  ],
+  [
+    "Claude uses what this artifact says in this session.",
+    "Claude 會在本次會話中採用此 Artifact 中所述的內容。"
+  ],
+  [
+    "Claude’s access to it couldn’t be removed from the settings file, so nothing was deleted. If it was running, it is now shut down. Try again.",
+    "無法從設定檔案中移除 Claude 對它的存取權限，因此未刪除任何內容。如果它之前正在執行，現已關閉。請重試。"
+  ],
+  [
+    "Claude’s still answering. Send this when Claude finishes.",
+    "Claude 仍在回答。請在 Claude 完成後傳送此內容。"
+  ],
+  [
+    "Clear your draft first, then select Edit and retry.",
+    "請先清除草稿，然後選擇“編輯”並重試。"
+  ],
+  [
+    "Close this dialog to see why.",
+    "關閉此對話框即可查看原因。"
+  ],
+  [
+    "Close this window, then click or press a key in Claude in Chrome to refresh it. If Claude hasn’t continued, send your message or make your choice again.",
+    "請關閉此視窗，然後在 Chrome 中的 Claude 中點擊或按鍵以重新整理它。如果 Claude 尚未繼續，請重新傳送訊息或重新選擇。"
+  ],
+  [
+    "Code execution is off for you, and Claude needs it to send this to an app. Ask your admin to turn it on.",
+    "你的程式碼執行功能已關閉，而 Claude 需要它才能將此內容傳送到應用。請讓管理員開啟。"
+  ],
+  [
+    "Collapse held messages",
+    "摺疊暫存的訊息"
+  ],
+  [
+    "Collapse others",
+    "摺疊其他"
+  ],
+  [
+    "Compare admin permissions across your admin roles.",
+    "比較你各管理員角色的管理員權限。"
+  ],
+  [
+    "Compare admin permissions across your admin roles. To change a role, open the role.",
+    "比較你各管理員角色的管理員權限。要更改某個角色，請開啟該角色。"
+  ],
+  [
+    "Compare roles",
+    "比較角色"
+  ],
+  [
+    "Compare your custom roles side by side. To see a role’s other settings, open the role.",
+    "並排比較你的自定義角色。要查看某個角色的其他設定，請開啟該角色。"
+  ],
+  [
+    "Configuration text",
+    "配置文字"
+  ],
+  [
+    "Connect more destinations",
+    "連線更多目標位置"
+  ],
+  [
+    "Connect to a supported host",
+    "連線到受支援的主機"
+  ],
+  [
+    "Connecting to this task…",
+    "正在連線到此任務…"
+  ],
+  [
+    "Connector access by role",
+    "按角色劃分的連接器存取權限"
+  ],
+  [
+    "Connector icons, hosted artifact previews, MCP Apps widgets and the Linux spellcheck dictionary. A blocked widget shows an error.",
+    "連接器圖示、託管的 Artifact 預覽、MCP Apps 小元件和 Linux 拼寫檢查詞典。被阻止的小元件會顯示錯誤。"
+  ],
+  [
+    "Connectors your organization adds appear here.",
+    "你的組織新增的連接器會顯示在此處。"
+  ],
+  [
+    "Continue to claude.ai",
+    "繼續前往 claude.ai"
+  ],
+  [
+    "Continued after an interruption",
+    "中斷後已繼續"
+  ],
+  [
+    "Copy link for an admin",
+    "複製鏈接給管理員"
+  ],
+  [
+    "Copy this presentation into Claude Slides, slide for slide, and tell me what didn’t carry over.",
+    "將此演示文稿逐頁複製到 Claude Slides，並告訴我哪些內容沒有帶過去。"
+  ],
+  [
+    "Copying other data…",
+    "正在複製其他資料…"
+  ],
+  [
+    "Could not give access.",
+    "無法授予存取權限。"
+  ],
+  [
+    "Could not load roles. Close this dialog and open it again.",
+    "無法載入角色。請關閉此對話框後重新開啟。"
+  ],
+  [
+    "Could not remove access.",
+    "無法移除存取權限。"
+  ],
+  [
+    "Couldn’t check this artifact.",
+    "無法檢查此 Artifact。"
+  ],
+  [
+    "Couldn’t check whether this organization can upgrade. Try again later.",
+    "無法檢查此組織能否升級。請稍後重試。"
+  ],
+  [
+    "Couldn’t confirm auto-fix is on for this pull request. Try again.",
+    "無法確認此拉取請求已開啟自動修復。請重試。"
+  ],
+  [
+    "Couldn’t confirm this computer’s identity, so Claude can’t use the files and apps on it in this session. To use them, start a new session later.",
+    "無法確認此計算機的身份，因此 Claude 無法在本次會話中使用其中的檔案和應用。如需使用，請稍後啟動新會話。"
+  ],
+  [
+    "Couldn’t confirm this computer’s identity, so Claude can’t use the files and apps on it. Try again later.",
+    "無法確認此計算機的身份，因此 Claude 無法使用其中的檔案和應用。請稍後重試。"
+  ],
+  [
+    "Couldn’t confirm this computer’s identity, so the folder wasn’t added. Add the folder again later.",
+    "無法確認此計算機的身份，因此未新增該資料夾。請稍後重新新增該資料夾。"
+  ],
+  [
+    "Couldn’t confirm this computer’s identity. Try again later.",
+    "無法確認此計算機的身份。請稍後重試。"
+  ],
+  [
+    "Couldn’t confirm whether the artifact was deleted. Check the list before trying again.",
+    "無法確認該 Artifact 是否已刪除。請檢查列表後再重試。"
+  ],
+  [
+    "Couldn’t delete this project.",
+    "無法刪除此項目。"
+  ],
+  [
+    "Couldn’t download the file. Try again, or choose a shorter range.",
+    "無法下載該檔案。請重試，或選擇較短的範圍。"
+  ],
+  [
+    "Couldn’t download the file. Try again.",
+    "無法下載該檔案。請重試。"
+  ],
+  [
+    "Couldn’t draw the preview. Change a setting to try again, or restart Claude.",
+    "無法繪製預覽。請更改一項設定後重試，或重啟 Claude。"
+  ],
+  [
+    "Couldn’t export spend by group. Try again.",
+    "無法按群組匯出支出。請重試。"
+  ],
+  [
+    "Couldn’t export the audit log. Try again.",
+    "無法匯出審核日誌。請重試。"
+  ],
+  [
+    "Couldn’t find the proxy command’s program on this computer.",
+    "在此計算機上找不到代理命令所需的程式。"
+  ],
+  [
+    "Couldn’t find this file at that path. Ask Claude for the full path.",
+    "無法在該路徑找到此檔案。請讓 Claude 提供完整路徑。"
+  ],
+  [
+    "Couldn’t get a link for the file, so nothing was sent. Try again.",
+    "無法獲取該檔案的鏈接，因此未傳送任何內容。請重試。"
+  ],
+  [
+    "Couldn’t load every member and their roles, so no one was selected.",
+    "無法載入所有成員及其角色，因此未選擇任何人。"
+  ],
+  [
+    "Couldn’t load spend by group from your gateway.",
+    "無法從你的閘道器載入按群組劃分的支出。"
+  ],
+  [
+    "Couldn’t load spend limits from your gateway.",
+    "無法從你的閘道器載入支出限額。"
+  ],
+  [
+    "Couldn’t load the app list.",
+    "無法載入應用列表。"
+  ],
+  [
+    "Couldn’t load this setting. Reload the page to try again.",
+    "無法載入此設定。請重新載入頁面重試。"
+  ],
+  [
+    "Couldn’t load this user’s limits from your gateway.",
+    "無法從你的閘道器載入此使用者的限額。"
+  ],
+  [
+    "Couldn’t load this. Try again later.",
+    "無法載入此內容。請稍後重試。"
+  ],
+  [
+    "Couldn’t load usage from your gateway.",
+    "無法從你的閘道器載入用量。"
+  ],
+  [
+    "Couldn’t load your connectors.",
+    "無法載入你的連接器。"
+  ],
+  [
+    "Couldn’t resume scanning.",
+    "無法恢復掃描。"
+  ],
+  [
+    "Couldn’t save the pooled budget. Try again.",
+    "無法儲存共享預算。請重試。"
+  ],
+  [
+    "Couldn’t save the spend limit. Try again.",
+    "無法儲存支出限額。請重試。"
+  ],
+  [
+    "Couldn’t search inside folders shared with you, so some results may be missing.",
+    "無法在與你共享的資料夾中搜尋，因此部分結果可能缺失。"
+  ],
+  [
+    "Couldn’t send to Claude. Wait for Claude to finish, or respond to Claude, then try again.",
+    "無法傳送給 Claude。請等 Claude 完成或回覆 Claude，然後重試。"
+  ],
+  [
+    "Couldn’t send your message. Try again.",
+    "無法傳送你的訊息。請重試。"
+  ],
+  [
+    "Couldn’t turn the pooled budget on. It’s saved as Paused. Try again.",
+    "無法開啟共享預算。它已儲存為“已暫停”。請重試。"
+  ],
+  [
+    "Couldn’t unpack this export. Make sure this computer has enough free disk space, then try again. If it keeps failing, send your IT administrator the code below.",
+    "無法解壓此匯出檔案。請確認此計算機有足夠的可用磁碟空間，然後重試。如果持續失敗，請將下方程式碼傳送給 IT 管理員。"
+  ],
+  [
+    "Create in Claude Slides",
+    "在 Claude Slides 中建立"
+  ],
+  [
+    "Custom roles added on the Roles page appear here.",
+    "在“角色”頁面新增的自定義角色會顯示在此處。"
+  ],
+  [
+    "Custom roles don’t apply to them until their role type is Custom.",
+    "在其角色型別改為“自定義”之前，自定義角色不會對其生效。"
+  ],
+  [
+    "Custom roles let you choose who in your organization has access.",
+    "自定義角色讓你選擇組織中誰可以存取。"
+  ],
+  [
+    "Custom: set tool by tool",
+    "自定義：逐個工具設定"
+  ],
+  [
+    "Days and months end at 00:00 UTC. Weeks end Monday 00:00 UTC.",
+    "日和月在 UTC 00:00 結束。周在週一 UTC 00:00 結束。"
+  ],
+  [
+    "Delete this project?",
+    "刪除此項目？"
+  ],
+  [
+    "Deleting a chat also deletes any artifacts made in it.",
+    "刪除聊天也會刪除其中建立的所有 Artifact。"
+  ],
+  [
+    "Disable the Compliance API?",
+    "停用 Compliance API？"
+  ],
+  [
+    "Dismiss the Claude Slides offer",
+    "關閉 Claude Slides 推薦"
+  ],
+  [
+    "Download code review costs",
+    "下載程式碼評審費用"
+  ],
+  [
+    "Downloading the program that converts your chats…",
+    "正在下載用於轉換聊天的程式…"
+  ],
+  [
+    "Draft documents, analyze data, and build presentations with Claude alongside you in Docs, Sheets, and Slides.",
+    "在 Docs、Sheets 和 Slides 中與 Claude 協作，起草文檔、分析資料並構建演示文稿。"
+  ],
+  [
+    "Drop the file to read it",
+    "拖入檔案即可讀取"
+  ],
+  [
+    "Each period is enforced separately.",
+    "每個週期分別執行。"
+  ],
+  [
+    "Each user’s spend by group",
+    "每個使用者按群組劃分的支出"
+  ],
+  [
+    "Edit by hand in Claude Slides, highlight to ask for changes, and invite others to edit.",
+    "在 Claude Slides 中手動編輯，選中內容請求修改，並邀請他人編輯。"
+  ],
+  [
+    "Edit doc",
+    "編輯文檔"
+  ],
+  [
+    "Edit role access",
+    "編輯角色存取權限"
+  ],
+  [
+    "Editable copy in your Google Drive",
+    "Google Drive 中的可編輯副本"
+  ],
+  [
+    "Enable export",
+    "啟用匯出"
+  ],
+  [
+    "Enter a date of birth between 1900 and today.",
+    "請輸入 1900 年至今天的出生日期。"
+  ],
+  [
+    "Enter a dollar amount.",
+    "請輸入美元金額。"
+  ],
+  [
+    "Enter a group.",
+    "請輸入群組。"
+  ],
+  [
+    "Enter a ratio",
+    "輸入比例"
+  ],
+  [
+    "Enter a ratio in whole numbers, from 1:3 to 3:1.",
+    "請輸入整數比，範圍從 1:3 到 3:1。"
+  ],
+  [
+    "Enter a user ID.",
+    "請輸入使用者 ID。"
+  ],
+  [
+    "Enter your full date of birth to continue.",
+    "請輸入完整的出生日期以繼續。"
+  ],
+  [
+    "Enterprise upgrades aren’t available in your billing region yet. To upgrade, contact sales.",
+    "你的賬單地區尚不支援企業版升級。如需升級，請聯繫銷售。"
+  ],
+  [
+    "Every Office application is disabled below, so no one can use the add-in.",
+    "下方所有 Office 應用均已停用，因此無人能使用載入項。"
+  ],
+  [
+    "Everyone in your organization keeps their chats and projects.",
+    "你組織中的所有成員都保留其聊天和項目。"
+  ],
+  [
+    "Everyone who can see this artifact’s comments will see the change, and no comments are deleted.",
+    "所有能查看此 Artifact 評論的人都將看到此更改，且不會刪除任何評論。"
+  ],
+  [
+    "Everyone who can see this artifact’s comments will see the reply below.",
+    "所有能查看此 Artifact 評論的人都將看到下方的回覆。"
+  ],
+  [
+    "Everyone who has spent in the chosen period, highest first, against the limit that applies to them.",
+    "所有在所選週期內有支出的人，按支出從高到低，對照其適用的限額。"
+  ],
+  [
+    "Everyone who has this artifact open sees the edits below right away.",
+    "所有開啟此 Artifact 的人都會立即看到下方的編輯。"
+  ],
+  [
+    "Everything except sessions, because your organization’s settings changed",
+    "除會話以外的全部內容，因為你的組織設定已更改"
+  ],
+  [
+    "Exporting the audit log",
+    "正在匯出審核日誌"
+  ],
+  [
+    "Failed to rotate device",
+    "旋轉裝置失敗"
+  ],
+  [
+    "Feed posts",
+    "動態帖子"
+  ],
+  [
+    "File Claude wrote",
+    "Claude 寫入的檔案"
+  ],
+  [
+    "Finish now and skip the rest",
+    "立即完成並跳過其餘部分"
+  ],
+  [
+    "Finish setting up Xcode",
+    "完成 Xcode 設定"
+  ],
+  [
+    "Fix sessions",
+    "修復會話"
+  ],
+  [
+    "Folders to add again",
+    "需要重新新增的資料夾"
+  ],
+  [
+    "Follow me is off.",
+    "“跟隨我”已關閉。"
+  ],
+  [
+    "For help, please contact support.",
+    "如需幫助，請聯繫支援人員。"
+  ],
+  [
+    "For importing into the Admin Console. API keys, tokens, and header values are masked. Check URLs, arguments, and text fields before sharing.",
+    "用於匯入管理控制檯。API 金鑰、令牌和請求頭值已掩碼。分享前請檢查 URL、參數和文字欄位。"
+  ],
+  [
+    "For now it is saved as Paused, which blocks nobody.",
+    "目前它儲存為“已暫停”，不會阻止任何人。"
+  ],
+  [
+    "Generate memory from chat history",
+    "從聊天曆史生成記憶"
+  ],
+  [
+    "Gets it once your organization turns it on",
+    "你的組織開啟後即可獲得"
+  ],
+  [
+    "GitLab or other",
+    "GitLab 或其他"
+  ],
+  [
+    "Give access",
+    "授予存取權限"
+  ],
+  [
+    "Go to usage",
+    "前往用量"
+  ],
+  [
+    "Goodbye, download and reupload",
+    "再見，下載並重新上傳"
+  ],
+  [
+    "Google Drive, Notion, Linear…",
+    "Google Drive、Notion、Linear…"
+  ],
+  [
+    "Group (as your identity provider sends it)",
+    "群組（按身份提供商傳送的值）"
+  ],
+  [
+    "Held message actions",
+    "暫存訊息操作"
+  ],
+  [
+    "Held messages",
+    "暫存的訊息"
+  ],
+  [
+    "Help me plan my first week using Claude at work",
+    "幫我規劃在工作中使用 Claude 的第一週"
+  ],
+  [
+    "Hide unavailable organizations",
+    "隱藏不可用的組織"
+  ],
+  [
+    "Hide widgets from this connector",
+    "隱藏此連接器的小元件"
+  ],
+  [
+    "Host closed the connection",
+    "主機關閉了連線"
+  ],
+  [
+    "How our onboarding works, for phones",
+    "我們的入門流程如何運作（手機版）"
+  ],
+  [
+    "I don’t live in the United States",
+    "我不住在美國"
+  ],
+  [
+    "If Access Transparency is on, its events are still recorded but cannot be viewed until the Compliance API is back on.",
+    "如果開啟了存取透明度，其事件仍會被記錄，但在 Compliance API 重新開啟前無法查看。"
+  ],
+  [
+    "If the limit has been raised or has reset, resume.",
+    "如果限額已提高或已重置，請繼續。"
+  ],
+  [
+    "If the limit was just raised, try again in a minute.",
+    "如果限額剛剛提高，請稍等一分鐘再試。"
+  ],
+  [
+    "If you came here from Claude in Chrome, close this window and try again there.",
+    "如果你是Chrome 中的 Claude 來到此處，請關閉此視窗並在那裡重試。"
+  ],
+  [
+    "If you just signed in, open the link in your invitation email again.",
+    "如果你剛剛登入，請重新開啟邀請郵件中的鏈接。"
+  ],
+  [
+    "If you set the policy per user, change HKLM to HKCU in the command. Delete claude-policy.reg afterward. It can contain credentials.",
+    "如果按使用者設定策略，請在命令中將 HKLM 改為 HKCU。之後刪除 claude-policy.reg，它可能包含憑據。"
+  ],
+  [
+    "Import not finished",
+    "匯入未完成"
+  ],
+  [
+    "Import this export again to add the rest.",
+    "請再次匯入此匯出檔案以新增其餘內容。"
+  ],
+  [
+    "Import this export again to try this item once more.",
+    "請再次匯入此匯出檔案以重試此項目。"
+  ],
+  [
+    "Imported and turned off",
+    "已匯入並關閉"
+  ],
+  [
+    "In reply to message",
+    "回覆訊息"
+  ],
+  [
+    "Installed locally",
+    "本地安裝"
+  ],
+  [
+    "Interrupted session",
+    "中斷的會話"
+  ],
+  [
+    "It can take up to an hour to show in the directory.",
+    "可能需要長達一小時才會顯示在目錄中。"
+  ],
+  [
+    "It may now be shut down, and Claude may have to ask for access to it again. Try again, or use Xcode’s Devices window.",
+    "它現在可能已關閉，Claude 可能需重新申請存取權限。請重試，或使用 Xcode 的“裝置”視窗。"
+  ],
+  [
+    "Items that were not imported",
+    "未匯入的項目"
+  ],
+  [
+    "Its folder isn’t on this computer, or isn’t trusted here. Open the folder in the Code tab, then import this export again.",
+    "其資料夾不在此計算機上，或在此處不受信任。請在“程式碼”標籤頁中開啟該資料夾，然後再次匯入此匯出檔案。"
+  ],
+  [
+    "JSON config (redacted)",
+    "JSON 配置（已脫敏）"
+  ],
+  [
+    "Keeping the Compliance API on is strongly recommended. Disabling it affects every organization under your parent organization:",
+    "強烈建議保持 Compliance API 開啟。停用會影響你父組織下的每個組織："
+  ],
+  [
+    "Lets users export their Claude data on this device as a zip file, to import on another device. No effect unless Enable import is on.",
+    "允許使用者將此裝置上的 Claude 資料匯出為 zip 檔案，以便在另一臺裝置上匯入。除非開啟“啟用匯入”，否則無效。"
+  ],
+  [
+    "Lets users import a Claude.ai data export, earlier sessions here, or another device’s Claude Desktop export, in Settings → Import & export.",
+    "允許使用者在“設定 → 匯入和匯出”中匯入 Claude.ai 資料匯出、此處較早的會話，或另一臺裝置的 Claude Desktop 匯出。"
+  ],
+  [
+    "Lifts when raised",
+    "提高後解除"
+  ],
+  [
+    "Listed environments",
+    "已列出的環境"
+  ],
+  [
+    "Listed repositories",
+    "已列出的倉庫"
+  ],
+  [
+    "Listed sessions",
+    "已列出的會話"
+  ],
+  [
+    "Loaded tools",
+    "已載入的工具"
+  ],
+  [
+    "Loading roles",
+    "正在載入角色"
+  ],
+  [
+    "Local MCP servers not imported yet",
+    "尚未匯入的本地 MCP 伺服器"
+  ],
+  [
+    "Local MCP servers that can’t be imported",
+    "無法匯入的本地 MCP 伺服器"
+  ],
+  [
+    "Local MCP servers you added, with their commands and arguments, if your organization allows them",
+    "你新增的本地 MCP 伺服器及其命令和參數（如果你的組織允許）"
+  ],
+  [
+    "Log controls",
+    "日誌控制"
+  ],
+  [
+    "Make changes to the doc, then export.",
+    "對文檔進行更改，然後匯出。"
+  ],
+  [
+    "Make new designs from this doc. Leave the doc as it is.",
+    "基於此文檔建立新設計。保持文檔不變。"
+  ],
+  [
+    "Make new slides from this doc. Leave the doc as it is.",
+    "基於此文檔建立新幻燈片。保持文檔不變。"
+  ],
+  [
+    "Make sure every network your parent organization owners and admins connect from, such as offices, VPNs, and proxies, is covered first.",
+    "請先確保覆蓋你父組織的所有者和管理員使用的所有網路，例如辦公室、VPN 和代理。"
+  ],
+  [
+    "Managed authorization works only with Okta. If your organization uses Okta single sign-on (SSO), sign out, then sign back in to Claude through it.",
+    "託管授權僅適用於 Okta。如果你的組織使用 Okta 單點登入（SSO），請先退出登入，然後通過它重新登入 Claude。"
+  ],
+  [
+    "Match interface",
+    "匹配介面"
+  ],
+  [
+    "Matching connectors",
+    "匹配的連接器"
+  ],
+  [
+    "May also change line endings.",
+    "也可能更改行尾格式。"
+  ],
+  [
+    "Members on Custom have only the access their custom roles give.",
+    "“自定義”型別的成員僅有其自定義角色授予的存取權限。"
+  ],
+  [
+    "Memory and scheduled tasks",
+    "記憶與計劃任務"
+  ],
+  [
+    "Metadata is shown for sessions only.",
+    "僅為會話顯示元數據。"
+  ],
+  [
+    "More formats and apps",
+    "更多格式和應用"
+  ],
+  [
+    "More info about AWS region",
+    "有關 AWS 區域的更多資訊"
+  ],
+  [
+    "More info about workspace geo",
+    "有關工作區地理位置的更多資訊"
+  ],
+  [
+    "More options for Pinned",
+    "“已固定”的更多選項"
+  ],
+  [
+    "Must match the name your identity provider sends exactly, capitals included. A limit for a name it never sends applies to nobody.",
+    "必須與身份提供商傳送的名稱完全一致，包括大小寫。針對其從未傳送的名稱設定的限額不會對任何人生效。"
+  ],
+  [
+    "Needs another capability",
+    "需要另一項能力"
+  ],
+  [
+    "Needs another capability first.",
+    "需要先具備另一項能力。"
+  ],
+  [
+    "New conversations return to the default instead of the member’s last-used model. Members can still switch models within a conversation.",
+    "新對話會恢復使用預設模型，而不是成員上次使用的模型。成員仍可在對話內切換模型。"
+  ],
+  [
+    "New page in your Notion workspace",
+    "Notion 工作區中的新頁面"
+  ],
+  [
+    "Next, finish setting up your Team plan.",
+    "接下來，完成 Team 套餐的設定。"
+  ],
+  [
+    "No cap for anyone without a limit of their own or from a group.",
+    "對自身及群組均無限額的人不設上限。"
+  ],
+  [
+    "No cap from this group. Overrides the organization limit for its members.",
+    "此群組不設上限。對其成員覆蓋組織限額。"
+  ],
+  [
+    "No custom roles will change.",
+    "不會更改任何自定義角色。"
+  ],
+  [
+    "No custom roles will get access.",
+    "不會授予任何自定義角色存取權限。"
+  ],
+  [
+    "No group limit matches.",
+    "沒有匹配的群組限額。"
+  ],
+  [
+    "No group matches.",
+    "沒有匹配的群組。"
+  ],
+  [
+    "No group on record",
+    "沒有群組記錄"
+  ],
+  [
+    "No next question",
+    "沒有下一個問題"
+  ],
+  [
+    "No previous question",
+    "沒有上一個問題"
+  ],
+  [
+    "No recent record of this ID",
+    "此 ID 沒有近期記錄"
+  ],
+  [
+    "No roles match.",
+    "沒有匹配的角色。"
+  ],
+  [
+    "No spend on record for this month.",
+    "本月沒有支出記錄。"
+  ],
+  [
+    "No spend on this month’s finished days (UTC) yet.",
+    "本月已結束的日期（UTC）尚無支出。"
+  ],
+  [
+    "No usage in this period yet.",
+    "此週期尚無用量。"
+  ],
+  [
+    "No user limit matches. Open the person under Usage to give them one, or set it by ID.",
+    "沒有匹配的使用者限額。請在“用量”中開啟該使用者為其設定，或按 ID 設定。"
+  ],
+  [
+    "No users match this search.",
+    "沒有匹配此搜尋的使用者。"
+  ],
+  [
+    "Not finished",
+    "未完成"
+  ],
+  [
+    "Not finished yet?",
+    "還沒有完成？"
+  ],
+  [
+    "Not in effect yet: off for your organization, or needs another capability",
+    "尚未生效：對你的組織已關閉，或需要另一項能力"
+  ],
+  [
+    "Not included: memory, scheduled tasks, skills, settings, and terminal sessions.",
+    "不包含：記憶、計劃任務、技能、設定和終端會話。"
+  ],
+  [
+    "Not signed in to your organization’s Cloud gateway",
+    "未登入你組織的 Cloud 閘道器"
+  ],
+  [
+    "Nothing sent yet",
+    "尚未傳送任何內容"
+  ],
+  [
+    "Nothing to verify here",
+    "此處沒有需要驗證的內容"
+  ],
+  [
+    "Nothing was added to the message box. Try again in a few seconds.",
+    "未向訊息框新增任何內容。請幾秒後重試。"
+  ],
+  [
+    "Nothing was imported",
+    "未匯入任何內容"
+  ],
+  [
+    "Now in the cloud",
+    "現已在雲端"
+  ],
+  [
+    "Off for you",
+    "已對你關閉"
+  ],
+  [
+    "Older items aren’t shown here",
+    "較早的項目不在此處顯示"
+  ],
+  [
+    "On a self-hosted session host, stop hooks from repositories, uploaded plugins and users’ own skills.",
+    "在自託管的會話主機上，阻止來自倉庫、上傳的外掛和使用者自有技能的鉤子。"
+  ],
+  [
+    "On your other computer, these plugins were turned on. Check them under Customize › Plugins, then turn them on here.",
+    "在另一臺計算機上，這些外掛已開啟。請在“自定義 › 外掛”中檢查它們，然後在此處開啟。"
+  ],
+  [
+    "On your other computer, these scheduled tasks were turned on. Cowork tasks are under Scheduled. Code tasks are under Routines in the Code tab.",
+    "在另一臺計算機上，這些計劃任務已開啟。Cowork 任務位於“計劃”下。Code 任務位於“程式碼”標籤頁的“例行程式”下。"
+  ],
+  [
+    "On your other computer, these skills were turned on. Check them under Customize › Skills, then turn them on here.",
+    "在另一臺計算機上，這些技能已開啟。請在“自定義 › 技能”中檢查它們，然後在此處開啟。"
+  ],
+  [
+    "Only allow access to Centralized Management for this parent organization from the IP ranges listed below. Your organizations’ own allowlists aren’t affected.",
+    "僅允許從下方列出的 IP 範圍存取此父組織的集中管理。你各組織自己的允許列表不受影響。"
+  ],
+  [
+    "Only an owner or someone with the Billing role can add credits.",
+    "只有所有者或具有“賬單”角色的人才能新增額度。"
+  ],
+  [
+    "Only an owner or someone with the Billing role can raise this limit.",
+    "只有所有者或具有“賬單”角色的人才能提高此限額。"
+  ],
+  [
+    "Only organization owners can choose All shared projects. Ask one to create the endpoint.",
+    "只有組織所有者才能選擇“所有共享項目”。請讓所有者建立端點。"
+  ],
+  [
+    "Open Team plan",
+    "開啟 Team 套餐"
+  ],
+  [
+    "Open browser in side panel",
+    "在側邊面板中開啟瀏覽器"
+  ],
+  [
+    "Open it to read the whole text.",
+    "開啟它以閱讀全文。"
+  ],
+  [
+    "Open project settings",
+    "開啟項目設定"
+  ],
+  [
+    "Or add a custom connector by URL",
+    "或通過 URL 新增自定義連接器"
+  ],
+  [
+    "Org default turned back on for you.",
+    "已為你重新開啟組織預設值。"
+  ],
+  [
+    "Org default turned off for you from now on.",
+    "已為你關閉組織預設值，即刻生效。"
+  ],
+  [
+    "Org members will lose access to Cowork right away.",
+    "組織成員將立即失去 Cowork 存取權限。"
+  ],
+  [
+    "Organization limit",
+    "組織限額"
+  ],
+  [
+    "Other data, if any",
+    "其他資料（如有）"
+  ],
+  [
+    "Own limit",
+    "自身限額"
+  ],
+  [
+    "Paint bucket",
+    "油漆桶"
+  ],
+  [
+    "Parent organization owner and admin access from any IP is off",
+    "父組織所有者和管理員的任意 IP 存取已關閉"
+  ],
+  [
+    "Parent organization owners and admins can use this allowlist from any IP",
+    "父組織所有者和管理員可從任意 IP 使用此允許列表"
+  ],
+  [
+    "Part of this card didn’t load, so this request can’t be allowed yet. Reload the page to try again, or deny it to continue.",
+    "此卡片的一部分未能載入，因此暫時無法批准此請求。請重新載入頁面重試，或拒絕以繼續。"
+  ],
+  [
+    "Paste the file’s text here, or drop the file on this box",
+    "在此處貼上檔案文字，或將檔案拖到此框"
+  ],
+  [
+    "People using this artifact’s page may have typed its data, and Claude uses it in this session.",
+    "使用此 Artifact 頁面的人可能輸入過其中的資料，Claude 會在本次會話中使用它們。"
+  ],
+  [
+    "People with the link can open it.",
+    "擁有鏈接的人可以開啟它。"
+  ],
+  [
+    "Prefer not to answer",
+    "不願回答"
+  ],
+  [
+    "Presentations, all-hands",
+    "演示文稿、全員大會"
+  ],
+  [
+    "Project names and instructions",
+    "項目名稱和說明"
+  ],
+  [
+    "Projects, which couldn’t be loaded. Try exporting again.",
+    "項目（無法載入）。請重新匯出。"
+  ],
+  [
+    "Projects, with their instructions and memory, and the files in each project’s own folder if they total under 100 MB",
+    "項目及其說明和記憶，以及每個項目自身資料夾中的檔案（總計不超過 100 MB 時）"
+  ],
+  [
+    "Proxy program not found",
+    "找不到代理程式"
+  ],
+  [
+    "Public and non-public repositories in one fix session",
+    "在同一修復會話中處理公開和非公開倉庫"
+  ],
+  [
+    "Ratio height",
+    "比例高度"
+  ],
+  [
+    "Ratio width",
+    "比例寬度"
+  ],
+  [
+    "Read or delete your general memory under Settings › General. Read a project’s memory on the project’s page, under Memory.",
+    "在“設定 › 通用”中閱讀或刪除你的通用記憶。在項目頁面“記憶”下閱讀項目記憶。"
+  ],
+  [
+    "Read this animation as it is now, then make a new doc from what it shows. Leave the animation as it is.",
+    "按當前狀態閱讀此動畫，然後根據其展示的內容建立新文檔。保持動畫不變。"
+  ],
+  [
+    "Read this animation as it is now, then make new designs from what it shows. Leave the animation as it is.",
+    "按當前狀態閱讀此動畫，然後根據其展示的內容建立新設計。保持動畫不變。"
+  ],
+  [
+    "Read this animation as it is now, then make new slides from what it shows. Leave the animation as it is.",
+    "按當前狀態閱讀此動畫，然後根據其展示的內容建立新幻燈片。保持動畫不變。"
+  ],
+  [
+    "Read this deck as it is now, then make a new animation from what it says. Leave the deck as it is.",
+    "按當前狀態閱讀此演示文稿，然後根據其內容建立新動畫。保持演示文稿不變。"
+  ],
+  [
+    "Read this deck as it is now, then make a new animation from what it says. Leave the deck as it is. If this chat has more than one deck, ask me which one.",
+    "按當前狀態閱讀此演示文稿，然後根據其內容建立新動畫。保持演示文稿不變。如果此聊天中有多個演示文稿，請詢問我是哪一個。"
+  ],
+  [
+    "Read this deck as it is now, then make a new doc from what it says. Leave the deck as it is.",
+    "按當前狀態閱讀此演示文稿，然後根據其內容建立新文檔。保持演示文稿不變。"
+  ],
+  [
+    "Read this deck as it is now, then make a new doc from what it says. Leave the deck as it is. If this chat has more than one deck, ask me which one.",
+    "按當前狀態閱讀此演示文稿，然後根據其內容建立新文檔。保持演示文稿不變。如果此聊天中有多個演示文稿，請詢問我是哪一個。"
+  ],
+  [
+    "Read this deck as it is now, then make new designs from what it says. Leave the deck as it is.",
+    "按當前狀態閱讀此演示文稿，然後根據其內容建立新設計。保持演示文稿不變。"
+  ],
+  [
+    "Read this deck as it is now, then make new designs from what it says. Leave the deck as it is. If this chat has more than one deck, ask me which one.",
+    "按當前狀態閱讀此演示文稿，然後根據其內容建立新設計。保持演示文稿不變。如果此聊天中有多個演示文稿，請詢問我是哪一個。"
+  ],
+  [
+    "Read this design as it is now, then make a new animation from what it shows. Leave the design as it is.",
+    "按當前狀態閱讀此設計，然後根據其展示的內容建立新動畫。保持設計不變。"
+  ],
+  [
+    "Read this design as it is now, then make a new animation from what it shows. Leave the design as it is. If this chat has more than one design, ask me which one.",
+    "按當前狀態閱讀此設計，然後根據其展示的內容建立新動畫。保持設計不變。如果此聊天中有多個設計，請詢問我是哪一個。"
+  ],
+  [
+    "Read this design as it is now, then make a new doc from what it shows. Leave the design as it is.",
+    "按當前狀態閱讀此設計，然後根據其展示的內容建立新文檔。保持設計不變。"
+  ],
+  [
+    "Read this design as it is now, then make a new doc from what it shows. Leave the design as it is. If this chat has more than one design, ask me which one.",
+    "按當前狀態閱讀此設計，然後根據其展示的內容建立新文檔。保持設計不變。如果此聊天中有多個設計，請詢問我是哪一個。"
+  ],
+  [
+    "Read this design as it is now, then make new slides from what it shows. Leave the design as it is.",
+    "按當前狀態閱讀此設計，然後根據其展示的內容建立新幻燈片。保持設計不變。"
+  ],
+  [
+    "Read this design as it is now, then make new slides from what it shows. Leave the design as it is. If this chat has more than one design, ask me which one.",
+    "按當前狀態閱讀此設計，然後根據其展示的內容建立新幻燈片。保持設計不變。如果此聊天中有多個設計，請詢問我是哪一個。"
+  ],
+  [
+    "Read this doc as it is now, then make a new animation from what it says. Leave the doc as it is.",
+    "按當前狀態閱讀此文檔，然後根據其內容建立新動畫。保持文檔不變。"
+  ],
+  [
+    "Read this doc as it is now, then make a new animation from what it says. Leave the doc as it is. If this chat has more than one doc, ask me which one.",
+    "按當前狀態閱讀此文檔，然後根據其內容建立新動畫。保持文檔不變。如果此聊天中有多個文檔，請詢問我是哪一個。"
+  ],
+  [
+    "Read this doc, then make new designs from it. Leave the doc as it is. If this chat has more than one doc, ask me which one.",
+    "閱讀此文檔，然後基於它建立新設計。保持文檔不變。如果此聊天中有多個文檔，請詢問我是哪一個。"
+  ],
+  [
+    "Read this doc, then make new slides from it. Leave the doc as it is. If this chat has more than one doc, ask me which one.",
+    "閱讀此文檔，然後基於它建立新幻燈片。保持文檔不變。如果此聊天中有多個文檔，請詢問我是哪一個。"
+  ],
+  [
+    "Reading aloud…",
+    "正在朗讀…"
+  ],
+  [
+    "Reading paused",
+    "朗讀已暫停"
+  ],
+  [
+    "Reading your export. A large one can take a few minutes.",
+    "正在讀取你的匯出檔案。檔案較大時可能需要幾分鐘。"
+  ],
+  [
+    "Recommended tools",
+    "推薦的工具"
+  ],
+  [
+    "Reconnected, and you’re caught up",
+    "已重新連線，內容已同步"
+  ],
+  [
+    "Refresh usage",
+    "重新整理用量"
+  ],
+  [
+    "Refreshing usage",
+    "正在重新整理用量"
+  ],
+  [
+    "Remove as organization default",
+    "取消組織預設設定"
+  ],
+  [
+    "Remove as your default",
+    "取消你的預設設定"
+  ],
+  [
+    "Remove monthly limit and budget",
+    "移除每月限額和預算"
+  ],
+  [
+    "Removing the limit",
+    "正在移除限額"
+  ],
+  [
+    "Report photo",
+    "舉報照片"
+  ],
+  [
+    "Reported progress",
+    "已報告的進度"
+  ],
+  [
+    "Repository address",
+    "倉庫地址"
+  ],
+  [
+    "Reset from here",
+    "從此處重置"
+  ],
+  [
+    "Response font",
+    "回覆字體"
+  ],
+  [
+    "Restrict access to this allowlist?",
+    "限制對此允許列表的存取？"
+  ],
+  [
+    "Restricted by policy",
+    "受策略限制"
+  ],
+  [
+    "Review access",
+    "審查存取權限"
+  ],
+  [
+    "Review limit",
+    "審查限額"
+  ],
+  [
+    "Roles added on the Admin roles page appear here with their admin permissions.",
+    "在“管理員角色”頁面新增的角色會連同其管理員權限顯示在此處。"
+  ],
+  [
+    "Roles given access also get access to templates you have enabled for your organization.",
+    "被授予存取權限的角色還會獲得你為組織啟用的模板的存取權限。"
+  ],
+  [
+    "Rotated device",
+    "已旋轉裝置"
+  ],
+  [
+    "Rotating device",
+    "正在旋轉裝置"
+  ],
+  [
+    "Running on another computer",
+    "正在另一臺計算機上執行"
+  ],
+  [
+    "Saved the newest 50,000 changes. Older ones aren’t in this file.",
+    "已儲存最新的 50,000 項更改。較早的更改不在此檔案中。"
+  ],
+  [
+    "Saving the limit",
+    "正在儲存限額"
+  ],
+  [
+    "Saving the pooled budget",
+    "正在儲存共享預算"
+  ],
+  [
+    "Screener ending",
+    "篩選即將結束"
+  ],
+  [
+    "Search by name, email, or ID",
+    "按姓名、郵箱或 ID 搜尋"
+  ],
+  [
+    "Search group limits",
+    "搜尋群組限額"
+  ],
+  [
+    "Search spend by group",
+    "搜尋按群組劃分的支出"
+  ],
+  [
+    "Search usage",
+    "搜尋用量"
+  ],
+  [
+    "Search user limits",
+    "搜尋使用者限額"
+  ],
+  [
+    "See all matches in the directory",
+    "查看目錄中的所有匹配項"
+  ],
+  [
+    "Select at least one role.",
+    "請至少選擇一個角色。"
+  ],
+  [
+    "Send cancelled.",
+    "傳送已取消。"
+  ],
+  [
+    "Send to",
+    "傳送到"
+  ],
+  [
+    "Sending to apps isn’t available right now.",
+    "目前無法傳送到應用。"
+  ],
+  [
+    "Sending to apps isn’t turned on for your organization yet.",
+    "你的組織尚未開啟傳送到應用。"
+  ],
+  [
+    "Sending to other apps isn’t available right now. Try again later.",
+    "目前無法傳送到其他應用。請稍後重試。"
+  ],
+  [
+    "Sending your request",
+    "正在傳送你的請求"
+  ],
+  [
+    "Sent file",
+    "已傳送的檔案"
+  ],
+  [
+    "Sessions, with up to 100 MB of attached files and 100 MB of output files per session",
+    "會話，每個會話最多 100 MB 附件和 100 MB 輸出檔案"
+  ],
+  [
+    "Set as organization default",
+    "設為組織預設"
+  ],
+  [
+    "Set as your default",
+    "設為你的預設"
+  ],
+  [
+    "Set to false to turn off the workspace VM, and with it Cowork tasks on this computer. True is the same as unset.",
+    "設為 false 可關閉工作區 VM，同時也會關閉此計算機上的 Cowork 任務。true 與未設定相同。"
+  ],
+  [
+    "Set user limit",
+    "設定使用者限額"
+  ],
+  [
+    "Shared. People with the link can open it.",
+    "已共享。擁有鏈接的人可以開啟它。"
+  ],
+  [
+    "Shorten date range",
+    "縮短日期範圍"
+  ],
+  [
+    "Show all roles",
+    "顯示所有角色"
+  ],
+  [
+    "Show unavailable organizations",
+    "顯示不可用的組織"
+  ],
+  [
+    "Show widgets from this connector",
+    "顯示此連接器的小元件"
+  ],
+  [
+    "Side chat doesn’t accept files. Drop them in the main session instead.",
+    "側邊聊天不接受檔案。請將它們拖到主會話中。"
+  ],
+  [
+    "Sign in so Claude in Chrome can use your computer.",
+    "登入後，Chrome 中的 Claude 才能使用你的計算機。"
+  ],
+  [
+    "Sign in to the account you want to delete, then try again.",
+    "請登入你要刪除的賬號，然後重試。"
+  ],
+  [
+    "Sign in to your gateway again or ask its operator, then reopen it from the menu.",
+    "請重新登入你的閘道器或詢問其運營方，然後從選單中重新開啟。"
+  ],
+  [
+    "Sign out, then sign in to Claude through the single sign-on (SSO) provider you want to set up.",
+    "請退出登入，然後通過你要設定的單點登入（SSO）提供商登入 Claude。"
+  ],
+  [
+    "Skills you add here are kept by your organization’s session host and are available to Claude in your sessions there.",
+    "你在此處新增的技能由組織的會話主機儲存，Claude 在其中的會話中可以使用。"
+  ],
+  [
+    "Skills you saved and plugins you uploaded",
+    "你儲存的技能和上傳的外掛"
+  ],
+  [
+    "Skip role list",
+    "跳過角色列表"
+  ],
+  [
+    "Some app preferences, such as keep-awake settings and prompt suggestions",
+    "部分應用偏好設定，例如保持喚醒設定和提示建議"
+  ],
+  [
+    "Some items were left out because they’re too large, couldn’t be read, or have a name that can’t be imported.",
+    "部分項目未被包含，因為它們過大、無法讀取，或名稱無法匯入。"
+  ],
+  [
+    "Some values in this file are redacted. Choose a file with the full values.",
+    "此檔案中的部分值已脫敏。請選擇包含完整值的檔案。"
+  ],
+  [
+    "Someone else may have made this artifact, and Claude uses what it says in this session.",
+    "此 Artifact 可能由他人建立，Claude 會在本次會話中採用其所述內容。"
+  ],
+  [
+    "Someone else may have made this artifact, and approving lets Claude read it for the rest of this session.",
+    "此 Artifact 可能由他人建立，批准後 Claude 可在本次會話剩餘時間內讀取它。"
+  ],
+  [
+    "Someone else may have uploaded this artifact’s files, and Claude sees their names.",
+    "此 Artifact 的檔案可能由他人上傳，Claude 會看到它們的名稱。"
+  ],
+  [
+    "Someone else may have written this artifact’s files, and Claude sees their names.",
+    "此 Artifact 的檔案可能由他人寫入，Claude 會看到它們的名稱。"
+  ],
+  [
+    "Something on this computer blocked ssh.exe",
+    "此計算機上的某些內容阻止了 ssh.exe"
+  ],
+  [
+    "Something open or selected is near the end of this list.",
+    "開啟或選中的內容接近此列表末尾。"
+  ],
+  [
+    "Something went wrong checking your answers. Try again.",
+    "檢查你的答案時出錯。請重試。"
+  ],
+  [
+    "Something went wrong while sending. Check your connection and try again.",
+    "傳送時出錯。請檢查網路連線後重試。"
+  ],
+  [
+    "Spend by group",
+    "按群組劃分的支出"
+  ],
+  [
+    "Spend limit increase requested",
+    "已請求提高支出限額"
+  ],
+  [
+    "Start anyway",
+    "仍然開始"
+  ],
+  [
+    "Still couldn’t search inside folders shared with you.",
+    "仍無法在與你共享的資料夾中搜尋。"
+  ],
+  [
+    "Stop asking everyone to follow",
+    "不再要求所有人跟隨"
+  ],
+  [
+    "Stop reading aloud",
+    "停止朗讀"
+  ],
+  [
+    "Submitting this report will send the entire current conversation to Anthropic for future improvements to our products and models.",
+    "提交此報告會將當前整個對話傳送給 Anthropic，用於未來改進我們的產品和模型。"
+  ],
+  [
+    "Supported: Linux, macOS, or Windows on x86_64 or arm64.",
+    "支援：Linux、macOS 或 Windows，架構為 x86_64 或 arm64。"
+  ],
+  [
+    "Suspended by your admin",
+    "已被管理員暫停"
+  ],
+  [
+    "Switch to the organization that owns this artifact to send it to an app.",
+    "請切換到擁有此 Artifact 的組織，以便將其傳送到應用。"
+  ],
+  [
+    "Switch to this window to add this.",
+    "請切換到此視窗以新增。"
+  ],
+  [
+    "Table controls",
+    "表格控制元件"
+  ],
+  [
+    "Taller feed posts",
+    "更高的動態帖子"
+  ],
+  [
+    "Test tools",
+    "測試工具"
+  ],
+  [
+    "Thanks. This photo will be reviewed.",
+    "謝謝。此照片將會被審核。"
+  ],
+  [
+    "That .reg file is in the older REGEDIT4 format. Export the policy with the Windows policy command below.",
+    "該 .reg 檔案為較舊的 REGEDIT4 格式。請使用下方的 Windows 策略命令匯出策略。"
+  ],
+  [
+    "That export was made in another organization. Choose an export made in this organization.",
+    "該匯出是在另一個組織中進行的。請選擇在此組織中建立的匯出。"
+  ],
+  [
+    "That file type isn’t supported. See “Where do I get this file?” below.",
+    "不支援該檔案型別。請參閱下方的“我從哪裡獲取此檔案？”。"
+  ],
+  [
+    "That is not valid JSON. See “Where do I get this file?”",
+    "該內容不是有效的 JSON。請參閱“我從哪裡獲取此檔案？”。"
+  ],
+  [
+    "That profile has more than one Claude Desktop payload. Combine them into one payload, then choose the file again.",
+    "該配置檔案包含多個 Claude Desktop 載荷。請將它們合併為一個載荷，然後重新選擇檔案。"
+  ],
+  [
+    "That zip isn’t a Claude Desktop export. Choose a Claude Desktop export, or the app’s data folder (its name starts with “Claude”).",
+    "該 zip 不是 Claude Desktop 匯出檔案。請選擇 Claude Desktop 匯出檔案，或應用的資料資料夾（名稱以“Claude”開頭）。"
+  ],
+  [
+    "The ID your gateway knows the user by, which is usually not their email. A user’s details under Usage show theirs.",
+    "閘道器識別該使用者所用的 ID，通常不是其郵箱。使用者在“用量”下的詳情會顯示其 ID。"
+  ],
+  [
+    "The artifact couldn’t produce a file to send. Refresh it and try again.",
+    "該 Artifact 未能生成可傳送的檔案。請重新整理後重試。"
+  ],
+  [
+    "The connector does not list the tools below, but a role has its own setting for them.",
+    "該連接器未列出下方工具，但某個角色對它們有單獨設定。"
+  ],
+  [
+    "The connector’s message is too long to show in full.",
+    "該連接器的訊息過長，無法完整顯示。"
+  ],
+  [
+    "The date range applies only to sessions.",
+    "日期範圍僅適用於會話。"
+  ],
+  [
+    "The dialog closed, and some of your changes were not saved. Open it again to check the roles.",
+    "對話框已關閉，部分更改未儲存。請重新開啟以檢查角色。"
+  ],
+  [
+    "The directory didn’t load. You can still add a custom connector below.",
+    "目錄未能載入。你仍可在下方新增自定義連接器。"
+  ],
+  [
+    "The export stopped before it finished, and no file was saved.",
+    "匯出在完成前停止，未儲存任何檔案。"
+  ],
+  [
+    "The file also includes any passwords or API keys in these items, for example in the arguments of a local MCP server.",
+    "該檔案還包含這些條目中的任何密碼或 API 金鑰，例如本地 MCP 伺服器的參數中。"
+  ],
+  [
+    "The full error is in the details.",
+    "完整錯誤見詳情。"
+  ],
+  [
+    "The jump host couldn’t connect",
+    "跳板機無法連線"
+  ],
+  [
+    "The limit for imported tasks was reached.",
+    "已達到匯入任務的限額。"
+  ],
+  [
+    "The server said:",
+    "伺服器返回："
+  ],
+  [
+    "The simulator won’t run until Xcode installs its components. Open Xcode to install them. It may ask for your Mac password.",
+    "在 Xcode 安裝其元件之前，模擬器無法執行。請開啟 Xcode 進行安裝，可能會要求輸入 Mac 密碼。"
+  ],
+  [
+    "The “Instructions for Claude” and “Global instructions” settings aren’t included. To keep them, copy their text to your other computer.",
+    "不包含“Claude 的說明”和“全域性說明”設定。如需保留，請將其文字複製到另一臺計算機。"
+  ],
+  [
+    "There’s no usage available.",
+    "沒有可用的用量資料。"
+  ],
+  [
+    "There’s nothing to export in this date range.",
+    "此日期範圍內沒有可匯出的內容。"
+  ],
+  [
+    "These scheduled tasks used folders or files on your other computer. Choose the folders and files again under Scheduled.",
+    "這些計劃任務使用了另一臺計算機上的資料夾或檔案。請在“計劃”下重新選擇資料夾和檔案。"
+  ],
+  [
+    "This also removes any file not listed here.",
+    "這也會移除此處未列出的任何檔案。"
+  ],
+  [
+    "This artifact can’t be sent right now. Refresh it and try again.",
+    "此 Artifact 目前無法傳送。請重新整理後重試。"
+  ],
+  [
+    "This artifact can’t be sent to other apps.",
+    "此 Artifact 無法傳送到其他應用。"
+  ],
+  [
+    "This artifact is reading aloud",
+    "此 Artifact 正在朗讀"
+  ],
+  [
+    "This artifact paused reading aloud",
+    "此 Artifact 已暫停朗讀"
+  ],
+  [
+    "This artifact’s label limits who can see it, so Claude can’t send it to other apps.",
+    "此 Artifact 的標籤限制了誰能看到它，因此 Claude 無法將其傳送到其他應用。"
+  ],
+  [
+    "This browser can’t make an MP4 video. To send this to an app, try opening it in Chrome.",
+    "此瀏覽器無法生成 MP4 影片。要將此內容傳送到應用，請嘗試在 Chrome 中開啟。"
+  ],
+  [
+    "This browser couldn’t draw the artifact’s icon, and a shortcut needs one. If a privacy setting or extension blocks it, turn that off, or try another browser.",
+    "此瀏覽器無法繪製該 Artifact 的圖示，而快捷方式需要一個圖示。如果有隱私設定或擴展程式阻止了它，請關閉該限制，或換一個瀏覽器。"
+  ],
+  [
+    "This browser doesn’t offer to add shortcuts for artifacts. Try Chrome or Edge.",
+    "此瀏覽器不支援為 Artifact 新增快捷方式。請嘗試 Chrome 或 Edge。"
+  ],
+  [
+    "This chat has ended, so Claude can’t send this artifact to an app from here.",
+    "此聊天已結束，因此 Claude 無法從此處將此 Artifact 傳送到應用。"
+  ],
+  [
+    "This chat is too long to continue, and compacting it automatically didn’t help. You can rewind to an earlier point or start a new chat.",
+    "此聊天過長，無法繼續，且自動壓縮未能解決。你可以回退到較早的位置，或開始新聊天。"
+  ],
+  [
+    "This chat is too long to continue. Rewind to an earlier point or start a new chat.",
+    "此聊天過長，無法繼續。請回退到較早的位置，或開始新聊天。"
+  ],
+  [
+    "This connector uses managed authorization, which isn’t supported for agents yet.",
+    "此連接器使用託管授權，代理目前尚不支援。"
+  ],
+  [
+    "This deletes the chat and any artifacts made in it.",
+    "這將刪除該聊天及其中建立的所有 Artifact。"
+  ],
+  [
+    "This design system can’t be your default. It may no longer be shared with you. Choose another one.",
+    "此設計系統不能設為預設。它可能已不再與你共享。請選擇其他設計系統。"
+  ],
+  [
+    "This device couldn’t be verified. You can sign in again, or use Claude Desktop instead.",
+    "無法驗證此裝置。你可以重新登入，或改用 Claude Desktop。"
+  ],
+  [
+    "This export is over the import limit of 20 GB or 5,000,000 files.",
+    "此匯出超過 20 GB 或 5,000,000 個檔案的匯入上限。"
+  ],
+  [
+    "This export is over the import limit of 20 GB or 5,000,000 files. Delete sessions that you no longer need, then export again.",
+    "此匯出超過 20 GB 或 5,000,000 個檔案的匯入上限。請刪除不再需要的會話，然後重新匯出。"
+  ],
+  [
+    "This file has nothing to import. Choose another file.",
+    "此檔案沒有可匯入的內容。請選擇其他檔案。"
+  ],
+  [
+    "This file is too large to send. Download it from Export instead.",
+    "此檔案過大，無法傳送。請改用“匯出”下載。"
+  ],
+  [
+    "This group’s monthly limit is Unlimited, and a pooled budget needs a limit for each member. Set the monthly limit first; it can equal the budget.",
+    "此群組的每月限額為“不限”，而共享預算需要每個成員都有限額。請先設定每月限額，它可以等於預算金額。"
+  ],
+  [
+    "This group’s pooled budget needs a limit for each member. Pause or remove the budget first.",
+    "此群組的共享預算需要每個成員都有限額。請先暫停或移除該預算。"
+  ],
+  [
+    "This is also your default. Remove it as your default first.",
+    "這也是你的預設設定。請先取消將其設為預設。"
+  ],
+  [
+    "This is only available in a test interview.",
+    "此功能僅在測試訪談中可用。"
+  ],
+  [
+    "This is taking longer than usual. You can keep waiting here, or close this window and try again from Claude in Chrome.",
+    "這比平時耗時更長。你可以繼續在此等待，或關閉此視窗並從 Chrome 中的 Claude 重試。"
+  ],
+  [
+    "This item can’t be imported.",
+    "此項目無法匯入。"
+  ],
+  [
+    "This key is tied to a parent organization this organization has left, so it cannot be re-enabled. Create a new key instead.",
+    "此金鑰關聯的父組織已被此組織退出，因此無法重新啟用。請改為建立新金鑰。"
+  ],
+  [
+    "This limit has already been set. Close this and edit it in the table.",
+    "此限額已設定。請關閉此視窗並在表格中編輯。"
+  ],
+  [
+    "This only checks the browser you’re using now; other parent organization owners and admins connect from their own addresses.",
+    "這僅檢查你當前使用的瀏覽器；其他父組織所有者和管理員會從各自的地址連線。"
+  ],
+  [
+    "This organization can’t use an IP allowlist because we can’t enforce it here. No changes were saved.",
+    "此組織無法使用 IP 允許列表，因為我們無法在此處強制執行。未儲存任何更改。"
+  ],
+  [
+    "This page is out of date. Reload it and answer again.",
+    "此頁面已過期。請重新載入後重新回答。"
+  ],
+  [
+    "This preview doesn’t load anything from the web, so parts may be missing.",
+    "此預覽不會從網路載入任何內容，因此部分內容可能缺失。"
+  ],
+  [
+    "This preview doesn’t load anything from the web, so parts may be missing. Export the file to open it in a browser, where content from the web will load.",
+    "此預覽不會從網路載入任何內容，因此部分內容可能缺失。請匯出檔案並在瀏覽器中開啟，網路內容將會載入。"
+  ],
+  [
+    "This project is being deleted, so it can’t be unarchived.",
+    "此項目正在被刪除，因此無法取消歸檔。"
+  ],
+  [
+    "This project is being deleted, so its findings aren’t available.",
+    "此項目正在被刪除，因此其發現項不可用。"
+  ],
+  [
+    "This project was unarchived, so it wasn’t deleted.",
+    "此項目已取消歸檔，因此未被刪除。"
+  ],
+  [
+    "This session can’t run here",
+    "此會話無法在此處執行"
+  ],
+  [
+    "This shows the first part of what Claude wrote at the time, and later edits to the file won’t appear.",
+    "此處顯示 Claude 當時寫入內容的第一部分，之後對檔案的編輯不會顯示。"
+  ],
+  [
+    "This shows what Claude wrote at the time, so later edits to the file won’t appear.",
+    "此處顯示 Claude 當時寫入的內容，因此之後對檔案的編輯不會顯示。"
+  ],
+  [
+    "This study is looking for a specific group of participants, and based on your answers it isn’t a match.",
+    "本研究在尋找特定群體參與者，根據你的回答並不匹配。"
+  ],
+  [
+    "This study was just updated, so check your answers and try again.",
+    "本研究剛剛更新，請檢查你的答案後重試。"
+  ],
+  [
+    "This text is no longer available. Ask Claude to show you the file.",
+    "此文字已不可用。請讓 Claude 顯示該檔案。"
+  ],
+  [
+    "This version of Claude Code is too old to start a session, so automatic restarts are paused for this session. Update Claude, then send a message to try again.",
+    "此版本的 Claude Code 過舊，無法啟動會話，因此本次會話已暫停自動重啟。請更新 Claude，然後傳送訊息重試。"
+  ],
+  [
+    "Tilt only works with a device frame.",
+    "傾斜僅適用於裝置邊框。"
+  ],
+  [
+    "To add local MCP servers, import this export again, then choose “Add.”",
+    "要新增本地 MCP 伺服器，請再次匯入此匯出檔案，然後選擇“新增”。"
+  ],
+  [
+    "To open WorkOS setup, sign out, then sign in to Claude through the single sign-on (SSO) provider you want to set up, and return to this step.",
+    "要開啟 WorkOS 設定，請退出登入，然後通過你要設定的單點登入（SSO）提供商登入 Claude，並返回此步驟。"
+  ],
+  [
+    "To set up a different identity provider, sign out and sign in again through it.",
+    "要設定其他身份提供商，請退出登入並通過它重新登入。"
+  ],
+  [
+    "To use local MCP servers, contact your IT administrator.",
+    "要使用本地 MCP 伺服器，請聯繫 IT 管理員。"
+  ],
+  [
+    "Too many downloads in a short time. Try again in a minute.",
+    "短時間內下載次數過多。請等一分鐘再試。"
+  ],
+  [
+    "Tools and data sources this plugin connects to. Select one to connect it.",
+    "此外掛連線的工具和資料來源。選擇一個即可連線。"
+  ],
+  [
+    "Totals by group",
+    "按群組統計的合計"
+  ],
+  [
+    "Try again, or give access on the Roles page.",
+    "請重試，或在“角色”頁面授予存取權限。"
+  ],
+  [
+    "Try again, or reopen this dialog to change your choices.",
+    "請重試，或重新開啟此對話框更改你的選擇。"
+  ],
+  [
+    "Try it out in the Browser tab.",
+    "在“瀏覽器”標籤頁中試用。"
+  ],
+  [
+    "Turn back on for you",
+    "重新為你開啟"
+  ],
+  [
+    "Turn each task off on your other computer before you turn it on here, or it runs on both.",
+    "在此處開啟之前，請先在另一臺計算機上關閉每個任務，否則它會在兩邊同時執行。"
+  ],
+  [
+    "Turn into",
+    "轉換為"
+  ],
+  [
+    "Turn off Code sessions that run on the device, WSL included, so Code offers only remote environments such as SSH.",
+    "關閉在此裝置（包括 WSL）上執行的 Code 會話，這樣 Code 只提供 SSH 等遠端環境。"
+  ],
+  [
+    "Turn off Follow me",
+    "關閉“跟隨我”"
+  ],
+  [
+    "Turn off for you",
+    "對你關閉"
+  ],
+  [
+    "Turn on auto-fix",
+    "開啟自動修復"
+  ],
+  [
+    "Turn these notes into a one-page brief",
+    "將這些筆記整理成一頁簡報"
+  ],
+  [
+    "Turning on auto-fix",
+    "正在開啟自動修復"
+  ],
+  [
+    "Typically blocks listing",
+    "通常會阻止列出"
+  ],
+  [
+    "Unsent message",
+    "未傳送的訊息"
+  ],
+  [
+    "Updating roles",
+    "正在更新角色"
+  ],
+  [
+    "Upload a .zip or .plugin archive. It’s stored on your organization’s infrastructure, not this computer, and loads in your tasks and sessions.",
+    "上傳 .zip 或 .plugin 歸檔檔案。它將儲存在組織的伺服器基礎設施上，而不是此計算機上，並會在你的任務和會話中載入。"
+  ],
+  [
+    "Usage is paused for your organization",
+    "你的組織用量已暫停"
+  ],
+  [
+    "Usage period",
+    "用量週期"
+  ],
+  [
+    "Use auto mode",
+    "使用自動模式"
+  ],
+  [
+    "User ID (from your identity provider)",
+    "使用者 ID（來自你的身份提供商）"
+  ],
+  [
+    "User limit",
+    "使用者限額"
+  ],
+  [
+    "User limits",
+    "使用者限額"
+  ],
+  [
+    "Uses managed authorization. Not yet supported for agents.",
+    "使用託管授權。代理尚不支援。"
+  ],
+  [
+    "Video unavailable",
+    "影片不可用"
+  ],
+  [
+    "Wait for Claude to finish, or respond to Claude, then try again.",
+    "請等 Claude 完成或回覆 Claude，然後重試。"
+  ],
+  [
+    "Wait for Claude to finish, then try again.",
+    "請等 Claude 完成後重試。"
+  ],
+  [
+    "Wait until the app finishes reading your export.",
+    "請等應用讀取完你的匯出檔案。"
+  ],
+  [
+    "Waiting for your admin",
+    "正在等待你的管理員"
+  ],
+  [
+    "We couldn’t check this organization’s IP allowlist settings just now, so nothing was saved. Try again in a few seconds.",
+    "我們剛才無法檢查此組織的 IP 允許列表設定，因此未儲存任何內容。請幾秒後重試。"
+  ],
+  [
+    "Webhook endpoints used only by this project are also deleted, so they’ll stop sending events.",
+    "僅供此項目使用的 Webhook 端點也會被刪除，因此它們將停止傳送事件。"
+  ],
+  [
+    "Webinar: Prepare for unified Claude",
+    "網路研討會：為統一的 Claude 做好準備"
+  ],
+  [
+    "Welcome to Enterprise",
+    "歡迎使用企業版"
+  ],
+  [
+    "What is your date of birth?",
+    "你的出生日期是？"
+  ],
+  [
+    "What members with each role can use. Built-in roles (User, Admin, Owner, Primary owner) get every capability your organization has turned on.",
+    "各角色成員可以使用的內容。內建角色（使用者、管理員、所有者、主所有者）可獲得你組織已開啟的所有能力。"
+  ],
+  [
+    "What to include",
+    "包含內容"
+  ],
+  [
+    "What’s wrong with this photo?",
+    "此照片有什麼問題？"
+  ],
+  [
+    "When off, the Claude add-in is turned off for everyone, in every Office application.",
+    "關閉後，Claude 載入項將在所有 Office 應用中對所有關閉。"
+  ],
+  [
+    "When this is on, non-public code or a finding’s details could end up in a public repository.",
+    "開啟後，非公開程式碼或發現項詳情可能會進入公開倉庫。"
+  ],
+  [
+    "Which US state or territory do you live in?",
+    "你居住在美國哪個州或地區？"
+  ],
+  [
+    "Why are you reporting this photo?",
+    "你為什麼要舉報此照片？"
+  ],
+  [
+    "Windows policy",
+    "Windows 策略"
+  ],
+  [
+    "With access to",
+    "可存取"
+  ],
+  [
+    "With this on, each device that connects to your computer can ask you to sign in again about once a day.",
+    "開啟後，每臺連線到你計算機的裝置大約每天可要求你重新登入一次。"
+  ],
+  [
+    "You can keep working in Claude Code on your computer, or start a new session.",
+    "你可以繼續在計算機上的 Claude Code 中工作，或啟動新會話。"
+  ],
+  [
+    "You can only add members of your organization. Fix or remove this address to continue.",
+    "你只能新增組織的成員。請修正或移除此地址以繼續。"
+  ],
+  [
+    "You can try again when the countdown ends.",
+    "倒計時結束後可以重試。"
+  ],
+  [
+    "You can try again, or use Claude Desktop instead.",
+    "你可以重試，或改用 Claude Desktop。"
+  ],
+  [
+    "You can’t upgrade this organization. Ask your admin to upgrade it.",
+    "你無法升級此組織。請讓管理員進行升級。"
+  ],
+  [
+    "You choose after you press Import",
+    "按下“匯入”後由你選擇"
+  ],
+  [
+    "You closed the browser’s dialog. Reload the page to add the shortcut.",
+    "你關閉了瀏覽器的對話框。請重新載入頁面以新增快捷方式。"
+  ],
+  [
+    "You don’t need to pay again",
+    "你無需再次付款"
+  ],
+  [
+    "You turned off the Claude Security connector. To use it again, open Claude Security, go to API access, and turn the connector on.",
+    "你關閉了 Claude Security 連接器。要再次使用它，請開啟 Claude Security，前往 API 存取，然後開啟該連接器。"
+  ],
+  [
+    "Your Claude Console sign-in isn’t tied to an organization. Sign out from your account menu, then sign in with one your IT team allows.",
+    "你的 Claude Console 登入未關聯組織。請從賬號選單退出登入，然後使用 IT 團隊允許的組織登入。"
+  ],
+  [
+    "Your Claude Console sign-in needs renewing. Sign out from your account menu, then sign in with an organization your IT team allows.",
+    "你的 Claude Console 登入需要續訂。請從賬號選單退出登入，然後使用 IT 團隊允許的組織登入。"
+  ],
+  [
+    "Your Claude Console sign-in will stop working after a future update",
+    "你的 Claude Console 登入將在未來的更新後停止工作"
+  ],
+  [
+    "Your Cloud gateway sign-in has expired",
+    "你的 Cloud 閘道器登入已過期"
+  ],
+  [
+    "Your account wasn’t deleted because the account in use changed.",
+    "由於使用的賬號發生了變化，你的賬號未被刪除。"
+  ],
+  [
+    "Your admin suspended this. Only they can resume it.",
+    "你的管理員暫停了此功能。只有他們可以恢復。"
+  ],
+  [
+    "Your app is running",
+    "你的應用正在執行"
+  ],
+  [
+    "Your computer is no longer connected to this session",
+    "你的計算機已不再連線到此會話"
+  ],
+  [
+    "Your default",
+    "你的預設"
+  ],
+  [
+    "Your document couldn’t be uploaded. You can check your internet connection and try again, or choose a smaller file.",
+    "你的文檔無法上傳。你可以檢查網路連線後重試，或選擇較小的檔案。"
+  ],
+  [
+    "Your first project. I’ll keep what you add here in mind in every chat inside it.",
+    "你的第一個項目。你在其中新增的內容，我會在其中的每次聊天中考慮。"
+  ],
+  [
+    "Your network blocked this sign-in",
+    "你的網路阻止了此次登入"
+  ],
+  [
+    "Your organization has turned off Code sessions on this computer, so terminal sessions can’t be resumed here. Ask your IT team to turn on Code sessions.",
+    "你的組織已關閉此計算機上的 Code 會話，因此終端會話無法在此處恢復。請讓 IT 團隊開啟 Code 會話。"
+  ],
+  [
+    "Your organization has turned off Code sessions on this computer. Ask your IT team to turn them on.",
+    "你的組織已關閉此計算機上的 Code 會話。請讓 IT 團隊開啟。"
+  ],
+  [
+    "Your organization is still at its usage limit.",
+    "你的組織仍處於用量限額。"
+  ],
+  [
+    "Your organization is still out of credits.",
+    "你的組織仍無可用額度。"
+  ],
+  [
+    "Your organization requires a Cloud gateway sign-in, which isn’t available in this app. Signing in to Claude again won’t help. Ask your admin.",
+    "你的組織要求登入 Cloud 閘道器，而此應用不支援。重新登入 Claude 也不會有幫助。請詢問管理員。"
+  ],
+  [
+    "Your organization’s data policies don’t allow Claude to send artifacts to other apps.",
+    "你組織的資料策略不允許 Claude 將 Artifact 傳送到其他應用。"
+  ],
+  [
+    "Your organization’s usage is paused.",
+    "你組織的用量已暫停。"
+  ],
+  [
+    "Your reply was added to the message box instead of being sent. Claude continues once you send it.",
+    "你的回覆已新增到訊息框，而不是直接傳送。傳送後 Claude 會繼續。"
+  ],
+  [
+    "Your reply was added to the message box. Claude continues once you send it.",
+    "你的回覆已新增到訊息框。傳送後 Claude 會繼續。"
+  ],
+  [
+    "Your reseller manages this limit. Contact them to raise it.",
+    "你的經銷商管理此限額。請聯繫他們提高。"
+  ],
+  [
+    "Your reseller manages your credits. Contact them to add more.",
+    "你的經銷商管理你的額度。請聯繫他們新增更多。"
+  ],
+  [
+    "Your task was updated, but it may still use a folder or file you removed. Save again before you close the editor.",
+    "你的任務已更新，但可能仍在使用你已移除的資料夾或檔案。請在關閉編輯器前再次儲存。"
+  ],
+  [
+    "Your “Help improve our AI models” choice may not have been saved. You can review it in privacy settings.",
+    "你的“幫助改進我們的 AI 模型”選擇可能未儲存。你可以在隱私設定中查看。"
+  ],
+  [
+    "You’re caught up on seat and usage limit requests",
+    "你已處理完所有席位和用量限額請求"
+  ],
+  [
+    "You’re on Pro for the year",
+    "你已按年訂閱 Pro"
+  ],
+  [
+    "You’re reporting this person’s profile photo.",
+    "你正在舉報此人的個人資料照片。"
+  ],
+  [
+    "You’ve answered these questions too many times. Ask the study’s team to let you try again.",
+    "你回答這些問題的次數過多。請讓研究團隊允許你重試。"
+  ],
+  [
+    "You’ve sent a lot of files in a short time. Wait a minute and try again.",
+    "你在短時間內傳送了大量檔案。請等一分鐘再試。"
+  ],
+  [
+    "someone’s photo: options",
+    "某人的照片：選項"
+  ],
+  [
+    "ssh.exe was blocked",
+    "ssh.exe 被阻止"
+  ],
+  [
+    "“Launches, hiring, and risks for the Platform team”",
+    "“Platform 團隊的發佈、招聘和風險”"
+  ],
+  [
+    "“No group on record” is spend by people in no group that day, or on days your gateway keeps no groups for.",
+    "“沒有群組記錄”指當天不屬於任何群組的人，或在你的閘道器不保留群組資訊的日子產生的支出。"
+  ],
+  [
+    "“Use memory in sessions” was turned off on your other computer when you made this export. To import memory, turn it on there, then make a new export.",
+    "你製作此匯出時，另一臺計算機上的“在會話中使用記憶”已關閉。要匯入記憶，請在那裡開啟，然後重新匯出。"
+  ],
+  [
+    "Available once this chat is ready for your next message",
+    "此聊天準備好接收你的下一條訊息後即可使用"
+  ],
+  [
+    "Bypass permissions",
+    "繞過權限"
+  ],
+  [
+    "Couldn’t load connectors.",
+    "無法載入連接器。"
+  ],
+  [
+    "Couldn’t load organization settings.",
+    "無法載入組織設定。"
+  ],
+  [
+    "Couldn’t load roles.",
+    "無法載入角色。"
+  ],
+  [
+    "Couldn’t save this setting. Try again.",
+    "無法儲存此設定。請重試。"
+  ],
+  [
+    "Couldn’t send your request. Try again.",
+    "無法傳送你的請求。請重試。"
+  ],
+  [
+    "Delete project",
+    "刪除項目"
+  ],
+  [
+    "Loading connectors",
+    "正在載入連接器"
+  ],
+  [
+    "No access",
+    "無存取權限"
+  ],
+  [
+    "No changes",
+    "無變化"
+  ],
+  [
+    "No preview to show",
+    "沒有可顯示的預覽"
+  ],
+  [
+    "Not available for this account.",
+    "此賬戶不可用。"
+  ],
+  [
+    "Not imported",
+    "未匯入"
+  ],
+  [
+    "Not now",
+    "以後再說"
+  ],
+  [
+    "Nothing here yet",
+    "這裡還沒有內容"
+  ],
+  [
+    "Opening Claude Code…",
+    "正在開啟 Claude Code…"
+  ],
+  [
+    "Org default",
+    "組織預設值"
+  ],
+  [
+    "Project ID",
+    "項目 ID"
+  ],
+  [
+    "Pull request",
+    "拉取請求"
+  ],
+  [
+    "Raise spend limit",
+    "提高支出限額"
+  ],
+  [
+    "Read artifact",
+    "讀取 Artifact"
+  ],
+  [
+    "Remove message",
+    "移除訊息"
+  ],
+  [
+    "Request sent",
+    "請求已傳送"
+  ],
+  [
+    "Search connectors",
+    "搜尋連接器"
+  ],
+  [
+    "Sent to Claude",
+    "已傳送給 Claude"
+  ],
+  [
+    "Shared artifact",
+    "共享的 Artifact"
+  ],
+  [
+    "Show in another pane",
+    "在另一個窗格中顯示"
+  ],
+  [
+    "Something else",
+    "其他"
+  ],
+  [
+    "Try again",
+    "重試"
+  ],
+  [
+    "Trying again",
+    "正在重試"
+  ],
+  [
+    "Turn on",
+    "開啟"
+  ],
+  [
+    "Your organization has turned off connectors for artifacts.",
+    "你的組織已關閉 Artifacts 的連接器。"
+  ],
+  [
+    "Your request has been sent to your admin.",
+    "你的請求已傳送給你的管理員。"
+  ],
+  [
+    "Admin permission",
+    "管理員權限"
+  ],
+  [
+    "Any Claude Code sessions started to fix its findings keep their own copy of the findings’ details.",
+    "為修復其發現項而啟動的任何 Claude Code 會話都會保留自己的一份發現項詳情副本。"
+  ],
+  [
+    "Archived session",
+    "已歸檔的會話"
+  ],
+  [
+    "Blocked by your organization’s policy.",
+    "被你組織的策略阻止。"
+  ],
+  [
+    "Check that the WSL distribution is installed and uses WSL 2, then send a message to try again. The full error is in the details.",
+    "請檢查 WSL 發行版已安裝並使用 WSL 2，然後傳送訊息重試。完整錯誤見“查看詳情”。"
+  ],
+  [
+    "Check that the WSL distribution is installed and uses WSL 2, then try again. The full error is in the details.",
+    "請檢查 WSL 發行版已安裝且使用 WSL 2，然後重試。完整錯誤見“查看詳情”。"
+  ],
+  [
+    "Check that the WSL distribution is installed and uses WSL 2. The full error is in the details.",
+    "請檢查 WSL 發行版是否已安裝並使用 WSL 2。完整錯誤見“查看詳情”。"
+  ],
+  [
+    "Claude couldn’t give ssh the user name another way. Try again. If it keeps failing, send your admin the lines in the details.",
+    "Claude 無法通過其他方式將使用者名稱提供給 ssh。請重試。如果持續失敗，請將“查看詳情”下的內容傳送給管理員。"
+  ],
+  [
+    "Couldn’t remove the simulator",
+    "無法移除模擬器"
+  ],
+  [
+    "Couldn’t update your default design system. Try again.",
+    "無法更新你的預設設計系統。請重試。"
+  ],
+  [
+    "Deleted artifact",
+    "已刪除的 Artifact"
+  ],
+  [
+    "Export audit log",
+    "匯出審核日誌"
+  ],
+  [
+    "Group limits",
+    "群組限額"
+  ],
+  [
+    "No limit set.",
+    "未設定限額"
+  ],
+  [
+    "Read session transcript",
+    "讀取會話記錄"
+  ],
+  [
+    "Reconnect to try again. If it keeps failing, the details say what stopped it. Fix that, or ask your admin to.",
+    "重新連線以重試。如果持續失敗，“查看詳情”會說明是什麼阻止了它。請修復該問題，或讓管理員處理。"
+  ],
+  [
+    "Remove was pressed too soon after the confirmation appeared, so nothing was changed. Try again.",
+    "確認提示出現後過早按下了“移除”，因此未做任何更改。請重試。"
+  ],
+  [
+    "Saved skills",
+    "已儲存的技能"
+  ],
+  [
+    "Thank you for your interest",
+    "感謝你的關注"
+  ],
+  [
+    "The artifact didn’t produce a file in time. Try again.",
+    "Artifact 未能及時生成檔案。請重試。"
+  ],
+  [
+    "The full error is in the details. Fix it, then ask Claude in the session that started this one to start it again.",
+    "完整錯誤見“查看詳情”。修復後，請在啟動此會話的會話中讓 Claude 重新啟動它。"
+  ],
+  [
+    "The full error is in the details. Fix it, then send a message to try again.",
+    "完整錯誤見“查看詳情”。請修復後傳送訊息重試。"
+  ],
+  [
+    "The full error is in the details. Fix it.",
+    "完整錯誤見“查看詳情”。請修復。"
+  ],
+  [
+    "The request couldn’t be verified. Try again.",
+    "無法驗證該請求。請重試。"
+  ],
+  [
+    "This device is verified",
+    "此裝置已驗證"
+  ],
+  [
+    "This rule applies only to Anthropic staff accounts. Signing in again won’t help. See the details for the API’s explanation.",
+    "此規則僅適用於 Anthropic 員工賬號。重新登入沒有幫助。請查看“詳情”瞭解 API 的說明。"
+  ],
+  [
+    "Turning on",
+    "正在開啟"
+  ],
+  [
+    "Uploaded plugins",
+    "已上傳的外掛"
+  ],
+  [
+    "Which admin areas members with each role can view or manage.",
+    "擁有各角色的成員可以查看或管理哪些管理區域。"
+  ],
+  [
+    "Without it, Claude can’t ask for your password or code. If trying again doesn’t help, send your admin the lines in the details.",
+    "沒有它，Claude 無法請求你的密碼或驗證碼。如果重試無效，請將“查看詳情”下的各行內容傳送給管理員。"
+  ],
+  [
+    "Without it, Claude can’t ask for your password or code. Send your admin the lines in the details. Once they’ve allowed it, try again.",
+    "沒有它，Claude 無法請求你的密碼或驗證碼。請將“查看詳情”下的行傳送給管理員。他們允許後，請重試。"
+  ],
+  [
+    "opens in a new tab",
+    "在新選項卡中開啟"
+  ],
+  [
+    "the Claude Security spend limit",
+    "Claude Security 支出限額"
   ]
 ]

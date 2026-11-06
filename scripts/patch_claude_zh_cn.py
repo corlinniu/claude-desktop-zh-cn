@@ -575,12 +575,54 @@ def load_slash_command_gloss_config(lang_code: str) -> tuple[dict[str, Any], dic
     return profile, labels
 
 
-def _slash_gloss_replacement(match: re.Match[str], profile: dict[str, Any], patched: bool = False) -> str:
-    original = match.group(0).split(":", 1)[1].lstrip()
+def _slash_anchor_defs(profile: dict[str, Any]) -> list[dict[str, Any]]:
+    anchors = [
+        {
+            "pattern": profile["anchor_pattern"],
+            "replacement": profile["replacement"],
+            "original_prefix": "children:",
+            "multiple": False,
+        }
+    ]
+    if profile.get("anchor_pattern_v2"):
+        anchors.append(
+            {
+                "pattern": profile["anchor_pattern_v2"],
+                "replacement": profile["replacement_v2"],
+                "original_prefix": "",
+                "multiple": True,
+            }
+        )
+    return anchors
+
+
+def _slash_match_parts(match: re.Match[str]) -> tuple[str, str, str]:
+    groups = match.groupdict()
+    if groups.get("jsx") and groups.get("item"):
+        return groups["jsx"], groups["item"], groups.get("query", "")
+    return match.group(1), match.group(3), match.group(4)
+
+
+def _slash_gloss_replacement(
+    match: re.Match[str],
+    profile: dict[str, Any],
+    anchor: dict[str, Any] | None = None,
+    patched: bool = False,
+) -> str:
+    anchor = anchor or _slash_anchor_defs(profile)[0]
+    original = match.group(0)
+    prefix = anchor.get("original_prefix") or ""
+    if prefix:
+        original = original.split(prefix, 1)[1].lstrip()
     if patched:
         original = original[1:]
-    values = {"__ORIGINAL__": original, "__ITEM__": match.group(3), "__JSX__": match.group(1)}
-    return re.sub(r"__ORIGINAL__|__ITEM__|__JSX__", lambda token: values[token.group(0)], profile["replacement"])
+    jsx, item, _query = _slash_match_parts(match)
+    values = {"__ORIGINAL__": original, "__ITEM__": item, "__JSX__": jsx}
+    return re.sub(
+        r"__ORIGINAL__|__ITEM__|__JSX__",
+        lambda token: values[token.group(0)],
+        anchor["replacement"],
+    )
 
 
 def replace_slash_command_menu_text(
@@ -593,6 +635,7 @@ def replace_slash_command_menu_text(
     encoded = json.dumps(labels, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
     encoded = encoded.replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
     suffix = "\n" + marker + profile["suffix"].replace("__LABELS__", encoded)
+    anchors = _slash_anchor_defs(profile)
     if marker in text:
         if text.count(marker) != 1 or "\n" + marker not in text:
             raise ValueError("Ambiguous slash command gloss marker")
@@ -604,27 +647,53 @@ def replace_slash_command_menu_text(
             previous_labels = json.loads(tail[len(left):len(tail) - len(right)])
         except json.JSONDecodeError as exc:
             raise ValueError("Invalid existing slash command catalog") from exc
-        pattern = profile["anchor_pattern"].replace("children:", r"children:\[", 1)
-        matches = list(re.finditer(pattern, body))
-        if len(matches) != 1:
+        inline = anchors[0]["pattern"].replace("children:", r"children:\[", 1)
+        matches = list(re.finditer(inline, body))
+        if len(matches) == 1:
+            replacement = _slash_gloss_replacement(matches[0], profile, anchors[0], patched=True)
+            start = matches[0].start()
+            if body[start:start + len(replacement)] != replacement:
+                raise ValueError("Existing slash menu row does not match the patch")
+        elif not any(re.search(anchor["pattern"], body) for anchor in anchors[1:]):
             raise ValueError("Existing slash menu row is missing or ambiguous")
-        replacement = _slash_gloss_replacement(matches[0], profile, patched=True)
-        start = matches[0].start()
-        if body[start:start + len(replacement)] != replacement:
-            raise ValueError("Existing slash menu row does not match the patch")
         if previous_labels == labels:
             return text, "already"
         return body + suffix, "updated"
 
     if "__claudeZhSlashGloss" in text or "__claudeZhSlashLabels" in text:
         raise ValueError("Slash command helper name already exists")
-    matches = list(re.finditer(profile["anchor_pattern"], text))
-    if len(matches) != 1:
+    selected: dict[str, Any] | None = None
+    selected_matches: list[re.Match[str]] = []
+    for anchor in anchors:
+        matches = list(re.finditer(anchor["pattern"], text))
+        if not matches:
+            continue
+        if selected is not None:
+            raise ValueError("Slash menu label anchor is ambiguous")
+        selected, selected_matches = anchor, matches
+    if selected is None:
         raise ValueError("Expected exactly one slash menu label anchor")
-    match = matches[0]
-    if not re.search(re.escape(match.group(3)) + r'\.type\s*===\s*"skill"', text):
+    if not selected["multiple"] and len(selected_matches) != 1:
+        raise ValueError("Expected exactly one slash menu label anchor")
+    item = _slash_match_parts(selected_matches[0])[1]
+    if not re.search(re.escape(item) + r'\.type\s*===\s*"skill"', text):
         raise ValueError("Slash menu skill row not found")
-    updated = text[:match.start()] + _slash_gloss_replacement(match, profile) + text[match.end():]
+    if selected["multiple"]:
+        parts: list[str] = []
+        last = 0
+        for match in selected_matches:
+            parts.append(text[last:match.start()])
+            parts.append(_slash_gloss_replacement(match, profile, selected))
+            last = match.end()
+        parts.append(text[last:])
+        updated = "".join(parts)
+    else:
+        match = selected_matches[0]
+        updated = (
+            text[:match.start()]
+            + _slash_gloss_replacement(match, profile, selected)
+            + text[match.end():]
+        )
     return updated + suffix, "updated"
 
 

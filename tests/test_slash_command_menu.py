@@ -126,5 +126,36 @@ class SlashCommandMenuTests(unittest.TestCase):
             self.assertEqual(another.read_text(encoding="utf-8"), FIXTURE)
 
 
+V2_FIXTURE = (
+    "const item={};const q='';const $={};"
+    "const J2=(a,b,c,d)=>c===d;const I2=(a,b,c)=>c;"
+    "const n=(c,p)=>[c,p];const w=p=>p;"
+    "function Row(){const i=item;const A=q;"
+    'return J2($,43,i.label,A)?I2($,43,n(w,{text:i.label,query:A,highlightClassName:"font-semibold"}),i.label,A):$[45]}'
+    'const skill=i.type==="skill";'
+    "export {Row as SlashCommandMenuPopupBody};"
+)
+
+
+class SlashCommandMenuV2Tests(unittest.TestCase):
+    def test_compiled_anchor_is_wrapped_and_idempotent(self):
+        profile, labels = patcher.load_slash_command_gloss_config("zh-CN")
+        updated, status = patcher.replace_slash_command_menu_text(V2_FIXTURE, profile, labels)
+        self.assertEqual(status, "updated")
+        self.assertEqual(updated.count("__claudeZhSlashGloss(i.label)"), 2)
+        self.assertEqual(patcher.replace_slash_command_menu_text(updated, profile, labels)[1], "already")
+
+        profile_tw, labels_tw = patcher.load_slash_command_gloss_config("zh-TW")
+        switched, status = patcher.replace_slash_command_menu_text(updated, profile_tw, labels_tw)
+        self.assertEqual(status, "updated")
+        self.assertIn("選擇模型", switched)
+        self.assertNotIn("选择模型", switched)
+
+        with tempfile.TemporaryDirectory() as tmp:
+            script = Path(tmp) / "menu.js"
+            script.write_text(switched, encoding="utf-8")
+            subprocess.run(["node", "--check", str(script)], check=True, capture_output=True)
+
+
 if __name__ == "__main__":
     unittest.main()
